@@ -44,6 +44,14 @@ export default function RootLayout({ children }) {
           crossOrigin="anonymous"
           strategy="beforeInteractive"
         />
+        <Script
+          async
+          src="https://fundingchoicesmessages.google.com/i/pub-0555529856361728?ers=1"
+          strategy="beforeInteractive"
+        />
+        <Script id="googlefc-present" strategy="beforeInteractive">
+          {`(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();`}
+        </Script>
       </head>
       <body className={`${display.variable} ${body.variable} ${mono.variable}`}>
         <div className="site-shell">
@@ -67,6 +75,7 @@ export default function RootLayout({ children }) {
             </a>
             <nav className="site-nav">
               <a href="/">Search</a>
+              <a href="/live-updates">Live Updates</a>
               <a href="/about">About</a>
               <a href="/contact">Contact</a>
             </nav>
