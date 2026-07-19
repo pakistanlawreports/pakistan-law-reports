@@ -2,8 +2,6 @@
 
 import { useState } from 'react';
 
-// Broader, everyday-language keywords than the strict classification regex -
-// real people describe problems informally, not in legal terminology.
 const TOPIC_KEYWORDS = {
   'Family Law': ['divorce', 'khula', 'husband', 'wife', 'custody', 'child', 'marriage', 'dowry', 'maintenance', 'alimony', 'separated', 'nikah'],
   'Criminal Law': ['arrested', 'police', 'fir', 'jail', 'bail', 'stolen', 'theft', 'assault', 'beaten', 'threatened', 'accused', 'charged', 'crime'],
@@ -33,7 +31,11 @@ function findMatchingTopic(text) {
   return bestScore > 0 ? bestTopic : null;
 }
 
-export default function CaseFinder({ topicJudgments, topicToSlug }) {
+function slugifyTopic(topic) {
+  return topic.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+}
+
+export default function CaseFinder({ topicJudgments }) {
   const [description, setDescription] = useState('');
   const [result, setResult] = useState(null);
 
@@ -42,9 +44,6 @@ export default function CaseFinder({ topicJudgments, topicToSlug }) {
     const matchedTopic = findMatchingTopic(description);
     setResult(matchedTopic);
 
-    // Track only the matched TOPIC category, never the person's actual
-    // description - keeps analytics useful without storing sensitive
-    // personal details.
     if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
       window.gtag('event', 'case_finder_search', {
         matched_topic: matchedTopic || 'no_match',
@@ -104,7 +103,7 @@ export default function CaseFinder({ topicJudgments, topicToSlug }) {
                 </a>
               ))}
               <p style={{ marginTop: 16 }}>
-                <a href={`/topics/${topicToSlug(result)}`}>See all {result} judgments →</a>
+                <a href={`/topics/${slugifyTopic(result)}`}>See all {result} judgments →</a>
               </p>
             </>
           ) : (
