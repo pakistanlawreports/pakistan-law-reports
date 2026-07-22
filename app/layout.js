@@ -27,11 +27,11 @@ const mono = IBM_Plex_Mono({
 export const metadata = {
   metadataBase: new URL('https://pakistanlawreports.com'),
   title: {
-    default: 'Pakistan Law Reports — Free Pakistani Case Law & Judgments',
+    default: 'Search Pakistani Case Law, Free — Pakistan Law Reports',
     template: '%s | Pakistan Law Reports',
   },
   description:
-    'A free, searchable archive of Pakistani case law and judgments from the Supreme Court and High Courts of Pakistan.',
+    'Search 22,000+ Pakistani court judgments for free — Supreme Court and High Courts, updated daily. No login required. Built for lawyers, students, and the public.',
 };
 
 export default function RootLayout({ children }) {
