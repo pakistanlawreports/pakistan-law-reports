@@ -1,6 +1,7 @@
 import { Lora, IBM_Plex_Sans, IBM_Plex_Mono } from 'next/font/google';
 import Script from 'next/script';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 
 const display = Lora({
@@ -114,6 +115,7 @@ export default function RootLayout({ children }) {
           </footer>
         </div>
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
