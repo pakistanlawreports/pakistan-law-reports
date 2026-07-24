@@ -160,6 +160,8 @@ a { color: inherit; }
 
 @media (max-width: 640px) {
   .announcement-bar { padding: 10px 14px; font-size: 0.85rem; }
+  .homepage-grid { grid-template-columns: 1fr !important; }
+  .homepage-sidebar { order: -1; }
 }
 
 /* ---------- Hero ---------- */
