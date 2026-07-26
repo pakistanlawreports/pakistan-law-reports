@@ -10,6 +10,23 @@ function stampText(court) {
   return words.map((w) => w[0]).join('').slice(0, 4).toUpperCase();
 }
 
+// Wraps the matching portion of text in a highlighted span, so it's
+// visually obvious why a result matched the search.
+function highlightMatch(text, query) {
+  if (!query) return text;
+  const idx = text.toLowerCase().indexOf(query.toLowerCase());
+  if (idx === -1) return text;
+  return (
+    <>
+      {text.slice(0, idx)}
+      <mark style={{ background: 'var(--gold-soft, #e9d9ab)', color: 'var(--navy, #132849)', padding: '0 2px', borderRadius: 2 }}>
+        {text.slice(idx, idx + query.length)}
+      </mark>
+      {text.slice(idx + query.length)}
+    </>
+  );
+}
+
 export default function SearchBrowse({ judgments, courts, years, topics }) {
   const [query, setQuery] = useState('');
   const [court, setCourt] = useState('');
@@ -17,6 +34,8 @@ export default function SearchBrowse({ judgments, courts, years, topics }) {
   const [topic, setTopic] = useState('');
   const [sort, setSort] = useState('newest');
   const [visible, setVisible] = useState(PAGE_SIZE);
+
+  const hasSearched = Boolean(query.trim() || court || year || topic);
 
   // Send a search term to Analytics once the person pauses typing (not on
   // every keystroke), so we can later see what people actually search for.
@@ -59,7 +78,7 @@ export default function SearchBrowse({ judgments, courts, years, topics }) {
     return results;
   }, [judgments, query, court, year, topic, sort]);
 
-  const shown = filtered.slice(0, visible);
+  const shown = hasSearched ? filtered.slice(0, visible) : [];
 
   const resetPage = () => setVisible(PAGE_SIZE);
 
@@ -137,46 +156,54 @@ export default function SearchBrowse({ judgments, courts, years, topics }) {
       </div>
 
       <section className="results-section">
-        <p className="results-count">
-          {filtered.length.toLocaleString()} judgment{filtered.length !== 1 ? 's' : ''} found
-        </p>
-
-        {shown.length === 0 && (
+        {!hasSearched ? (
           <div className="empty-state">
-            No judgments match that search. Try a different keyword, or clear the filters above.
+            Start typing above, or choose a court/topic/year, to search {judgments.length.toLocaleString()} judgments.
           </div>
-        )}
+        ) : (
+          <>
+            <p className="results-count">
+              {filtered.length.toLocaleString()} judgment{filtered.length !== 1 ? 's' : ''} found
+            </p>
 
-        {shown.map((j) => (
-          <a key={j.slug} href={`/judgments/${j.slug}`} className="judgment-card">
-            <span className="stamp" aria-hidden="true">{stampText(j.court)}</span>
-            <span>
-              <h3 className="judgment-title">{j.title}</h3>
-              <div className="judgment-meta">
-                {[j.citation, j.court, j.topic, j.year].filter(Boolean).join(' · ')}
+            {shown.length === 0 && (
+              <div className="empty-state">
+                No judgments match that search. Try a different keyword, or clear the filters above.
               </div>
-              <p className="judgment-excerpt">{j.excerpt}…</p>
-            </span>
-          </a>
-        ))}
+            )}
 
-        {visible < filtered.length && (
-          <div style={{ textAlign: 'center', marginTop: 24 }}>
-            <button
-              onClick={() => setVisible((v) => v + PAGE_SIZE)}
-              style={{
-                padding: '10px 24px',
-                border: '1.5px solid var(--navy)',
-                background: 'transparent',
-                borderRadius: 3,
-                cursor: 'pointer',
-                fontFamily: 'var(--font-body)',
-                fontWeight: 500,
-              }}
-            >
-              Load more
-            </button>
-          </div>
+            {shown.map((j) => (
+              <a key={j.slug} href={`/judgments/${j.slug}`} className="judgment-card">
+                <span className="stamp" aria-hidden="true">{stampText(j.court)}</span>
+                <span>
+                  <h3 className="judgment-title">{highlightMatch(j.title, query.trim())}</h3>
+                  <div className="judgment-meta">
+                    {[j.citation, j.court, j.topic, j.year].filter(Boolean).join(' · ')}
+                  </div>
+                  <p className="judgment-excerpt">{highlightMatch(j.excerpt, query.trim())}…</p>
+                </span>
+              </a>
+            ))}
+
+            {visible < filtered.length && (
+              <div style={{ textAlign: 'center', marginTop: 24 }}>
+                <button
+                  onClick={() => setVisible((v) => v + PAGE_SIZE)}
+                  style={{
+                    padding: '10px 24px',
+                    border: '1.5px solid var(--navy)',
+                    background: 'transparent',
+                    borderRadius: 3,
+                    cursor: 'pointer',
+                    fontFamily: 'var(--font-body)',
+                    fontWeight: 500,
+                  }}
+                >
+                  Load more
+                </button>
+              </div>
+            )}
+          </>
         )}
       </section>
     </>

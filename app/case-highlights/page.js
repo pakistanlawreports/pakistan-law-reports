@@ -1,4 +1,5 @@
 import { getCaseHighlights } from '../../lib/data';
+import CaseHighlightActions from '../../components/CaseHighlightActions';
 
 export const metadata = {
   title: 'Case Highlights',
@@ -31,6 +32,11 @@ export default function CaseHighlightsPage() {
           </p>
           <p style={{ marginBottom: 14 }}>{h.explainer}</p>
           <a href={`/judgments/${h.slug}`} style={{ fontSize: '0.9rem' }}>Read the full judgment →</a>
+          <CaseHighlightActions
+            title={h.title}
+            citation={h.citation}
+            url={`https://pakistanlawreports.com/case-highlights#${h.slug}`}
+          />
         </div>
       ))}
     </div>

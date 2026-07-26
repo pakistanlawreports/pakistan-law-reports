@@ -1,5 +1,6 @@
 import { getAllJudgments, getAllCourts, getAllYears, getAllTopics, getStats, getLatestUpdate, getTopicCounts, topicToSlug, getAllLawyers, getCaseHighlights } from '../lib/data';
 import SearchBrowse from '../components/SearchBrowse';
+import CaseHighlightActions from '../components/CaseHighlightActions';
 
 const TOPIC_ICONS = {
   'Criminal Law': '⚖️',
@@ -107,6 +108,11 @@ export default function HomePage() {
                     {h.explainer.slice(0, 220)}{h.explainer.length > 220 ? '…' : ''}
                   </p>
                   <a href={`/case-highlights`} style={{ fontSize: '0.85rem' }}>Read more →</a>
+                  <CaseHighlightActions
+                    title={h.title}
+                    citation={h.citation}
+                    url={`https://pakistanlawreports.com/case-highlights#${h.slug}`}
+                  />
                 </div>
               ))}
               <p style={{ textAlign: 'right' }}>
