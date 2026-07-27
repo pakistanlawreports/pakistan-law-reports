@@ -1,0 +1,74 @@
+import Anthropic from '@anthropic-ai/sdk';
+import { getAllJudgments } from '../../../lib/data';
+
+const VALID_TOPICS = [
+  'Criminal Law', 'Constitutional Law', 'Family Law', 'Property & Rent',
+  'Tax Law', 'Banking & Corporate', 'Labour & Service', 'Company Law',
+  'Succession & Inheritance', 'Civil Law', 'General',
+];
+
+const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+
+export async function POST(request) {
+  try {
+    const { description } = await request.json();
+
+    if (!description || description.trim().length < 5) {
+      return Response.json({ error: 'Please describe your situation.' }, { status: 400 });
+    }
+
+    const prompt = `Someone has described a general legal situation (in English, Urdu, or Roman
+Urdu). Your job is ONLY to help find relevant Pakistani case law categories - you are NOT
+providing legal advice or an opinion.
+
+Situation: "${description.slice(0, 500)}"
+
+Respond with ONLY a JSON object, no other text, in this exact format:
+{"topic": "<one of: ${VALID_TOPICS.join(', ')}>", "keywords": ["keyword1", "keyword2", "keyword3", "keyword4", "keyword5"]}
+
+The keywords should be English legal terms/concepts relevant to this situation that would help
+search a case law database (e.g. if they mention a landlord not returning a deposit, keywords
+might include "tenant", "security deposit", "rent", "ejectment").`;
+
+    const response = await client.messages.create({
+      model: 'claude-sonnet-5',
+      max_tokens: 200,
+      messages: [{ role: 'user', content: prompt }],
+    });
+
+    let parsed;
+    try {
+      const text = response.content[0].text.trim();
+      const jsonMatch = text.match(/\{[\s\S]*\}/);
+      parsed = JSON.parse(jsonMatch ? jsonMatch[0] : text);
+    } catch {
+      return Response.json({ error: 'Could not process that description. Please try rephrasing.' }, { status: 500 });
+    }
+
+    const topic = VALID_TOPICS.includes(parsed.topic) ? parsed.topic : null;
+    const keywords = Array.isArray(parsed.keywords) ? parsed.keywords.slice(0, 5) : [];
+
+    if (!topic || topic === 'General') {
+      return Response.json({ topic: null, matches: [], keywords });
+    }
+
+    const allJudgments = getAllJudgments();
+    const topicMatches = allJudgments.filter((j) => j.topic === topic);
+
+    const scored = topicMatches.map((j) => {
+      const hay = `${j.title} ${j.excerpt}`.toLowerCase();
+      const score = keywords.filter((kw) => hay.includes(kw.toLowerCase())).length;
+      return { ...j, score };
+    });
+
+    scored.sort((a, b) => b.score - a.score);
+    const matches = scored.slice(0, 8).map(({ slug, title, citation, court, year }) => ({
+      slug, title, citation, court, year,
+    }));
+
+    return Response.json({ topic, matches, keywords });
+  } catch (error) {
+    console.error('find-cases API error:', error);
+    return Response.json({ error: 'Something went wrong. Please try again.' }, { status: 500 });
+  }
+}
