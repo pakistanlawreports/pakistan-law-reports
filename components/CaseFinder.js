@@ -2,103 +2,54 @@
 
 import { useState } from 'react';
 
-// Broader, everyday-language keywords than the strict classification regex -
-// real people describe problems informally, not in legal terminology.
-// Includes common Roman Urdu (Urdu written in English letters) terms too.
-const TOPIC_KEYWORDS = {
-  'Family Law': [
-    'divorce', 'khula', 'husband', 'wife', 'custody', 'child', 'children', 'marriage', 'dowry',
-    'maintenance', 'alimony', 'separated', 'nikah', 'talaq', 'shohar', 'biwi', 'bacha', 'bachay',
-    'bachon', 'shaadi', 'haq mehr', 'haq meher', 'nafqa', 'walida', 'khula lena', 'domestic violence',
-    'domestic abuse', 'guardian', 'guardianship', 'visitation', 'access to child', 'child support',
-    'second marriage', 'early marriage', 'child marriage', 'forced marriage', 'nikah nama',
-    'shadi', 'talaq nama', 'ruksati', 'in-laws', 'sasural', 'mother in law', 'saas',
-  ],
-  'Criminal Law': [
-    'arrested', 'police', 'fir', 'jail', 'bail', 'stolen', 'theft', 'assault', 'beaten',
-    'threatened', 'accused', 'charged', 'crime', 'giraftar', 'zamanat', 'chori', 'maara',
-    'dhamki', 'thana', 'mulzim', 'domestic violence', 'domestic abuse', 'beat me', 'hit me',
-    'abusive husband', 'wife beating', 'harassment', 'violence', 'child abuse', 'sexual abuse',
-    'molestation', 'rape', 'zina', 'kidnapping', 'kidnapped', 'missing person', 'gum ho gaya',
-    'missing child', 'bacha gum', 'murder', 'qatal', 'blackmail', 'blackmailing', 'extortion',
-    'cybercrime', 'online fraud', 'fraud', 'dhoka dahi', 'false case', 'jhoota case',
-    'honor killing', 'karo kari', 'torture', 'gang rape', 'attempted rape', 'child marriage case',
-    'suicide', 'khudkushi', 'acid attack', 'abduction',
-  ],
-  'Property & Rent': [
-    'landlord', 'tenant', 'rent', 'deposit', 'evict', 'lease', 'property dispute', 'plot',
-    'possession of house', 'sale deed', 'makan malik', 'kiraya', 'kirayedar', 'zamin', 'jaidad',
-    'qabza', 'illegal possession', 'fraud property', 'fake registry', 'registry fraud',
-    'property fraud', 'boundary dispute', 'inherited property', 'ancestral property',
-  ],
-  'Labour & Service': [
-    'fired', 'terminated', 'job', 'salary', 'employer', 'employee', 'workplace', 'pension',
-    'promotion', 'service matter', 'naukri', 'tankhwa', 'malik', 'nikal diya', 'company ne nikala',
-    'unpaid salary', 'salary not paid', 'wrongful termination', 'workplace harassment',
-    'gratuity', 'provident fund', 'notice period',
-  ],
-  'Succession & Inheritance': [
-    'inheritance', 'will', 'father died', 'mother died', 'legal heirs', 'succession', 'estate',
-    'property after death', 'warasat', 'wirasat', 'wasiyat', 'abu ka intiqal', 'walid ka inteqal',
-    'mirasi', 'share in property', 'brother took my share', 'sister denied inheritance',
-  ],
-  'Tax Law': ['tax', 'fbr', 'income tax', 'sales tax', 'audit notice', 'customs', 'tax notice'],
-  'Banking & Corporate': [
-    'bank', 'loan', 'default', 'cheque bounced', 'recovery of loan', 'nab', 'qarza', 'karza',
-    'cheque dishonour', 'bounced cheque', 'credit card fraud', 'account frozen',
-  ],
-  'Company Law': ['company', 'business partner', 'shareholder', 'winding up', 'partnership dispute', 'partner ne dhoka'],
-  'Constitutional Law': [
-    'fundamental rights', 'constitution', 'government action', 'writ petition', 'illegal detention',
-    'police misconduct', 'huqooq', 'sarkar ne', 'human rights violation', 'wrongly detained',
-  ],
-  'Civil Law': ['contract', 'agreement broken', 'sue', 'lawsuit', 'breach', 'damages', 'compensation', 'muqadma', 'adalat', 'case'],
-};
-
-function findMatchingTopic(text) {
-  const lower = text.toLowerCase();
-  let bestTopic = null;
-  let bestScore = 0;
-  let matchedKeywords = [];
-
-  for (const [topic, keywords] of Object.entries(TOPIC_KEYWORDS)) {
-    const found = keywords.filter((kw) => lower.includes(kw));
-    if (found.length > bestScore) {
-      bestScore = found.length;
-      bestTopic = topic;
-      matchedKeywords = found;
-    }
-  }
-
-  return { topic: bestScore > 0 ? bestTopic : null, matchedKeywords };
-}
-
 function slugifyTopic(topic) {
   return topic.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 }
 
-export default function CaseFinder({ topicJudgments }) {
+export default function CaseFinder() {
   const [description, setDescription] = useState('');
   const [result, setResult] = useState(null);
+  const [matches, setMatches] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
 
-  const handleSearch = (e) => {
+  const handleSearch = async (e) => {
     e.preventDefault();
-    const { topic: matchedTopic, matchedKeywords } = findMatchingTopic(description);
-    setResult(matchedTopic);
+    setLoading(true);
+    setError('');
+    setResult(null);
 
-    // Track the matched TOPIC plus which specific keywords fired - this
-    // gives real insight into common issues (e.g. "makan malik" matching
-    // often enough to deserve its own page) without ever storing the
-    // person's actual description text.
-    if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
-      window.gtag('event', 'case_finder_search', {
-        matched_topic: matchedTopic || 'no_match',
-        matched_keywords: matchedKeywords.join(', ') || 'none',
+    try {
+      const res = await fetch('/api/find-cases', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ description }),
       });
+      const data = await res.json();
+
+      if (!res.ok) {
+        setError(data.error || 'Something went wrong. Please try again.');
+        return;
+      }
+
+      setResult(data.topic);
+      setMatches(data.matches || []);
+
+      // Track the matched topic plus keywords - never the person's actual
+      // description text, keeping analytics useful without storing
+      // anyone's personal situation.
+      if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+        window.gtag('event', 'case_finder_search', {
+          matched_topic: data.topic || 'no_match',
+          matched_keywords: (data.keywords || []).join(', ') || 'none',
+        });
+      }
+    } catch {
+      setError('Could not reach the server. Please try again.');
+    } finally {
+      setLoading(false);
     }
   };
-
-  const matches = result ? (topicJudgments[result] || []).slice(0, 8) : [];
 
   return (
     <div>
@@ -139,12 +90,18 @@ export default function CaseFinder({ topicJudgments }) {
             minLength={10}
           />
         </div>
-        <button type="submit" className="btn-primary" style={{ width: 'auto', padding: '10px 28px' }}>
-          Find Related Judgments <span dir="rtl" lang="ur">/ متعلقہ فیصلے تلاش کریں</span>
+        <button type="submit" className="btn-primary" style={{ width: 'auto', padding: '10px 28px' }} disabled={loading}>
+          {loading ? 'Searching…' : (
+            <>Find Related Judgments <span dir="rtl" lang="ur">/ متعلقہ فیصلے تلاش کریں</span></>
+          )}
         </button>
       </form>
 
-      {result !== null && (
+      {error && (
+        <p style={{ marginTop: 16, color: '#b91c1c', fontSize: '0.9rem' }}>{error}</p>
+      )}
+
+      {result !== null && !error && (
         <div style={{ marginTop: 24 }}>
           {result ? (
             <>
