@@ -1,4 +1,3 @@
-import { getAllTopics, getJudgmentsByTopic } from '../../lib/data';
 import CaseFinder from '../../components/CaseFinder';
 
 export const metadata = {
@@ -7,14 +6,6 @@ export const metadata = {
 };
 
 export default function FindCasesPage() {
-  const topics = getAllTopics().filter((t) => t !== 'General');
-
-  // Pre-load a manageable slice per topic (client component picks 8 to show)
-  const topicJudgments = {};
-  topics.forEach((t) => {
-    topicJudgments[t] = getJudgmentsByTopic(t).slice(0, 20);
-  });
-
   return (
     <div className="content-page" style={{ maxWidth: 700 }}>
       <h1>Find Related Judgments</h1>
@@ -26,7 +17,7 @@ export default function FindCasesPage() {
         may be related to that topic.
       </p>
 
-      <CaseFinder topicJudgments={topicJudgments} />
+      <CaseFinder />
     </div>
   );
 }
