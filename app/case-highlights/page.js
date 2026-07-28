@@ -1,4 +1,4 @@
-import { getCaseHighlights } from '../../lib/data';
+import { getCaseHighlights, getCaseHighlightStats } from '../../lib/data';
 import CaseHighlightActions from '../../components/CaseHighlightActions';
 
 export const metadata = {
@@ -6,39 +6,104 @@ export const metadata = {
   description: 'Plain-language explainers of notable Pakistani court judgments, written from the full judgment text.',
 };
 
+const TOPIC_ICONS = {
+  'Criminal Law': '⚖️',
+  'Constitutional Law': '📜',
+  'Family Law': '👨‍👩‍👧',
+  'Property & Rent': '🏠',
+  'Tax Law': '💰',
+  'Banking & Corporate': '🏦',
+  'Labour & Service': '👷',
+  'Company Law': '🏢',
+  'Succession & Inheritance': '📋',
+  'Civil Law': '🗂️',
+};
+
 export default function CaseHighlightsPage() {
   const highlights = getCaseHighlights();
+  const stats = getCaseHighlightStats();
 
   return (
-    <div className="content-page" style={{ maxWidth: 760 }}>
-      <h1>Case Highlights</h1>
-      <p>
-        Plain-language explainers of notable judgments, written after reading the full judgment
-        text — not a substitute for the actual opinion, which you can always read in full via the
-        link below each summary.
-      </p>
+    <div>
+      <div
+        style={{
+          background: 'var(--navy)', color: 'white', padding: '48px 32px 40px',
+          textAlign: 'center',
+        }}
+      >
+        <h1 style={{ color: 'white', marginBottom: 10, fontSize: '1.8rem' }}>Case Highlights</h1>
+        <p style={{ color: '#c9d4e3', maxWidth: 600, margin: '0 auto 32px', fontSize: '0.95rem' }}>
+          Plain-language explainers of notable judgments, written after reading the full judgment
+          text — not a substitute for the actual opinion.
+        </p>
 
-      {highlights.map((h) => (
         <div
-          key={h.slug}
           style={{
-            marginTop: 28, padding: 20, background: 'var(--paper-raised)',
-            border: '1px solid var(--line)', borderRadius: 3,
+            display: 'flex', justifyContent: 'center', gap: 40, flexWrap: 'wrap', marginBottom: 28,
           }}
         >
-          <h2 style={{ fontSize: '1.15rem', marginBottom: 4 }}>{h.title}</h2>
-          <p style={{ fontSize: '0.85rem', color: 'var(--ink-muted)', fontFamily: 'var(--font-mono)', marginBottom: 14 }}>
-            {h.citation} · {h.court}
-          </p>
-          <p style={{ marginBottom: 14 }}>{h.explainer}</p>
-          <a href={`/judgments/${h.slug}`} style={{ fontSize: '0.9rem' }}>Read the full judgment →</a>
-          <CaseHighlightActions
-            title={h.title}
-            citation={h.citation}
-            url={`https://pakistanlawreports.com/case-highlights#${h.slug}`}
-          />
+          <div>
+            <div style={{ fontSize: '2.6rem', fontWeight: 700, fontFamily: 'var(--font-display)', color: 'var(--gold, #c8a24a)' }}>
+              {stats.total}
+            </div>
+            <div style={{ fontSize: '0.8rem', letterSpacing: '0.05em', textTransform: 'uppercase', color: '#c9d4e3' }}>
+              Case{stats.total !== 1 ? 's' : ''} Explained
+            </div>
+          </div>
+          <div>
+            <div style={{ fontSize: '2.6rem', fontWeight: 700, fontFamily: 'var(--font-display)', color: 'var(--gold, #c8a24a)' }}>
+              {stats.topicCount}
+            </div>
+            <div style={{ fontSize: '0.8rem', letterSpacing: '0.05em', textTransform: 'uppercase', color: '#c9d4e3' }}>
+              Topics Covered
+            </div>
+          </div>
         </div>
-      ))}
+
+        {stats.topics.length > 0 && (
+          <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', justifyContent: 'center' }}>
+            {stats.topics.map((t) => (
+              <span
+                key={t}
+                style={{
+                  fontSize: '0.82rem', padding: '6px 14px', borderRadius: 14,
+                  background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.25)',
+                  color: '#e4d3a3',
+                }}
+              >
+                {TOPIC_ICONS[t] || '📄'} {t} ({stats.topicCounts[t]})
+              </span>
+            ))}
+          </div>
+        )}
+
+        <div style={{ marginTop: 28, fontSize: '1.3rem', opacity: 0.6 }}>↓ scroll for details</div>
+      </div>
+
+      <div className="content-page" style={{ maxWidth: 760 }}>
+        {highlights.map((h) => (
+          <div
+            key={h.slug}
+            id={h.slug}
+            style={{
+              marginTop: 28, padding: 20, background: 'var(--paper-raised)',
+              border: '1px solid var(--line)', borderRadius: 3,
+            }}
+          >
+            <h2 style={{ fontSize: '1.15rem', marginBottom: 4 }}>{h.title}</h2>
+            <p style={{ fontSize: '0.85rem', color: 'var(--ink-muted)', fontFamily: 'var(--font-mono)', marginBottom: 14 }}>
+              {h.citation} · {h.court}
+            </p>
+            <p style={{ marginBottom: 14 }}>{h.explainer}</p>
+            <a href={`/judgments/${h.slug}`} style={{ fontSize: '0.9rem' }}>Read the full judgment →</a>
+            <CaseHighlightActions
+              title={h.title}
+              citation={h.citation}
+              url={`https://pakistanlawreports.com/case-highlights#${h.slug}`}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
