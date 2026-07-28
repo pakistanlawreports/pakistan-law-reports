@@ -1,4 +1,4 @@
-import { getCaseHighlights, getCaseHighlightStats } from '../../lib/data';
+import { getCaseHighlights, getAllJudgments } from '../../lib/data';
 import CaseHighlightActions from '../../components/CaseHighlightActions';
 
 export const metadata = {
@@ -20,8 +20,28 @@ const TOPIC_ICONS = {
 };
 
 export default function CaseHighlightsPage() {
-  const highlights = getCaseHighlights();
-  const stats = getCaseHighlightStats();
+  const highlights = getCaseHighlights() || [];
+
+  let stats = { total: highlights.length, topicCount: 0, topics: [], topicCounts: {} };
+  try {
+    const allJudgments = getAllJudgments() || [];
+    const slugToTopic = {};
+    allJudgments.forEach((j) => {
+      slugToTopic[j.slug] = j.topic;
+    });
+
+    const topicCounts = {};
+    highlights.forEach((h) => {
+      const topic = slugToTopic[h.slug] || 'General';
+      topicCounts[topic] = (topicCounts[topic] || 0) + 1;
+    });
+
+    const topics = Object.keys(topicCounts).filter((t) => t !== 'General');
+    stats = { total: highlights.length, topicCount: topics.length, topics, topicCounts };
+  } catch {
+    // If anything goes wrong computing topic stats, still show the page
+    // with just the total count rather than failing the whole build.
+  }
 
   return (
     <div>
