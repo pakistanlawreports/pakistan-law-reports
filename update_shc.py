@@ -1,9 +1,10 @@
 """
-Sindh High Court - Daily Auto-Updater (v2, corrected)
+Sindh High Court - Daily Auto-Updater (v3, with Connection: close header)
 --------------------------------------------------------
 Fetches the SHC home page, extracts new judgments, adds them to the site's
-live database, and retries with a longer timeout if the site is slow to
-respond (which seems to happen more often on weekends).
+live database. Retries with a longer timeout and a "Connection: close"
+header if the site is slow or cuts the connection early (which seems to
+happen occasionally, likely due to something transient on their server).
 """
 
 import json
@@ -18,6 +19,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
+    "Connection": "close",
 }
 HOME_URL = "https://caselaw.shc.gov.pk/caselaw/public/home"
 
@@ -113,9 +115,9 @@ def year_from_citation_or_case(citation, case_header):
 
 def fetch_with_retry(url, headers, max_retries=3, timeout=60):
     """
-    The SHC site is occasionally slow to respond (especially seems worse on
-    weekends) - retry a few times with a longer timeout instead of failing
-    the whole run on one slow moment.
+    The SHC site is occasionally slow or cuts the connection early - retry
+    a few times with a longer timeout and Connection: close instead of
+    failing the whole run on one bad attempt.
     """
     last_error = None
     for attempt in range(1, max_retries + 1):
