@@ -22,6 +22,8 @@ const TOPIC_ICONS = {
 export default function CaseHighlightsPage() {
   const highlights = getCaseHighlights() || [];
 
+  // Compute stats inline, self-contained - cross-reference each highlight's
+  // slug against the main judgment index to find its topic.
   let stats = { total: highlights.length, topicCount: 0, topics: [], topicCounts: {} };
   try {
     const allJudgments = getAllJudgments() || [];
@@ -45,6 +47,7 @@ export default function CaseHighlightsPage() {
 
   return (
     <div>
+      {/* Infographic-style header band - bold numbers up front, before any scrolling */}
       <div
         style={{
           background: 'var(--navy)', color: 'white', padding: '48px 32px 40px',
@@ -54,7 +57,7 @@ export default function CaseHighlightsPage() {
         <h1 style={{ color: 'white', marginBottom: 10, fontSize: '1.8rem' }}>Case Highlights</h1>
         <p style={{ color: '#c9d4e3', maxWidth: 600, margin: '0 auto 32px', fontSize: '0.95rem' }}>
           Plain-language explainers of notable judgments, written after reading the full judgment
-          text — not a substitute for the actual opinion.
+          text — not a substitute for the actual opinion. Available in English and Urdu.
         </p>
 
         <div
@@ -100,6 +103,7 @@ export default function CaseHighlightsPage() {
         <div style={{ marginTop: 28, fontSize: '1.3rem', opacity: 0.6 }}>↓ scroll for details</div>
       </div>
 
+      {/* Content - flows normally below the header on scroll */}
       <div className="content-page" style={{ maxWidth: 760 }}>
         {highlights.map((h) => (
           <div
@@ -114,7 +118,28 @@ export default function CaseHighlightsPage() {
             <p style={{ fontSize: '0.85rem', color: 'var(--ink-muted)', fontFamily: 'var(--font-mono)', marginBottom: 14 }}>
               {h.citation} · {h.court}
             </p>
-            <p style={{ marginBottom: 14 }}>{h.explainer}</p>
+
+            <p style={{ marginBottom: h.explainer_ur ? 16 : 14 }}>{h.explainer}</p>
+
+            {h.explainer_ur && (
+              <div
+                style={{
+                  marginBottom: 14, paddingTop: 14, borderTop: '1px dashed var(--line)',
+                }}
+              >
+                <p
+                  dir="rtl"
+                  lang="ur"
+                  style={{
+                    fontFamily: 'var(--font-body), "Noto Nastaliq Urdu", sans-serif',
+                    fontSize: '1rem', lineHeight: 1.9, margin: 0,
+                  }}
+                >
+                  {h.explainer_ur}
+                </p>
+              </div>
+            )}
+
             <a href={`/judgments/${h.slug}`} style={{ fontSize: '0.9rem' }}>Read the full judgment →</a>
             <CaseHighlightActions
               title={h.title}
@@ -123,6 +148,12 @@ export default function CaseHighlightsPage() {
             />
           </div>
         ))}
+
+        {highlights.length === 0 && (
+          <p style={{ color: 'var(--ink-muted)', textAlign: 'center', marginTop: 32 }}>
+            No case highlights yet — check back soon as our weekly automation adds more.
+          </p>
+        )}
       </div>
     </div>
   );
