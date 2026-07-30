@@ -113,7 +113,7 @@ def year_from_citation_or_case(citation, case_header):
     return ''
 
 
-def fetch_with_retry(url, headers, max_retries=3, timeout=60):
+def fetch_with_retry(url, headers, max_retries=10, timeout=60):
     """
     The SHC site is occasionally slow or cuts the connection early - retry
     a few times with a longer timeout and Connection: close instead of
@@ -128,7 +128,7 @@ def fetch_with_retry(url, headers, max_retries=3, timeout=60):
             last_error = ex
             print(f"  [warn] attempt {attempt}/{max_retries} failed: {ex}")
             if attempt < max_retries:
-                time.sleep(10 * attempt)
+                time.sleep(40 * attempt)
     raise last_error
 
 
