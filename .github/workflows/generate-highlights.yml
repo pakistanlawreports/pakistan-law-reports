@@ -30,10 +30,20 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python generate_highlights.py
 
-      - name: Commit new highlights (if any)
+     - name: Commit new highlights (if any)
         run: |
           git config user.name "PLR Auto-Update Bot"
           git config user.email "actions@github.com"
           git add data/case_highlights.json
-          git diff --cached --quiet && echo "No changes to commit." || git commit -m "Auto-generate new case highlights"
-          git push
+          git diff --cached --quiet && echo "No changes to commit." && exit 0
+          git commit -m "Auto-generate new case highlights"
+          for i in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $i) - pulling latest changes and retrying..."
+            git pull --rebase --strategy-option=ours
+            sleep 5
+          done
+          echo "Failed to push after 3 attempts."
+          exit 1
