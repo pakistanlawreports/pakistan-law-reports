@@ -1,5 +1,6 @@
 import { getCaseHighlights, getAllJudgments } from '../../lib/data';
 import CaseHighlightActions from '../../components/CaseHighlightActions';
+import FormattedText from '../../components/FormattedText';
 
 export const metadata = {
   title: 'Case Highlights',
@@ -22,8 +23,6 @@ const TOPIC_ICONS = {
 export default function CaseHighlightsPage() {
   const highlights = getCaseHighlights() || [];
 
-  // Compute stats inline, self-contained - cross-reference each highlight's
-  // slug against the main judgment index to find its topic.
   let stats = { total: highlights.length, topicCount: 0, topics: [], topicCounts: {} };
   try {
     const allJudgments = getAllJudgments() || [];
@@ -41,13 +40,11 @@ export default function CaseHighlightsPage() {
     const topics = Object.keys(topicCounts).filter((t) => t !== 'General');
     stats = { total: highlights.length, topicCount: topics.length, topics, topicCounts };
   } catch {
-    // If anything goes wrong computing topic stats, still show the page
-    // with just the total count rather than failing the whole build.
+    // Fall back to just the total count if topic cross-referencing fails
   }
 
   return (
     <div>
-      {/* Infographic-style header band - bold numbers up front, before any scrolling */}
       <div
         style={{
           background: 'var(--navy)', color: 'white', padding: '48px 32px 40px',
@@ -60,11 +57,7 @@ export default function CaseHighlightsPage() {
           text — not a substitute for the actual opinion. Available in English and Urdu.
         </p>
 
-        <div
-          style={{
-            display: 'flex', justifyContent: 'center', gap: 40, flexWrap: 'wrap', marginBottom: 28,
-          }}
-        >
+        <div style={{ display: 'flex', justifyContent: 'center', gap: 40, flexWrap: 'wrap', marginBottom: 28 }}>
           <div>
             <div style={{ fontSize: '2.6rem', fontWeight: 700, fontFamily: 'var(--font-display)', color: 'var(--gold, #c8a24a)' }}>
               {stats.total}
@@ -103,7 +96,6 @@ export default function CaseHighlightsPage() {
         <div style={{ marginTop: 28, fontSize: '1.3rem', opacity: 0.6 }}>↓ scroll for details</div>
       </div>
 
-      {/* Content - flows normally below the header on scroll */}
       <div className="content-page" style={{ maxWidth: 760 }}>
         {highlights.map((h) => (
           <div
@@ -119,25 +111,18 @@ export default function CaseHighlightsPage() {
               {h.citation} · {h.court}
             </p>
 
-            <p style={{ marginBottom: h.explainer_ur ? 16 : 14 }}>{h.explainer}</p>
+            <FormattedText text={h.explainer} />
 
-            {h.explainer_ur && (
-              <div
-                style={{
-                  marginBottom: 14, paddingTop: 14, borderTop: '1px dashed var(--line)',
-                }}
-              >
-                <p
-                  dir="rtl"
-                  lang="ur"
-                  style={{
-                    fontFamily: 'var(--font-body), "Noto Nastaliq Urdu", sans-serif',
-                    fontSize: '1rem', lineHeight: 1.9, margin: 0,
-                  }}
-                >
-                  {h.explainer_ur}
-                </p>
+            {h.explainer_ur ? (
+              <div style={{ marginTop: 10, paddingTop: 14, borderTop: '1px dashed var(--line)' }}>
+                <div dir="rtl" lang="ur" style={{ fontFamily: 'var(--font-body), "Noto Nastaliq Urdu", sans-serif', fontSize: '1rem' }}>
+                  <FormattedText text={h.explainer_ur} />
+                </div>
               </div>
+            ) : (
+              <p style={{ fontSize: '0.78rem', color: 'var(--ink-muted)', fontStyle: 'italic', marginTop: 8 }}>
+                Urdu translation not yet generated for this case.
+              </p>
             )}
 
             <a href={`/judgments/${h.slug}`} style={{ fontSize: '0.9rem' }}>Read the full judgment →</a>
