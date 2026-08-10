@@ -1,6 +1,6 @@
 import { getCaseHighlights, getAllJudgments } from '../../lib/data';
 import CaseHighlightActions from '../../components/CaseHighlightActions';
-import FormattedText from '../../components/FormattedText';
+import MarkdownLite from '../../components/MarkdownLite';
 
 export const metadata = {
   title: 'Case Highlights',
@@ -111,12 +111,12 @@ export default function CaseHighlightsPage() {
               {h.citation} · {h.court}
             </p>
 
-            <FormattedText text={h.explainer} />
+            <MarkdownLite text={h.explainer} />
 
             {h.explainer_ur ? (
               <div style={{ marginTop: 10, paddingTop: 14, borderTop: '1px dashed var(--line)' }}>
                 <div dir="rtl" lang="ur" style={{ fontFamily: 'var(--font-body), "Noto Nastaliq Urdu", sans-serif', fontSize: '1rem' }}>
-                  <FormattedText text={h.explainer_ur} />
+                  <MarkdownLite text={h.explainer_ur} />
                 </div>
               </div>
             ) : (
