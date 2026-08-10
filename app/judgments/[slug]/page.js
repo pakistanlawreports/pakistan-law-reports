@@ -1,5 +1,6 @@
 import { getAllSlugs, getJudgmentBySlug, getRelatedJudgments } from '../../../lib/data';
 import JudgmentActions from '../../../components/JudgmentActions';
+import FormattedText from '../../../components/FormattedText';
 
 const TOPIC_CLASS = {
   'Criminal Law': 'topic-criminal',
@@ -34,10 +35,6 @@ export async function generateMetadata({ params }) {
       description,
       type: 'article',
     },
-    // Summary-only entries (no full judgment text) are genuinely thin
-    // content - excluding them from search indexing rather than letting
-    // them count against the site's overall quality assessment. Still
-    // fully visible/searchable for actual site visitors.
     ...(j.has_full_text === false ? { robots: { index: false, follow: true } } : {}),
   };
 }
@@ -106,7 +103,7 @@ export default function JudgmentPage({ params }) {
         <JudgmentActions title={j.title} citation={j.citation} court={j.court} year={j.year} url={pageUrl} />
       </div>
 
-      <article className="judgment-body">{j.full_text}</article>
+      <FormattedText text={j.full_text} className="judgment-body" />
 
       {j.has_full_text === false && (
         <div
@@ -157,4 +154,3 @@ export default function JudgmentPage({ params }) {
     </div>
   );
 }
-
