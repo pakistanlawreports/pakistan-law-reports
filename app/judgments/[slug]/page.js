@@ -1,6 +1,8 @@
 import { getAllSlugs, getJudgmentBySlug, getRelatedJudgments } from '../../../lib/data';
 import JudgmentActions from '../../../components/JudgmentActions';
 import FormattedText from '../../../components/FormattedText';
+import fs from 'fs';
+import path from 'path';
 
 const TOPIC_CLASS = {
   'Criminal Law': 'topic-criminal',
@@ -14,6 +16,17 @@ const TOPIC_CLASS = {
   'Succession & Inheritance': 'topic-succession',
   'Civil Law': 'topic-civil',
 };
+
+function getHighlightForSlug(slug) {
+  try {
+    const filePath = path.join(process.cwd(), 'data', 'case_highlights.json');
+    if (!fs.existsSync(filePath)) return null;
+    const highlights = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    return highlights.find((h) => h.slug === slug) || null;
+  } catch {
+    return null;
+  }
+}
 
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -53,6 +66,7 @@ export default function JudgmentPage({ params }) {
 
   const related = getRelatedJudgments(j, 5);
   const pageUrl = `https://pakistanlawreports.com/judgments/${j.slug}`;
+  const highlight = getHighlightForSlug(j.slug);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -102,6 +116,30 @@ export default function JudgmentPage({ params }) {
         )}
         <JudgmentActions title={j.title} citation={j.citation} court={j.court} year={j.year} url={pageUrl} />
       </div>
+
+      {highlight && (
+        <div
+          style={{
+            marginBottom: 28, padding: 20, background: '#f0f7f2',
+            border: '1px solid #cde3d3', borderRadius: 4,
+          }}
+        >
+          <p style={{ fontSize: '0.72rem', fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--navy)', marginBottom: 10 }}>
+            📝 AI Summary — Plain-Language Overview
+          </p>
+          <FormattedText text={highlight.explainer} />
+          {highlight.explainer_ur && (
+            <div style={{ marginTop: 10, paddingTop: 14, borderTop: '1px dashed var(--line)' }}>
+              <div dir="rtl" lang="ur" style={{ fontFamily: 'var(--font-body), "Noto Nastaliq Urdu", sans-serif', fontSize: '1rem' }}>
+                <FormattedText text={highlight.explainer_ur} />
+              </div>
+            </div>
+          )}
+          <p style={{ fontSize: '0.78rem', color: 'var(--ink-muted)', marginTop: 10, marginBottom: 0 }}>
+            Generated from the full judgment text below — not a substitute for reading the actual opinion.
+          </p>
+        </div>
+      )}
 
       <FormattedText text={j.full_text} className="judgment-body" />
 
