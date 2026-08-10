@@ -1,7 +1,6 @@
 import { ImageResponse } from 'next/og';
 import { getJudgmentBySlug } from '../../../lib/data';
 
-export const runtime = 'edge';
 export const alt = 'Pakistan Law Reports judgment';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
