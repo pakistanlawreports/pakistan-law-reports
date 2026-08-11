@@ -1,6 +1,7 @@
 import { getAllSlugs, getJudgmentBySlug, getRelatedJudgments } from '../../../lib/data';
 import JudgmentActions from '../../../components/JudgmentActions';
 import FormattedText from '../../../components/FormattedText';
+import MarkdownLite from '../../../components/MarkdownLite';
 import fs from 'fs';
 import path from 'path';
 
@@ -127,11 +128,11 @@ export default function JudgmentPage({ params }) {
           <p style={{ fontSize: '0.72rem', fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'var(--navy)', marginBottom: 10 }}>
             📝 AI Summary — Plain-Language Overview
           </p>
-          <FormattedText text={highlight.explainer} />
+          <MarkdownLite text={highlight.explainer} />
           {highlight.explainer_ur && (
             <div style={{ marginTop: 10, paddingTop: 14, borderTop: '1px dashed var(--line)' }}>
               <div dir="rtl" lang="ur" style={{ fontFamily: 'var(--font-body), "Noto Nastaliq Urdu", sans-serif', fontSize: '1rem' }}>
-                <FormattedText text={highlight.explainer_ur} />
+                <MarkdownLite text={highlight.explainer_ur} />
               </div>
             </div>
           )}
