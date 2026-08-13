@@ -1,0 +1,42 @@
+name: Coverage gap analysis
+
+on:
+  schedule:
+    - cron: '0 5 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run coverage analysis
+        run: python coverage_analysis.py
+
+      - name: Commit changes (if any)
+        run: |
+          git config user.name "PLR Auto-Update Bot"
+          git config user.email "actions@github.com"
+          git add data/coverage_priority.json
+          git diff --cached --quiet && echo "No changes to commit." && exit 0
+          git commit -m "Auto-update coverage priority analysis"
+          for i in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected - pulling latest changes and retrying..."
+            git pull --rebase --strategy-option=ours
+            sleep 5
+          done
+          echo "Failed to push after 3 attempts."
+          exit 1
