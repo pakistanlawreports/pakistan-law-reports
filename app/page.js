@@ -16,6 +16,18 @@ const TOPIC_ICONS = {
   'General': '📄',
 };
 
+const SITE_PAGES = [
+  { href: '/find-cases', icon: '🔍', title: 'Find Related Cases', desc: 'Describe your situation, find relevant judgments — English, Urdu, or Roman Urdu.' },
+  { href: '/case-highlights', icon: '📝', title: 'Case Highlights', desc: 'Plain-language explainers of notable judgments, in English and Urdu.' },
+  { href: '/study-guides', icon: '📚', title: 'Study Guides', desc: 'Topic-wise overviews for law students, grounded in real case law.' },
+  { href: '/legal-texts', icon: '📜', title: 'Statutes & Resources', desc: 'Laws, ordinances, and forms — separate from case law, labeled clearly.' },
+  { href: '/lawyers', icon: '⚖️', title: 'Lawyer Directory', desc: 'Search verified advocates by city and practice area, free to join.' },
+  { href: '/law-schools', icon: '🎓', title: 'Law Schools', desc: 'Directory of Pakistani law schools and institutions.' },
+  { href: '/news-digest', icon: '📰', title: 'Legal News Digest', desc: 'Original summaries of recent Pakistani court and legal news.' },
+  { href: '/judgment-summarizer', icon: '📄', title: 'Judgment Summarizer', desc: 'Upload a judgment, get a one-page brief — facts, issues, holding.' },
+  { href: '/resources', icon: '🗂️', title: 'Legal Guides & Templates', desc: 'FIR, bail, and family law guides, plus drafting templates.' },
+];
+
 export default function HomePage() {
   const judgments = getAllJudgments();
   const courts = getAllCourts();
@@ -79,6 +91,35 @@ export default function HomePage() {
 
       <div style={{ paddingTop: 8 }}>
         <SearchBrowse judgments={judgments} courts={courts} years={years} topics={topics} />
+      </div>
+
+      {/* Everything below this point is new - nothing above touched */}
+      <div style={{ maxWidth: 1100, margin: '0 auto', padding: '24px 32px 8px' }}>
+        <h2 style={{ fontSize: '1.1rem', marginBottom: 16, textAlign: 'center' }}>Explore Everything on Pakistan Law Reports</h2>
+        <div
+          style={{
+            display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 12,
+          }}
+        >
+          {SITE_PAGES.map((p) => (
+            <a
+              key={p.href}
+              href={p.href}
+              style={{
+                display: 'block', padding: '16px 18px', border: '1px solid var(--line)',
+                borderRadius: 6, background: 'var(--paper-raised)', textDecoration: 'none',
+              }}
+            >
+              <div style={{ fontSize: '1.4rem', marginBottom: 6 }}>{p.icon}</div>
+              <div style={{ fontFamily: 'var(--font-display)', fontWeight: 600, color: 'var(--navy)', fontSize: '0.95rem', marginBottom: 4 }}>
+                {p.title}
+              </div>
+              <div style={{ fontSize: '0.8rem', color: 'var(--ink-muted)', lineHeight: 1.4 }}>
+                {p.desc}
+              </div>
+            </a>
+          ))}
+        </div>
       </div>
 
       <div
