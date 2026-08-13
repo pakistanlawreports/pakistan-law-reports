@@ -1,6 +1,7 @@
 import { getAllJudgments, getAllCourts, getAllYears, getAllTopics, getStats, getLatestUpdate, getTopicCounts, topicToSlug, getAllLawyers, getCaseHighlights } from '../lib/data';
 import SearchBrowse from '../components/SearchBrowse';
 import CaseHighlightActions from '../components/CaseHighlightActions';
+import MarkdownLite from '../components/MarkdownLite';
 
 const TOPIC_ICONS = {
   'Criminal Law': '⚖️',
@@ -93,7 +94,6 @@ export default function HomePage() {
         <SearchBrowse judgments={judgments} courts={courts} years={years} topics={topics} />
       </div>
 
-      {/* Everything below this point is new - nothing above touched */}
       <div style={{ maxWidth: 1100, margin: '0 auto', padding: '24px 32px 8px' }}>
         <h2 style={{ fontSize: '1.1rem', marginBottom: 16, textAlign: 'center' }}>Explore Everything on Pakistan Law Reports</h2>
         <div
@@ -145,9 +145,9 @@ export default function HomePage() {
                   <p style={{ fontSize: '0.8rem', color: 'var(--ink-muted)', fontFamily: 'var(--font-mono)', marginBottom: 10 }}>
                     {h.citation} · {h.court}
                   </p>
-                  <p style={{ fontSize: '0.9rem', marginBottom: 10 }}>
-                    {h.explainer.slice(0, 220)}{h.explainer.length > 220 ? '…' : ''}
-                  </p>
+                  <div style={{ fontSize: '0.9rem', marginBottom: 10 }}>
+                    <MarkdownLite text={h.explainer.slice(0, 220) + (h.explainer.length > 220 ? '…' : '')} />
+                  </div>
                   <a href={`/case-highlights`} style={{ fontSize: '0.85rem' }}>Read more →</a>
                   <CaseHighlightActions
                     title={h.title}
