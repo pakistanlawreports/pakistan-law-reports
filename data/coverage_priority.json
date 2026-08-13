@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-08-13",
+  "priority_order": [
+    "Criminal Law",
+    "Constitutional Law",
+    "Civil Law",
+    "Property & Rent",
+    "Succession & Inheritance",
+    "Family Law",
+    "Labour & Service",
+    "Tax Law",
+    "Banking & Corporate",
+    "Company Law"
+  ],
+  "details": [
+    {
+      "topic": "Criminal Law",
+      "total_judgments": 5753,
+      "full_text_judgments": 1472,
+      "highlights_generated": 47,
+      "has_study_guide": false,
+      "priority_score": 1425.0
+    },
+    {
+      "topic": "Constitutional Law",
+      "total_judgments": 1009,
+      "full_text_judgments": 696,
+      "highlights_generated": 40,
+      "has_study_guide": false,
+      "priority_score": 656.0
+    },
+    {
+      "topic": "Civil Law",
+      "total_judgments": 973,
+      "full_text_judgments": 273,
+      "highlights_generated": 6,
+      "has_study_guide": false,
+      "priority_score": 267.0
+    },
+    {
+      "topic": "Property & Rent",
+      "total_judgments": 346,
+      "full_text_judgments": 206,
+      "highlights_generated": 7,
+      "has_study_guide": false,
+      "priority_score": 199.0
+    },
+    {
+      "topic": "Succession & Inheritance",
+      "total_judgments": 227,
+      "full_text_judgments": 142,
+      "highlights_generated": 6,
+      "has_study_guide": false,
+      "priority_score": 136.0
+    },
+    {
+      "topic": "Family Law",
+      "total_judgments": 133,
+      "full_text_judgments": 95,
+      "highlights_generated": 5,
+      "has_study_guide": false,
+      "priority_score": 90.0
+    },
+    {
+      "topic": "Labour & Service",
+      "total_judgments": 173,
+      "full_text_judgments": 63,
+      "highlights_generated": 4,
+      "has_study_guide": false,
+      "priority_score": 59.0
+    },
+    {
+      "topic": "Tax Law",
+      "total_judgments": 641,
+      "full_text_judgments": 54,
+      "highlights_generated": 1,
+      "has_study_guide": false,
+      "priority_score": 53.0
+    },
+    {
+      "topic": "Banking & Corporate",
+      "total_judgments": 407,
+      "full_text_judgments": 37,
+      "highlights_generated": 3,
+      "has_study_guide": false,
+      "priority_score": 34.0
+    },
+    {
+      "topic": "Company Law",
+      "total_judgments": 495,
+      "full_text_judgments": 9,
+      "highlights_generated": 1,
+      "has_study_guide": false,
+      "priority_score": 8.0
+    }
+  ]
+}
