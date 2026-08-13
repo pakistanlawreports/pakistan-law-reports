@@ -75,11 +75,17 @@ export default function RootLayout({ children }) {
             </a>
             <nav className="site-nav">
               <a href="/">Search</a>
+              <a href="/whats-new">What&apos;s New</a>
+              <a href="/browse">Browse</a>
+              <a href="/search-all">Search Everything</a>
               <a href="/find-cases">Find Related Cases</a>
               <a href="/case-highlights">Case Highlights</a>
+              <a href="/study-guides">Study Guides</a>
               <a href="/legal-texts">Statutes &amp; Resources</a>
+              <a href="/news-digest">News</a>
               <a href="/lawyers">Lawyers</a>
               <a href="/law-schools">Law Schools</a>
+              <a href="/judgment-summarizer">Summarizer</a>
               <a href="/resources">Resources</a>
               <a href="/about">About</a>
               <a href="/contact">Contact</a>
