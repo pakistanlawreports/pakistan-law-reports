@@ -1,0 +1,48 @@
+name: Legal news digest
+
+on:
+  schedule:
+    - cron: '0 6 * * 3'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  news-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate news digest
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python news_digest.py
+
+      - name: Commit changes (if any)
+        run: |
+          git config user.name "PLR Auto-Update Bot"
+          git config user.email "actions@github.com"
+          git add data/news_digest.json
+          git diff --cached --quiet && echo "No changes to commit." && exit 0
+          git commit -m "Auto-update legal news digest"
+          for i in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected - pulling latest changes and retrying..."
+            git pull --rebase --strategy-option=ours
+            sleep 5
+          done
+          echo "Failed to push after 3 attempts."
+          exit 1
