@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13",
+  "generated_at": "2026-08-17",
   "priority_order": [
     "Criminal Law",
     "Constitutional Law",
@@ -15,7 +15,7 @@
   "details": [
     {
       "topic": "Criminal Law",
-      "total_judgments": 5753,
+      "total_judgments": 5754,
       "full_text_judgments": 1472,
       "highlights_generated": 47,
       "has_study_guide": false,
@@ -79,7 +79,7 @@
     },
     {
       "topic": "Banking & Corporate",
-      "total_judgments": 407,
+      "total_judgments": 408,
       "full_text_judgments": 37,
       "highlights_generated": 3,
       "has_study_guide": false,
