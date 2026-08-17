@@ -1,3 +1,4 @@
+import { notFound } from 'next/navigation';
 import { getAllSlugs, getJudgmentBySlug, getRelatedJudgments } from '../../../lib/data';
 import JudgmentActions from '../../../components/JudgmentActions';
 import FormattedText from '../../../components/FormattedText';
@@ -57,12 +58,10 @@ export default function JudgmentPage({ params }) {
   const j = getJudgmentBySlug(params.slug);
 
   if (!j) {
-    return (
-      <div className="content-page">
-        <h1>Judgment not found</h1>
-        <p>This judgment may have been moved or removed. <a href="/">Return to search</a>.</p>
-      </div>
-    );
+    // Return a genuine 404 status, not a page that just looks like one -
+    // this was previously returning 200 OK with "not found" text, which
+    // Google flags as a "soft 404".
+    notFound();
   }
 
   const related = getRelatedJudgments(j, 5);
