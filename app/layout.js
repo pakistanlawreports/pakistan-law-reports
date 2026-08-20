@@ -3,6 +3,7 @@ import Script from 'next/script';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/next';
 import ConditionalAds from '../components/ConditionalAds';
+import WelcomeBanner from '../components/WelcomeBanner';
 import './globals.css';
 
 const display = Lora({
@@ -54,6 +55,7 @@ export default function RootLayout({ children }) {
         </Script>
       </head>
       <body className={`${display.variable} ${body.variable} ${mono.variable}`}>
+        <WelcomeBanner />
         <div className="site-shell">
           <header className="site-header">
             <a href="/" className="brand">
