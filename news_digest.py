@@ -1,12 +1,9 @@
 """
-Legal News Digest Generator
+Legal News Digest Generator (v2 - fixed response parsing)
 --------------------------------------
 Searches for recent, genuine news coverage of Pakistani courts using
 NewsAPI, then has Claude write an ORIGINAL, PARAPHRASED digest entry for
-each - never reproducing article text. Strict rules enforced in the
-prompt itself: no quotes over a few words, always attribute the real
-publication by name, link to the original article rather than
-reproducing its content.
+each - never reproducing article text.
 
 REQUIRES: NEWSAPI_KEY and ANTHROPIC_API_KEY environment variables.
 """
@@ -33,6 +30,13 @@ SEARCH_QUERIES = [
 ]
 
 
+def extract_text(response):
+    for block in response.content:
+        if block.type == "text":
+            return block.text.strip()
+    return ""
+
+
 def load_json(path, default):
     if os.path.exists(path):
         with open(path, encoding="utf-8") as f:
@@ -46,7 +50,6 @@ def save_json(path, data):
 
 
 def fetch_news(query):
-    """Fetch article title/description/source/url only - never full text."""
     params = urllib.parse.urlencode({
         "q": query,
         "language": "en",
@@ -65,12 +68,9 @@ def fetch_news(query):
 
 
 def write_digest_entry(article):
-    """Ask Claude to write an ORIGINAL paraphrased summary - strict rules
-    against reproducing the source text."""
     title = article.get("title", "")
     description = article.get("description", "") or ""
     source = article.get("source", {}).get("name", "a news source")
-    url = article.get("url", "")
 
     prompt = f"""You are writing a brief digest entry about a news article, for a legal news
 digest. You have ONLY the article's title and short description below - not the full article.
@@ -92,7 +92,7 @@ Description: {description}
         max_tokens=200,
         messages=[{"role": "user", "content": prompt}],
     )
-    text = response.content[0].text.strip()
+    text = extract_text(response)
     if text == "NOT_RELEVANT" or len(text) < 30:
         return None
     return text
@@ -142,7 +142,6 @@ def main():
         added += 1
         time.sleep(1)
 
-    # Keep a reasonable rolling window - most recent 60 entries
     digest = digest[:60]
     save_json(DIGEST_FILE, digest)
 

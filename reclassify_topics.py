@@ -1,23 +1,14 @@
 """
-Automated Topic Reclassification
+Automated Topic Reclassification (v2 - fixed response parsing)
 --------------------------------------
-The original keyword-based classifier puts anything that doesn't match a
-specific regex into a "General" bucket - even when the case clearly belongs
-to a real category. This script uses Claude to actually read each "General"
-judgment and assign it to one of our existing fixed categories (or leave it
-as General if it genuinely doesn't fit any of them).
+Uses Claude to actually read judgments currently stuck in "General" and
+assign a real category.
 
-Processes a limited batch per run to control cost and stay within reasonable
-run time. Run repeatedly (manually or on a schedule) to gradually work
-through the backlog.
-
-REQUIRES: ANTHROPIC_API_KEY environment variable (same secret already set
-up for the case highlights automation).
+REQUIRES: ANTHROPIC_API_KEY environment variable.
 """
 
 import json
 import os
-import re
 import glob
 import time
 
@@ -37,6 +28,13 @@ VALID_TOPICS = [
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
 
+def extract_text(response):
+    for block in response.content:
+        if block.type == "text":
+            return block.text.strip()
+    return ""
+
+
 def load_json(path, default):
     if os.path.exists(path):
         with open(path, encoding="utf-8") as f:
@@ -50,7 +48,6 @@ def save_json(path, data):
 
 
 def classify_with_ai(entry):
-    """Ask Claude to read the case and assign a real topic from our fixed list."""
     text_for_classification = entry.get("excerpt", "") or entry.get("title", "")
 
     prompt = f"""You are classifying a Pakistani court case into exactly ONE of these
@@ -70,7 +67,7 @@ case doesn't clearly fit any specific category, respond with: General"""
         max_tokens=20,
         messages=[{"role": "user", "content": prompt}],
     )
-    result = response.content[0].text.strip()
+    result = extract_text(response)
     return result if result in VALID_TOPICS else "General"
 
 
@@ -80,8 +77,6 @@ def main():
     print(f"Total judgments: {len(index)}")
     print(f"Currently classified as 'General': {len(general_entries)}")
 
-    # Track which ones we've already attempted (even if they stayed General)
-    # so repeated runs don't keep re-processing the same entries forever.
     attempted_file = os.path.join(DATA_DIR, "reclassify_attempted.json")
     attempted = set(load_json(attempted_file, []))
 
@@ -108,14 +103,12 @@ def main():
         print("\nNo reclassifications this run.")
         return
 
-    # Update the main index
     for e in index:
         if e["slug"] in slug_to_new_topic:
             e["topic"] = slug_to_new_topic[e["slug"]]
 
     save_json(INDEX_FILE, index)
 
-    # Update the corresponding shard files too, so judgment detail pages match
     updated_shards = 0
     for fname in glob.glob(os.path.join(JUDGMENTS_DIR, "shard-*.json")):
         with open(fname, encoding="utf-8") as f:

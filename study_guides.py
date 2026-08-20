@@ -1,5 +1,5 @@
 """
-Study Guides Generator
+Study Guides Generator (v2 - fixed response parsing)
 --------------------------------------
 For each legal topic, gathers several real full-text judgments already in
 our database and asks Claude to synthesize a genuine study-guide overview
@@ -32,6 +32,15 @@ VALID_TOPICS = [
 ]
 
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+
+
+def extract_text(response):
+    """Safely pull the text out of an API response, regardless of what
+    other block types (like thinking blocks) might appear first."""
+    for block in response.content:
+        if block.type == "text":
+            return block.text.strip()
+    return ""
 
 
 def load_json(path, default):
@@ -97,7 +106,7 @@ guide, respond with exactly: INSUFFICIENT_CONTENT
         max_tokens=1200,
         messages=[{"role": "user", "content": prompt}],
     )
-    text = response.content[0].text.strip()
+    text = extract_text(response)
     if text == "INSUFFICIENT_CONTENT" or len(text) < 100:
         return None
     return text

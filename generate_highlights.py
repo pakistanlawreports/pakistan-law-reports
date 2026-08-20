@@ -1,5 +1,5 @@
 """
-Case Highlights Generator (v2 - with Urdu translation)
+Case Highlights Generator (v3 - fixed response parsing)
 --------------------------------------
 Goes through full-text judgments not yet covered in case_highlights.json,
 generates a genuine English explainer, then translates that same
@@ -21,6 +21,15 @@ JUDGMENTS_DIR = os.path.join(DATA_DIR, "judgments")
 BATCH_SIZE = 15
 
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+
+
+def extract_text(response):
+    """Safely pull the text out of an API response, regardless of what
+    other block types (like thinking blocks) might appear first."""
+    for block in response.content:
+        if block.type == "text":
+            return block.text.strip()
+    return ""
 
 
 def load_json(path, default):
@@ -57,7 +66,7 @@ Full text:
         max_tokens=500,
         messages=[{"role": "user", "content": prompt}],
     )
-    text = response.content[0].text.strip()
+    text = extract_text(response)
     if text == "INSUFFICIENT_CONTENT" or len(text) < 50:
         return None
     return text
@@ -76,7 +85,7 @@ prose only.
         max_tokens=600,
         messages=[{"role": "user", "content": prompt}],
     )
-    return response.content[0].text.strip()
+    return extract_text(response)
 
 
 def main():

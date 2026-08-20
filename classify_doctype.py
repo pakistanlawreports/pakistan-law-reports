@@ -1,17 +1,10 @@
 """
-Document-Type Classifier
+Document-Type Classifier (v2 - fixed response parsing)
 --------------------------------------
-Some items in the database are actually statutes, government forms,
-historical speeches, or informational articles - not court judgments - left
-over from the original scrape. This script uses Claude to genuinely
-identify these and reclassify them with an honest content_type, so they can
-be given their own proper section instead of sitting mislabeled as case law.
+Identifies items mislabeled as judgments that are actually statutes,
+forms, or other non-judgment content.
 
-Processes a limited batch per run. Run repeatedly to work through the
-backlog.
-
-REQUIRES: ANTHROPIC_API_KEY environment variable (same secret already set
-up for the other automations).
+REQUIRES: ANTHROPIC_API_KEY environment variable.
 """
 
 import json
@@ -29,6 +22,13 @@ BATCH_SIZE = 40
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
 
+def extract_text(response):
+    for block in response.content:
+        if block.type == "text":
+            return block.text.strip()
+    return ""
+
+
 def load_json(path, default):
     if os.path.exists(path):
         with open(path, encoding="utf-8") as f:
@@ -42,7 +42,6 @@ def save_json(path, data):
 
 
 def classify_content_type(entry):
-    """Ask Claude whether this is genuinely a court judgment or something else."""
     text = entry.get("excerpt", "") or entry.get("title", "")
 
     prompt = f"""Look at this item from a Pakistani legal database and determine what
@@ -64,9 +63,9 @@ OTHER - anything else (speeches, conventions, historical documents, etc.)"""
         max_tokens=10,
         messages=[{"role": "user", "content": prompt}],
     )
-    result = response.content[0].text.strip().upper()
+    result = extract_text(response).upper()
     valid = {"JUDGMENT", "STATUTE", "FORM", "ARTICLE", "OTHER"}
-    return result if result in valid else "JUDGMENT"  # default to judgment if unclear, safest assumption
+    return result if result in valid else "JUDGMENT"
 
 
 def main():
@@ -76,8 +75,6 @@ def main():
     attempted_file = os.path.join(DATA_DIR, "doctype_attempted.json")
     attempted = set(load_json(attempted_file, []))
 
-    # Focus on entries without an existing content_type, prioritizing the
-    # "General" topic bucket since that's where non-judgments tend to land
     to_process = [
         e for e in index
         if e["slug"] not in attempted and e.get("content_type") is None
