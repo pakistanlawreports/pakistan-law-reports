@@ -1,0 +1,31 @@
+name: Reverse existing highlights order (one-time)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  reverse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reverse the order
+        run: |
+          python3 -c "
+          import json
+          with open('data/case_highlights.json', encoding='utf-8') as f:
+              data = json.load(f)
+          data.reverse()
+          with open('data/case_highlights.json', 'w', encoding='utf-8') as f:
+              json.dump(data, f, ensure_ascii=False, indent=2)
+          print(f'Reversed {len(data)} entries.')
+          "
+      - name: Commit
+        run: |
+          git config user.name "PLR Auto-Update Bot"
+          git config user.email "actions@github.com"
+          git add data/case_highlights.json
+          git commit -m "One-time reorder: newest highlights first"
+          git push
