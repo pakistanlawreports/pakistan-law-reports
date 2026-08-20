@@ -1,9 +1,11 @@
 """
-Case Highlights Generator (v3 - fixed response parsing)
+Case Highlights Generator (v4 - fixed ordering + response parsing)
 --------------------------------------
 Goes through full-text judgments not yet covered in case_highlights.json,
 generates a genuine English explainer, then translates that same
-already-verified explainer into Urdu.
+already-verified explainer into Urdu. New entries are added to the FRONT
+of the list, so the newest highlights show first on the site - not the
+end, which was causing the oldest entry to stay permanently on top.
 
 REQUIRES: ANTHROPIC_API_KEY environment variable.
 """
@@ -108,6 +110,7 @@ def main():
                 break
 
     added = 0
+    new_entries = []
     if backfilled < BATCH_SIZE:
         for fname in sorted(glob.glob(os.path.join(JUDGMENTS_DIR, "shard-*.json"))):
             if added + backfilled >= BATCH_SIZE:
@@ -144,7 +147,7 @@ def main():
                     print(f"    [warn] Urdu translation failed, keeping English only: {ex}")
                     explainer_ur = ""
 
-                highlights.append({
+                new_entries.append({
                     "slug": slug,
                     "title": record.get("title", ""),
                     "citation": record.get("citation", ""),
@@ -155,6 +158,11 @@ def main():
                 covered_slugs.add(slug)
                 added += 1
                 time.sleep(1)
+
+    # Add new entries to the FRONT of the list, so the newest highlights
+    # show first - previously these were appended to the end, which is
+    # why the oldest entry stayed permanently on top.
+    highlights = list(reversed(new_entries)) + highlights
 
     save_json(HIGHLIGHTS_FILE, highlights)
     print(f"\nAdded {added} new case highlights, backfilled Urdu on {backfilled} existing ones.")
