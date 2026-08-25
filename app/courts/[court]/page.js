@@ -1,6 +1,19 @@
+import fs from 'fs';
+import path from 'path';
 import { getAllCourts, courtToSlug, getCourtBySlug, getJudgmentsByCourt } from '../../../lib/data';
 
 const PAGE_SIZE = 100;
+
+function getHighlightsForCourt(court) {
+  try {
+    const filePath = path.join(process.cwd(), 'data', 'case_highlights.json');
+    if (!fs.existsSync(filePath)) return [];
+    const highlights = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    return highlights.filter((h) => h.court === court).slice(0, 3);
+  } catch {
+    return [];
+  }
+}
 
 export async function generateStaticParams() {
   return getAllCourts().map((c) => ({ court: courtToSlug(c) }));
@@ -20,6 +33,7 @@ export const dynamic = 'force-dynamic';
 
 export default function CourtPage({ params, searchParams }) {
   const court = getCourtBySlug(params.court);
+
   if (!court) {
     return (
       <div className="content-page">
@@ -29,7 +43,17 @@ export default function CourtPage({ params, searchParams }) {
     );
   }
 
-  const allJudgments = getJudgmentsByCourt(court);
+  // Full-text judgments first, since they represent genuine, complete
+  // opinions rather than bare summaries - surfacing the more substantial
+  // content ahead of the thinner entries.
+  const allJudgments = [...getJudgmentsByCourt(court)].sort((a, b) => {
+    const aFull = a.has_full_text !== false ? 0 : 1;
+    const bFull = b.has_full_text !== false ? 0 : 1;
+    return aFull - bFull;
+  });
+
+  const highlights = getHighlightsForCourt(court);
+
   const totalPages = Math.max(1, Math.ceil(allJudgments.length / PAGE_SIZE));
   const currentPage = Math.min(
     totalPages,
@@ -46,6 +70,25 @@ export default function CourtPage({ params, searchParams }) {
         {allJudgments.length.toLocaleString()} judgments — showing {start + 1}-
         {Math.min(start + PAGE_SIZE, allJudgments.length)}
       </p>
+
+      {highlights.length > 0 && (
+        <div
+          style={{
+            marginBottom: 24, padding: 18, background: '#f0f7f2',
+            border: '1px solid #cde3d3', borderRadius: 4,
+          }}
+        >
+          <p style={{ fontSize: '0.75rem', fontWeight: 700, letterSpacing: '0.05em', textTransform: 'uppercase', color: 'var(--navy)', marginBottom: 10 }}>
+            📝 Case Highlights from this court
+          </p>
+          {highlights.map((h) => (
+            <a key={h.slug} href="/case-highlights" style={{ display: 'block', fontSize: '0.9rem', marginBottom: 6 }}>
+              {h.title}
+            </a>
+          ))}
+          <a href="/case-highlights" style={{ fontSize: '0.85rem' }}>See all Case Highlights →</a>
+        </div>
+      )}
 
       {pageJudgments.map((j) => (
         <a key={j.slug} href={`/judgments/${j.slug}`} className="judgment-card">
