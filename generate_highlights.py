@@ -1,14 +1,12 @@
 """
-Case Highlights Generator (v6 - keeps scanning past skips)
+Case Highlights Generator (v7 - scaled to 100/day)
 --------------------------------------
-Goes through full-text judgments not yet covered in case_highlights.json,
-generates a genuine English explainer, then translates that same
-already-verified explainer into Urdu.
+Includes all fixes: correct response parsing (handles thinking blocks),
+newest-first ordering, filters out known non-judgments, keeps scanning
+past skips instead of giving up, rejects leaked AI self-correction text.
 
-Skips entries already identified as non-judgments - but unlike before, a
-run of skips no longer exhausts the batch. The script keeps scanning
-until it actually finds BATCH_SIZE genuine judgments to add, up to a
-reasonable scan limit per run.
+Scaled from 15/day to 100/day as a controlled first step toward full
+database coverage, rather than an untested jump straight to 400+/day.
 
 REQUIRES: ANTHROPIC_API_KEY environment variable.
 """
@@ -24,8 +22,8 @@ DATA_DIR = "data"
 HIGHLIGHTS_FILE = os.path.join(DATA_DIR, "case_highlights.json")
 JUDGMENTS_DIR = os.path.join(DATA_DIR, "judgments")
 INDEX_FILE = os.path.join(DATA_DIR, "judgments_index.json")
-BATCH_SIZE = 15
-MAX_SCANNED = 60
+BATCH_SIZE = 100
+MAX_SCANNED = 350
 
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
@@ -136,78 +134,65 @@ def main():
 
     print(f"Already have {len(highlights)} case highlights.")
     print(f"Skipping {len(non_judgment_slugs)} entries already known to be non-judgments.")
-
-    backfilled = 0
-    for h in highlights:
-        if not h.get("explainer_ur") and h.get("explainer"):
-            print(f"  Translating existing highlight: {h.get('title', h['slug'])[:60]}")
-            try:
-                h["explainer_ur"] = translate_to_urdu(h["explainer"])
-                backfilled += 1
-                time.sleep(1)
-            except Exception as ex:
-                print(f"    [warn] translation failed: {ex}")
-            if backfilled >= BATCH_SIZE:
-                break
+    print(f"Target this run: {BATCH_SIZE} new highlights, scanning up to {MAX_SCANNED} candidates.")
 
     added = 0
     scanned = 0
     new_entries = []
-    if backfilled < BATCH_SIZE:
-        for fname in sorted(glob.glob(os.path.join(JUDGMENTS_DIR, "shard-*.json"))):
+    for fname in sorted(glob.glob(os.path.join(JUDGMENTS_DIR, "shard-*.json"))):
+        if added >= BATCH_SIZE or scanned >= MAX_SCANNED:
+            break
+
+        with open(fname, encoding="utf-8") as f:
+            shard = json.load(f)
+
+        for slug, record in shard.items():
             if added >= BATCH_SIZE or scanned >= MAX_SCANNED:
                 break
+            if slug in covered_slugs:
+                continue
+            if slug in non_judgment_slugs:
+                continue
+            if record.get("has_full_text") is False:
+                continue
+            if len(record.get("full_text", "")) < 1500:
+                continue
 
-            with open(fname, encoding="utf-8") as f:
-                shard = json.load(f)
+            scanned += 1
+            print(f"  [{scanned}/{MAX_SCANNED}] ({added} added so far) {record.get('title', slug)[:60]}")
+            try:
+                explainer = generate_explainer(record)
+            except Exception as ex:
+                print(f"    [warn] API call failed: {ex}")
+                continue
 
-            for slug, record in shard.items():
-                if added >= BATCH_SIZE or scanned >= MAX_SCANNED:
-                    break
-                if slug in covered_slugs:
-                    continue
-                if slug in non_judgment_slugs:
-                    continue
-                if record.get("has_full_text") is False:
-                    continue
-                if len(record.get("full_text", "")) < 1500:
-                    continue
-
-                scanned += 1
-                print(f"  [{scanned}/{MAX_SCANNED}] Generating explainer for: {record.get('title', slug)[:60]}")
-                try:
-                    explainer = generate_explainer(record)
-                except Exception as ex:
-                    print(f"    [warn] API call failed: {ex}")
-                    continue
-
-                if not explainer:
-                    print("    [skip] not a genuine judgment or insufficient content")
-                    covered_slugs.add(slug)
-                    continue
-
-                try:
-                    explainer_ur = translate_to_urdu(explainer)
-                except Exception as ex:
-                    print(f"    [warn] Urdu translation failed, keeping English only: {ex}")
-                    explainer_ur = ""
-
-                new_entries.append({
-                    "slug": slug,
-                    "title": record.get("title", ""),
-                    "citation": record.get("citation", ""),
-                    "court": record.get("court", ""),
-                    "explainer": explainer,
-                    "explainer_ur": explainer_ur,
-                })
+            if not explainer:
+                print("    [skip] not a genuine judgment or insufficient content")
                 covered_slugs.add(slug)
-                added += 1
-                time.sleep(1)
+                continue
+
+            try:
+                explainer_ur = translate_to_urdu(explainer)
+            except Exception as ex:
+                print(f"    [warn] Urdu translation failed, keeping English only: {ex}")
+                explainer_ur = ""
+
+            new_entries.append({
+                "slug": slug,
+                "title": record.get("title", ""),
+                "citation": record.get("citation", ""),
+                "court": record.get("court", ""),
+                "explainer": explainer,
+                "explainer_ur": explainer_ur,
+            })
+            covered_slugs.add(slug)
+            added += 1
+            time.sleep(1)
 
     highlights = list(reversed(new_entries)) + highlights
 
     save_json(HIGHLIGHTS_FILE, highlights)
-    print(f"\nScanned {scanned} candidates, added {added} new case highlights, backfilled Urdu on {backfilled}.")
+    print(f"\nScanned {scanned} candidates, added {added} new case highlights.")
     print(f"Total now: {len(highlights)}.")
 
 
