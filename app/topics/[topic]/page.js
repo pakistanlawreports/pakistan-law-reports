@@ -1,6 +1,32 @@
+import fs from 'fs';
+import path from 'path';
 import { getAllTopics, topicToSlug, getTopicBySlug, getJudgmentsByTopic } from '../../../lib/data';
 
 const PAGE_SIZE = 100;
+
+function getHighlightsForTopic(topic, index) {
+  try {
+    const filePath = path.join(process.cwd(), 'data', 'case_highlights.json');
+    if (!fs.existsSync(filePath)) return [];
+    const highlights = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    const slugToTopic = {};
+    index.forEach((j) => { slugToTopic[j.slug] = j.topic; });
+    return highlights.filter((h) => slugToTopic[h.slug] === topic).slice(0, 3);
+  } catch {
+    return [];
+  }
+}
+
+function hasStudyGuide(topic) {
+  try {
+    const filePath = path.join(process.cwd(), 'data', 'study_guides.json');
+    if (!fs.existsSync(filePath)) return false;
+    const guides = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    return Boolean(guides[topic]);
+  } catch {
+    return false;
+  }
+}
 
 export async function generateStaticParams() {
   return getAllTopics().map((t) => ({ topic: topicToSlug(t) }));
@@ -20,6 +46,7 @@ export const dynamic = 'force-dynamic';
 
 export default function TopicPage({ params, searchParams }) {
   const topic = getTopicBySlug(params.topic);
+
   if (!topic) {
     return (
       <div className="content-page">
@@ -29,7 +56,19 @@ export default function TopicPage({ params, searchParams }) {
     );
   }
 
-  const allJudgments = getJudgmentsByTopic(topic);
+  const rawJudgments = getJudgmentsByTopic(topic);
+
+  // Full-text judgments first - genuine complete opinions ahead of bare
+  // summaries.
+  const allJudgments = [...rawJudgments].sort((a, b) => {
+    const aFull = a.has_full_text !== false ? 0 : 1;
+    const bFull = b.has_full_text !== false ? 0 : 1;
+    return aFull - bFull;
+  });
+
+  const highlights = getHighlightsForTopic(topic, rawJudgments);
+  const guideExists = hasStudyGuide(topic);
+
   const totalPages = Math.max(1, Math.ceil(allJudgments.length / PAGE_SIZE));
   const currentPage = Math.min(
     totalPages,
@@ -46,6 +85,35 @@ export default function TopicPage({ params, searchParams }) {
         {allJudgments.length.toLocaleString()} judgments — showing {start + 1}-
         {Math.min(start + PAGE_SIZE, allJudgments.length)}
       </p>
+
+      {(guideExists || highlights.length > 0) && (
+        <div
+          style={{
+            marginBottom: 24, padding: 18, background: '#f0f7f2',
+            border: '1px solid #cde3d3', borderRadius: 4,
+          }}
+        >
+          {guideExists && (
+            <p style={{ fontSize: '0.9rem', marginBottom: highlights.length > 0 ? 14 : 0 }}>
+              📚 <a href="/study-guides"><strong>Read the {topic} Study Guide</strong></a> —
+              a topic overview grounded in real cases from this database.
+            </p>
+          )}
+          {highlights.length > 0 && (
+            <>
+              <p style={{ fontSize: '0.75rem', fontWeight: 700, letterSpacing: '0.05em', textTransform: 'uppercase', color: 'var(--navy)', marginBottom: 10 }}>
+                📝 Case Highlights on this topic
+              </p>
+              {highlights.map((h) => (
+                <a key={h.slug} href="/case-highlights" style={{ display: 'block', fontSize: '0.9rem', marginBottom: 6 }}>
+                  {h.title}
+                </a>
+              ))}
+              <a href="/case-highlights" style={{ fontSize: '0.85rem' }}>See all Case Highlights →</a>
+            </>
+          )}
+        </div>
+      )}
 
       {pageJudgments.map((j) => (
         <a key={j.slug} href={`/judgments/${j.slug}`} className="judgment-card">
