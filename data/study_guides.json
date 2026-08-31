@@ -72,5 +72,79 @@
       }
     ],
     "generated_at": "2026-08-24"
+  },
+  "Family Law": {
+    "topic": "Family Law",
+    "guide": "Family law in Pakistan (and Azad Jammu & Kashmir) draws on a mix of statutory protections, procedural codes, and Muslim personal law principles, particularly in the areas of domestic violence, child custody, maintenance, and the functioning of Family Courts. The six cases below illustrate how courts have applied and interpreted these frameworks.\n\nDomestic violence protection\n\n- In Muhammad Munir v. Anum Thanvi, PLJ 2022 Cr.C. (Note) 154, the Sindh High Court explained the purpose and structure of the Domestic Violence (Prevention and Protection) Act, 2013. The Act is aimed at protecting the \"weakest class of society,\" namely women and children, who in a presumptively male-dominant society often fear reporting abuse due to threats of abandonment or harm.\n- The Court walked through key provisions: Section 2(1)(a) defines \"aggrieved person\" broadly to include a woman, child, or vulnerable person in a domestic relationship with the respondent; Section 2(1)(d) defines \"Court\" as the Judicial Magistrate of First Class; Section 7 allows an aggrieved person, their authorized representative, or an informer to file a petition; and Section 13 deals with temporary custody of an aggrieved person.\n- The Court held that a respondent cannot use procedural challenges (such as contesting a mere notice-and-production order) to frustrate proceedings at an early stage, since doing so would defeat the very purpose for which the Act was enacted.\n\nCustody of minors\n\n- Muhammad Afzal v. Parveen Bibi, PLJ 2018 Sh.C. (AJ&K) 8, establishes that the right of custody of a minor is not absolute but is always subject to the welfare of the minor. Although Muslim law generally recognizes the father as natural guardian once a male child exceeds seven years or a female child attains puberty, this is subject to the welfare principle. The Court also noted that under Section 17(3) of the Guardian and Wards Act, 1890, and Muhammadan law, the preference of a minor old enough to form an intelligent opinion may be considered. A mother's custody (hizanat) can be lost only if she marries someone outside the prohibited degree of relation to the child, leads an immoral life, or neglects the child.\n- Tahira Zaib v. Ghaffar Ahmed, PLJ 2016 SC (AJ&K) 239, reinforces that welfare of the minor is the paramount consideration, to be judged with regard to the child's age, sex, religion, and the character and capacity of the proposed guardian. The Court held that welfare is presumed to lie with the person entitled to custody under Muslim law, but this presumption is rebuttable. Where both parents had remarried, and the minor expressed before the Court a clear preference not to live with the father (who lived abroad and had a second family), the Court held welfare lay with the mother, and that a British-citizen father should not ordinarily be preferred over the mother simply on account of his foreign residence or status.\n\nMaintenance and dowry recovery\n\n- Ulfat Bibi v. Raja Mazhar Hussain, PLJ 2017 Sh.C. (AJ&K) 74, addresses the effective date of",
+    "based_on_cases": [
+      {
+        "title": "Domestic Violence (Prevention and Protection) Act 2013 explained in a Judgment",
+        "citation": "PLJ 2022 Cr.C. (Note) 154",
+        "slug": "plj-2022-cr-c-note-154-domestic-violence-prevention-and-protection-act-2013-expl"
+      },
+      {
+        "title": "Application for Impleadment in Appeal",
+        "citation": "PLJ 2022 Lahore 437",
+        "slug": "plj-2022-lahore-437-application-for-impleadment-in-appeal"
+      },
+      {
+        "title": "Right of Custody of Minor is not an absolute right",
+        "citation": "PLJ 2018",
+        "slug": "plj-2018-right-of-custody-of-minor-is-not-an-absolute-right"
+      },
+      {
+        "title": "THE PUNJAB FAMILY COURTS (AMENDMENT) ACT 2015 (XI OF 2015)",
+        "citation": "",
+        "slug": "the-punjab-family-courts-amendment-act-2015-xi-of-2015"
+      },
+      {
+        "title": "PLJ 2017 Sh.C. (AJ&K) 74",
+        "citation": "PLJ 2017",
+        "slug": "plj-2017-plj-2017-sh-c-aj-k-74"
+      },
+      {
+        "title": "Preference cannot be given British Citizen Father ordinarily",
+        "citation": "PLJ 2016 SC (AJ&K) 239",
+        "slug": "plj-2016-sc-aj-k-239-preference-cannot-be-given-british-citizen-father-ordinaril"
+      }
+    ],
+    "generated_at": "2026-08-31"
+  },
+  "Property & Rent": {
+    "topic": "Property & Rent",
+    "guide": "Property and Rent Law: Study Guide\n\nThis set of cases addresses several recurring themes in Pakistani property litigation: the rights of co-sharers in joint property, procedural handling of partition and injunction suits, the evidentiary burden on parties claiming under sale agreements, and statutory eviction under rent legislation. Together they illustrate how courts balance substantive property rights with strict procedural and evidentiary requirements.\n\nCo-ownership and Joint Property Rights\n\n- PLJ 2023 Lahore 528 establishes the foundational principle that every co-sharer is owner of each and every inch of joint property until it is partitioned by metes and bounds. A co-sharer cannot unilaterally change the nature of joint property or raise construction without the consent of other co-sharers.\n- The case clarifies the appropriate remedies available to co-sharers: if a co-sharer is dispossessed by another co-sharer, the remedy lies in a suit under Section 9 of the Specific Relief Act, 1877, or a suit for partition. However, where a co-sharer merely threatens to change the nature of the joint holding or threatens to divest others of their rights, a suit for permanent injunction is maintainable to restrain such conduct, without the plaintiff first having to seek partition.\n\nPartition Suits and Procedural Fairness\n\n- PLJ 2023 Quetta 130 deals with a suit for cancellation of partition, transfer of mutation, and specific performance. It reinforces the maxim ubi jus ibi remedium (where there is a right, there is a remedy), holding that a plaintiff with a genuine right has a corresponding right to approach the court unless jurisdiction is expressly barred.\n- Importantly, this case holds that where a suit involves controversial or disputed questions of fact and law, the plaint cannot be rejected under Order VII Rule 11 CPC; instead, the proper course is for the trial court to frame issues and decide the matter on merits after recording evidence.\n\nProof of Sale Agreements and Transactions\n\n- PLJ 2020 Lahore 386 emphasizes those suits for specific performance require strict proof of the underlying agreement to sell. Producing fewer than the required number of marginal witnesses is fatal to the plaintiff's case; failure to produce the mandatory second marginal witness at trial cannot later be cured at the appellate stage under Order XLI Rule 27(1)(b) CPC, as this provision is not meant to fill evidentiary gaps caused by a party's own negligence.\n- PLJ 2018 Lahore 1042 sets out the three essential ingredients a vendee must establish to sustain a sale transaction: (i) that the transaction was struck with a titleholder or person with authority to conv",
+    "based_on_cases": [
+      {
+        "title": "Every co-sharer is owner in each and every inch of joint property until it is partitioned by metes and bounds",
+        "citation": "PLJ 2023 Lahore 528",
+        "slug": "plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro"
+      },
+      {
+        "title": "Suit for Cancellation of Partition",
+        "citation": "PLJ 2023 Quetta 130",
+        "slug": "plj-2023-quetta-130-suit-for-cancellation-of-partition"
+      },
+      {
+        "title": "Non Production of Second Marginal Witness",
+        "citation": "PLJ 2020 Lahore 386",
+        "slug": "plj-2020-lahore-386-non-production-of-second-marginal-witness"
+      },
+      {
+        "title": "PLJ 2018 SC 66",
+        "citation": "PLJ 2018 SC 66",
+        "slug": "plj-2018-sc-66-plj-2018-sc-66"
+      },
+      {
+        "title": "PLJ 2018 SC 95",
+        "citation": "PLJ 2018 SC 95",
+        "slug": "plj-2018-sc-95-plj-2018-sc-95"
+      },
+      {
+        "title": "Vendee has to prove Title, Consideration and Delivery of Possession",
+        "citation": "PLJ 2018",
+        "slug": "plj-2018-vendee-has-to-prove-title-consideration-and-delivery-of-possession"
+      }
+    ],
+    "generated_at": "2026-08-31"
   }
 }
