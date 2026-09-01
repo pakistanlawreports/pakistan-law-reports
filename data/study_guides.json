@@ -146,5 +146,42 @@
       }
     ],
     "generated_at": "2026-08-31"
+  },
+  "Tax Law": {
+    "topic": "Tax Law",
+    "guide": "Tax Law in Pakistan: Procedural Fairness and Jurisdictional Limits\n\nOf the material surveyed, only two decisions actually engage with tax law: one concerning sales tax registration and constitutional due process, and one concerning the pecuniary jurisdiction of the customs appellate tribunal. Together they illustrate two recurring themes in Pakistani tax litigation: the constitutionalisation of procedural rights against revenue authorities, and the strict, non-retrospective application of jurisdictional limits to tax tribunals.\n\nDue process and the right to be heard before suspension of sales tax registration\n\n- In M/s. Imran Ali Lubricants v. Federation of P",
+    "based_on_cases": [
+      {
+        "title": "PLJ 2018 Islamabad 143",
+        "citation": "PLJ 2018",
+        "slug": "plj-2018-plj-2018-islamabad-143"
+      },
+      {
+        "title": "Suspension of Registration of Sales Tax Registered Person",
+        "citation": "PLJ 2018",
+        "slug": "plj-2018-suspension-of-registration-of-sales-tax-registered-person"
+      },
+      {
+        "title": "The Pakistan Animal Quarantine (Import and Export of Animal and Animal Products) Ordinance, 1979",
+        "citation": "",
+        "slug": "the-pakistan-animal-quarantine-import-and-export-of-animal-and-animal-products-o"
+      },
+      {
+        "title": "THE ELECTORAL LAWS (AMENDMENT) ORDINANCE, 2013",
+        "citation": "",
+        "slug": "the-electoral-laws-amendment-ordinance-2013"
+      },
+      {
+        "title": "DRAFT GROUP COMPANIES REGISTRATION REGULATIONS, 2008",
+        "citation": "",
+        "slug": "draft-group-companies-registration-regulations-2008"
+      },
+      {
+        "title": "Pecuniary Jurisdiction in case of confiscated vehicle",
+        "citation": "PLJ 2013 Tax Cases (",
+        "slug": "plj-2013-tax-cases-pecuniary-jurisdiction-in-case-of-confiscated-vehicle"
+      }
+    ],
+    "generated_at": "2026-09-01"
   }
 }
