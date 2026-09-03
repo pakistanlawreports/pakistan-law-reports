@@ -89,6 +89,10 @@ export default function RootLayout({ children }) {
               <a href="/law-schools">Law Schools</a>
               <a href="/judgment-summarizer">Summarizer</a>
               <a href="/resources">Resources</a>
+              <a href="/glossary">Glossary</a>
+              <a href="/faq">FAQ</a>
+              <a href="/statistics">Statistics</a>
+              <a href="/legal-history">Legal History</a>
               <a href="/about">About</a>
               <a href="/contact">Contact</a>
             </nav>
