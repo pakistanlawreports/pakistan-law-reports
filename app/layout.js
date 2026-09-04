@@ -93,6 +93,7 @@ export default function RootLayout({ children }) {
               <a href="/faq">FAQ</a>
               <a href="/statistics">Statistics</a>
               <a href="/legal-history">Legal History</a>
+              <a href="/trending">Trending</a>
               <a href="/about">About</a>
               <a href="/contact">Contact</a>
             </nav>
