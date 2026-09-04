@@ -3,3 +3,4 @@
    anthropic>=0.49.0
    google-analytics-data
    google-auth
+   google-api-python-client
