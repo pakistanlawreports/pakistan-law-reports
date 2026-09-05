@@ -1,6 +1,6 @@
 :root {
-  --navy: #01411C;
-  --navy-deep: #012e14;
+  --navy: #132849;
+  --navy-deep: #0b1a30;
   --gold: #c8a24a;
   --gold-soft: #e4d3a3;
   --paper: #f7f5f0;
@@ -11,7 +11,7 @@
   --radius: 3px;
 }
 
-* { box-sizing: border-box; }
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 html { scroll-behavior: smooth; }
 
 body {
@@ -21,6 +21,10 @@ body {
   font-family: var(--font-body), system-ui, sans-serif;
   font-size: 16px;
   line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow-wrap: break-word;
 }
 
 h1, h2, h3, h4 {
@@ -28,12 +32,14 @@ h1, h2, h3, h4 {
   color: var(--navy);
   line-height: 1.2;
   margin: 0 0 0.5em;
+  overflow-wrap: break-word;
 }
 
 a { color: inherit; }
 
 .site-shell {
   min-height: 100vh;
+  min-height: 100dvh; /* fixes mobile Safari address-bar layout jumping */
   display: flex;
   flex-direction: column;
 }
@@ -44,6 +50,7 @@ a { color: inherit; }
   align-items: center;
   justify-content: space-between;
   padding: 18px 32px;
+  padding-top: calc(18px + env(safe-area-inset-top, 0px));
   border-bottom: 1px solid var(--line);
   background: var(--paper-raised);
   position: sticky;
@@ -79,6 +86,7 @@ a { color: inherit; }
   gap: 28px;
   font-size: 0.92rem;
   font-weight: 500;
+  flex-wrap: wrap;
 }
 
 .site-nav a {
@@ -100,6 +108,7 @@ a { color: inherit; }
   background: var(--navy);
   color: #cdd6e4;
   padding: 36px 32px;
+  padding-bottom: calc(36px + env(safe-area-inset-bottom, 0px));
 }
 
 .footer-inner {
@@ -111,7 +120,7 @@ a { color: inherit; }
   gap: 10px;
 }
 
-.footer-nav { display: flex; justify-content: center; gap: 22px; }
+.footer-nav { display: flex; justify-content: center; gap: 22px; flex-wrap: wrap; }
 .footer-nav a { text-decoration: none; color: var(--gold-soft); font-size: 0.9rem; }
 .footer-fine { font-size: 0.78rem; color: #8fa0bd; margin: 0; }
 
@@ -165,7 +174,7 @@ a { color: inherit; }
 
 /* ---------- Hero ---------- */
 .hero {
-  padding: 40px 32px 28px;
+  padding: 64px 32px 40px;
   text-align: center;
   border-bottom: 1px solid var(--line);
 }
@@ -178,7 +187,7 @@ a { color: inherit; }
 
 .hero p.lede {
   max-width: 560px;
-  margin: 0 auto 20px;
+  margin: 0 auto 28px;
   color: var(--ink-muted);
   font-size: 1.05rem;
 }
@@ -187,7 +196,7 @@ a { color: inherit; }
   display: flex;
   justify-content: center;
   gap: 40px;
-  margin-top: 20px;
+  margin-top: 32px;
   flex-wrap: wrap;
 }
 
@@ -222,6 +231,8 @@ a { color: inherit; }
   border-radius: var(--radius);
   font-family: var(--font-body), sans-serif;
   background: var(--paper-raised);
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .search-input:focus {
@@ -245,6 +256,8 @@ a { color: inherit; }
   font-family: var(--font-body), sans-serif;
   font-size: 0.88rem;
   color: var(--ink);
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 /* ---------- Topic browse grid ---------- */
@@ -370,6 +383,8 @@ a { color: inherit; }
   cursor: pointer;
   text-decoration: none;
   font-family: var(--font-body), sans-serif;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .action-btn:hover { border-color: var(--navy); }
@@ -450,6 +465,7 @@ a { color: inherit; }
   font-size: 1.05rem;
   color: var(--navy);
   margin: 0 0 4px;
+  overflow-wrap: break-word;
 }
 
 .judgment-meta {
@@ -500,6 +516,7 @@ a { color: inherit; }
 
 .judgment-body {
   white-space: pre-wrap;
+  overflow-wrap: break-word;
   font-size: 0.98rem;
   line-height: 1.7;
   color: var(--ink);
@@ -582,6 +599,8 @@ a { color: inherit; }
   font-size: 0.95rem;
   font-family: var(--font-body), sans-serif;
   box-sizing: border-box;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .form-row textarea {
@@ -599,6 +618,8 @@ a { color: inherit; }
   cursor: pointer;
   font-size: 0.92rem;
   font-family: var(--font-body), sans-serif;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .btn-primary:hover { background: var(--navy-deep); }
@@ -614,6 +635,8 @@ a { color: inherit; }
   text-decoration: none;
   color: var(--ink);
   display: inline-block;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .lawyer-card {
@@ -640,9 +663,11 @@ a { color: inherit; }
 .lawyer-bio { font-size: 0.9rem; margin-bottom: 8px; }
 .lawyer-contact { font-size: 0.85rem; color: var(--navy); margin: 0; }
 
+img, svg { max-width: 100%; height: auto; }
+
 @media (max-width: 640px) {
-  .site-header { padding: 14px 18px; }
+  .site-header { padding: 14px 18px; padding-top: calc(14px + env(safe-area-inset-top, 0px)); }
   .site-nav { gap: 16px; font-size: 0.85rem; }
-  .hero { padding: 32px 18px 22px; }
+  .hero { padding: 44px 18px 28px; }
   .results-section, .judgment-page, .content-page { padding-left: 18px; padding-right: 18px; }
 }
