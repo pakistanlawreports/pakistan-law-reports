@@ -1,15 +1,11 @@
 """
-Search Console Report Generator
+Search Console Report Generator (v2 - fixed domain property URL format)
 --------------------------------------
-Pulls real search performance data from Google Search Console via the API:
-- Top search queries (with impressions, clicks, CTR, average position)
-- Top pages by clicks
-
-Reuses the same service account already set up for the Analytics report.
+Pulls real search performance data from Google Search Console via the API.
 
 REQUIRES: GA4_SERVICE_ACCOUNT_KEY environment variable (same secret as the
-analytics report - this is the same service account, just also granted
-access in Search Console directly).
+analytics report - same service account, also granted access in Search
+Console directly).
 """
 
 import json
@@ -21,7 +17,10 @@ from googleapiclient.discovery import build
 
 DATA_DIR = "data"
 OUTPUT_FILE = os.path.join(DATA_DIR, "search_console_report.json")
-SITE_URL = "https://pakistanlawreports.com/"
+
+# Domain properties (verified via DNS, covering all protocol/subdomain
+# variants) use this special "sc-domain:" format instead of a plain URL.
+SITE_URL = "sc-domain:pakistanlawreports.com"
 
 
 def get_service():
@@ -33,7 +32,7 @@ def get_service():
 
 
 def query_search_analytics(service, dimension, row_limit=15):
-    end_date = datetime.date.today() - datetime.timedelta(days=3)  # Search Console data lags a few days
+    end_date = datetime.date.today() - datetime.timedelta(days=3)
     start_date = end_date - datetime.timedelta(days=28)
 
     request = {
