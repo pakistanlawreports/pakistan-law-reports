@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-04",
+  "generated_at": "2026-09-05",
   "top_pages": [
     {
       "page": "/",
-      "views": 359
+      "views": 355
     },
     {
       "page": "/case-highlights",
-      "views": 109
+      "views": 110
     },
     {
       "page": "/find-cases",
-      "views": 73
+      "views": 76
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 56
+      "views": 60
     },
     {
       "page": "/judgments/pcrlj-2026-548",
@@ -23,31 +23,35 @@
     },
     {
       "page": "/judgment-summarizer",
-      "views": 32
+      "views": 34
     },
     {
       "page": "/study-guides",
-      "views": 32
+      "views": 33
     },
     {
       "page": "/whats-new",
-      "views": 30
+      "views": 31
     },
     {
       "page": "/search-all",
-      "views": 26
+      "views": 28
     },
     {
       "page": "/browse",
-      "views": 22
+      "views": 23
     },
     {
       "page": "/news-digest",
-      "views": 21
+      "views": 23
     },
     {
       "page": "/judgments/pld-1965-lah-324-the-code-of-criminal-procedure-1898-pakistan",
       "views": 20
+    },
+    {
+      "page": "/legal-texts",
+      "views": 19
     },
     {
       "page": "/resources",
@@ -56,22 +60,66 @@
     {
       "page": "/topics/criminal-law",
       "views": 19
-    },
-    {
-      "page": "/legal-texts",
-      "views": 18
     }
   ],
   "top_searches": [
     {
       "value": "(not set)",
-      "count": 626
+      "count": 564
+    },
+    {
+      "value": "Mother",
+      "count": 2
+    },
+    {
+      "value": "Mother done second marriage",
+      "count": 2
+    },
+    {
+      "value": "Crime",
+      "count": 1
+    },
+    {
+      "value": "Crime report",
+      "count": 1
+    },
+    {
+      "value": "Custody of minor if mother",
+      "count": 1
+    },
+    {
+      "value": "Custody of minor if mother done second marriage",
+      "count": 1
+    },
+    {
+      "value": "Mother done",
+      "count": 1
+    },
+    {
+      "value": "P",
+      "count": 1
+    },
+    {
+      "value": "PLD 2022",
+      "count": 1
+    },
+    {
+      "value": "PLD 2022 FSC 25",
+      "count": 1
     }
   ],
   "top_find_cases_topics": [
     {
       "value": "(not set)",
-      "count": 26
+      "count": 25
+    },
+    {
+      "value": "Criminal Law",
+      "count": 1
+    },
+    {
+      "value": "Family Law",
+      "count": 1
     }
   ]
 }
