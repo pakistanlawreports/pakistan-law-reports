@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-05",
+  "generated_at": "2026-09-06",
   "top_pages": [
     {
       "page": "/",
-      "views": 355
+      "views": 342
     },
     {
       "page": "/case-highlights",
-      "views": 110
+      "views": 105
     },
     {
       "page": "/find-cases",
-      "views": 76
+      "views": 72
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 60
+      "views": 61
     },
     {
       "page": "/judgments/pcrlj-2026-548",
@@ -23,15 +23,15 @@
     },
     {
       "page": "/judgment-summarizer",
+      "views": 35
+    },
+    {
+      "page": "/whats-new",
       "views": 34
     },
     {
       "page": "/study-guides",
       "views": 33
-    },
-    {
-      "page": "/whats-new",
-      "views": 31
     },
     {
       "page": "/search-all",
@@ -50,22 +50,22 @@
       "views": 20
     },
     {
+      "page": "/resources",
+      "views": 20
+    },
+    {
       "page": "/legal-texts",
       "views": 19
     },
     {
-      "page": "/resources",
-      "views": 19
-    },
-    {
-      "page": "/topics/criminal-law",
+      "page": "/topics/family-law",
       "views": 19
     }
   ],
   "top_searches": [
     {
       "value": "(not set)",
-      "count": 564
+      "count": 562
     },
     {
       "value": "Mother",
@@ -76,6 +76,10 @@
       "count": 2
     },
     {
+      "value": "453080119/1",
+      "count": 1
+    },
+    {
       "value": "Crime",
       "count": 1
     },
@@ -84,11 +88,27 @@
       "count": 1
     },
     {
+      "value": "Custody o",
+      "count": 1
+    },
+    {
       "value": "Custody of minor if mother",
       "count": 1
     },
     {
       "value": "Custody of minor if mother done second marriage",
+      "count": 1
+    },
+    {
+      "value": "Gaudai",
+      "count": 1
+    },
+    {
+      "value": "Gua",
+      "count": 1
+    },
+    {
+      "value": "Guardian",
       "count": 1
     },
     {
@@ -102,16 +122,12 @@
     {
       "value": "PLD 2022",
       "count": 1
-    },
-    {
-      "value": "PLD 2022 FSC 25",
-      "count": 1
     }
   ],
   "top_find_cases_topics": [
     {
       "value": "(not set)",
-      "count": 25
+      "count": 23
     },
     {
       "value": "Criminal Law",
