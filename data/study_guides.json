@@ -183,5 +183,79 @@
       }
     ],
     "generated_at": "2026-09-01"
+  },
+  "Banking & Corporate": {
+    "topic": "Banking & Corporate",
+    "guide": "Banking and Corporate Law: A Study Guide Overview\n\nThis area brings together core company law concepts, banking recovery litigation, and related regulatory frameworks in Pakistan. The materials below illustrate how courts and regulators approach corporate personality, loan recovery disputes, and agency relationships in commercial contexts.\n\nCorporate Person",
+    "based_on_cases": [
+      {
+        "title": "What are the requirements of company secretary?",
+        "citation": "",
+        "slug": "what-are-the-requirements-of-company-secretary"
+      },
+      {
+        "title": "Insurance Ordinance, 2000",
+        "citation": "",
+        "slug": "insurance-ordinance-2000"
+      },
+      {
+        "title": "The Insurance Rules 2002",
+        "citation": "",
+        "slug": "the-insurance-rules-2002"
+      },
+      {
+        "title": "Admission must be clear, specific and unambiguous",
+        "citation": "PLJ 2014",
+        "slug": "plj-2014-admission-must-be-clear-specific-and-unambiguous"
+      },
+      {
+        "title": "ENFORCEMENT OF SHARI’AH ACT. 1991",
+        "citation": "",
+        "slug": "enforcement-of-shari-ah-act-1991"
+      },
+      {
+        "title": "Bank can not claim mark-up in decree",
+        "citation": "",
+        "slug": "bank-can-not-claim-mark-up-in-decree"
+      }
+    ],
+    "generated_at": "2026-09-07"
+  },
+  "Labour & Service": {
+    "topic": "Labour & Service",
+    "guide": "Overview: Labour and Service Law in Pakistan (Civil Servants and Related Frameworks)\n\nPakistani \"Labour & Service\" jurisprudence, as reflected in these materials, splits broadly into two streams: (i) the constitutional/statutory",
+    "based_on_cases": [
+      {
+        "title": "Condition of Non Counting Contractual Service",
+        "citation": "PLJ 2024 Tr.C. (Services) 89",
+        "slug": "plj-2024-tr-c-services-89-condition-of-non-counting-contractual-service"
+      },
+      {
+        "title": "The Khyber Pakhtunkhwa Services Tribunal (Amendment) Act, 2013",
+        "citation": "",
+        "slug": "the-khyber-pakhtunkhwa-services-tribunal-amendment-act-2013"
+      },
+      {
+        "title": "The Service Tribunals Act, 1973 (Act No. LXX of 1973)",
+        "citation": "",
+        "slug": "the-service-tribunals-act-1973-act-no-lxx-of-1973"
+      },
+      {
+        "title": "Tariq Aziz promotion case on Employment Law",
+        "citation": "",
+        "slug": "tariq-aziz-promotion-case-on-employment-law"
+      },
+      {
+        "title": "Key Features and Gaps of the Domestic Workers (Employment Rights) Act, 2013",
+        "citation": "",
+        "slug": "key-features-and-gaps-of-the-domestic-workers-employment-rights-act-2013"
+      },
+      {
+        "title": "The Domestic Workers (Employment Rights) Act, 2013",
+        "citation": "",
+        "slug": "the-domestic-workers-employment-rights-act-2013"
+      }
+    ],
+    "generated_at": "2026-09-07"
   }
 }
