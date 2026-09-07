@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-06",
+  "generated_at": "2026-09-07",
   "top_pages": [
     {
       "page": "/",
-      "views": 342
+      "views": 324
     },
     {
       "page": "/case-highlights",
-      "views": 105
+      "views": 107
     },
     {
       "page": "/find-cases",
-      "views": 72
+      "views": 65
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 61
+      "views": 63
     },
     {
       "page": "/judgments/pcrlj-2026-548",
@@ -38,11 +38,11 @@
       "views": 28
     },
     {
-      "page": "/browse",
-      "views": 23
+      "page": "/news-digest",
+      "views": 24
     },
     {
-      "page": "/news-digest",
+      "page": "/browse",
       "views": 23
     },
     {
@@ -50,22 +50,38 @@
       "views": 20
     },
     {
-      "page": "/resources",
+      "page": "/judgments/pld-1975-pesh-161-islamia-university-bahawalpur-through-its-vice-c-detailed-judg",
       "views": 20
     },
     {
-      "page": "/legal-texts",
+      "page": "/judgments/read-muslim-family-laws-ordinance-1961-for-understanding-family-laws",
       "views": 19
     },
     {
-      "page": "/topics/family-law",
+      "page": "/resources",
       "views": 19
     }
   ],
   "top_searches": [
     {
       "value": "(not set)",
-      "count": 562
+      "count": 522
+    },
+    {
+      "value": "AKD",
+      "count": 4
+    },
+    {
+      "value": "PC",
+      "count": 3
+    },
+    {
+      "value": "A",
+      "count": 2
+    },
+    {
+      "value": "AK",
+      "count": 2
     },
     {
       "value": "Mother",
@@ -76,7 +92,19 @@
       "count": 2
     },
     {
+      "value": "PC Hotel",
+      "count": 2
+    },
+    {
+      "value": "PLD_1949_26_PC",
+      "count": 2
+    },
+    {
       "value": "453080119/1",
+      "count": 1
+    },
+    {
+      "value": "AKK",
       "count": 1
     },
     {
@@ -94,40 +122,12 @@
     {
       "value": "Custody of minor if mother",
       "count": 1
-    },
-    {
-      "value": "Custody of minor if mother done second marriage",
-      "count": 1
-    },
-    {
-      "value": "Gaudai",
-      "count": 1
-    },
-    {
-      "value": "Gua",
-      "count": 1
-    },
-    {
-      "value": "Guardian",
-      "count": 1
-    },
-    {
-      "value": "Mother done",
-      "count": 1
-    },
-    {
-      "value": "P",
-      "count": 1
-    },
-    {
-      "value": "PLD 2022",
-      "count": 1
     }
   ],
   "top_find_cases_topics": [
     {
       "value": "(not set)",
-      "count": 23
+      "count": 19
     },
     {
       "value": "Criminal Law",
