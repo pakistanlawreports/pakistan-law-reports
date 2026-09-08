@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-07",
+  "generated_at": "2026-09-08",
   "top_pages": [
     {
       "page": "/",
-      "views": 324
+      "views": 317
     },
     {
       "page": "/case-highlights",
-      "views": 107
+      "views": 106
     },
     {
       "page": "/find-cases",
-      "views": 65
+      "views": 68
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 63
+      "views": 64
     },
     {
       "page": "/judgments/pcrlj-2026-548",
@@ -54,18 +54,18 @@
       "views": 20
     },
     {
-      "page": "/judgments/read-muslim-family-laws-ordinance-1961-for-understanding-family-laws",
-      "views": 19
+      "page": "/legal-texts",
+      "views": 20
     },
     {
-      "page": "/resources",
+      "page": "/judgments/read-muslim-family-laws-ordinance-1961-for-understanding-family-laws",
       "views": 19
     }
   ],
   "top_searches": [
     {
       "value": "(not set)",
-      "count": 522
+      "count": 432
     },
     {
       "value": "AKD",
@@ -81,6 +81,10 @@
     },
     {
       "value": "AK",
+      "count": 2
+    },
+    {
+      "value": "Contract",
       "count": 2
     },
     {
@@ -108,19 +112,15 @@
       "count": 1
     },
     {
-      "value": "Crime",
+      "value": "CTSP",
       "count": 1
     },
     {
-      "value": "Crime report",
+      "value": "Contract reg",
       "count": 1
     },
     {
-      "value": "Custody o",
-      "count": 1
-    },
-    {
-      "value": "Custody of minor if mother",
+      "value": "Contract regularization Balochistan",
       "count": 1
     }
   ],
@@ -130,8 +130,12 @@
       "count": 19
     },
     {
+      "value": "Civil Law",
+      "count": 3
+    },
+    {
       "value": "Criminal Law",
-      "count": 1
+      "count": 2
     },
     {
       "value": "Family Law",
