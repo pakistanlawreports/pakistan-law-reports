@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-09-08",
+  "generated_at": "2026-09-09",
   "top_pages": [
     {
       "page": "/",
-      "views": 317
+      "views": 321
     },
     {
       "page": "/case-highlights",
-      "views": 106
-    },
-    {
-      "page": "/find-cases",
-      "views": 68
+      "views": 108
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 64
+      "views": 68
+    },
+    {
+      "page": "/find-cases",
+      "views": 67
     },
     {
       "page": "/judgments/pcrlj-2026-548",
-      "views": 40
+      "views": 45
     },
     {
       "page": "/judgment-summarizer",
-      "views": 35
+      "views": 36
     },
     {
       "page": "/whats-new",
-      "views": 34
+      "views": 35
     },
     {
       "page": "/study-guides",
@@ -38,23 +38,23 @@
       "views": 28
     },
     {
-      "page": "/news-digest",
-      "views": 24
-    },
-    {
       "page": "/browse",
-      "views": 23
+      "views": 25
     },
     {
-      "page": "/judgments/pld-1965-lah-324-the-code-of-criminal-procedure-1898-pakistan",
-      "views": 20
-    },
-    {
-      "page": "/judgments/pld-1975-pesh-161-islamia-university-bahawalpur-through-its-vice-c-detailed-judg",
-      "views": 20
+      "page": "/news-digest",
+      "views": 25
     },
     {
       "page": "/legal-texts",
+      "views": 22
+    },
+    {
+      "page": "/judgments/pld-1965-lah-324-the-code-of-criminal-procedure-1898-pakistan",
+      "views": 21
+    },
+    {
+      "page": "/judgments/pld-1975-pesh-161-islamia-university-bahawalpur-through-its-vice-c-detailed-judg",
       "views": 20
     },
     {
@@ -68,12 +68,36 @@
       "count": 432
     },
     {
+      "value": "542",
+      "count": 5
+    },
+    {
       "value": "AKD",
       "count": 4
     },
     {
+      "value": "5",
+      "count": 3
+    },
+    {
+      "value": "542 supreme",
+      "count": 3
+    },
+    {
+      "value": "Contract",
+      "count": 3
+    },
+    {
       "value": "PC",
       "count": 3
+    },
+    {
+      "value": "SC 542",
+      "count": 3
+    },
+    {
+      "value": "54",
+      "count": 2
     },
     {
       "value": "A",
@@ -84,44 +108,20 @@
       "count": 2
     },
     {
-      "value": "Contract",
+      "value": "Khadem",
       "count": 2
     },
     {
-      "value": "Mother",
+      "value": "Khadem Hussain",
       "count": 2
     },
     {
-      "value": "Mother done second marriage",
+      "value": "Khadem Hussain Rajpar",
       "count": 2
     },
     {
-      "value": "PC Hotel",
+      "value": "Khadem Hussain Rajpar v",
       "count": 2
-    },
-    {
-      "value": "PLD_1949_26_PC",
-      "count": 2
-    },
-    {
-      "value": "453080119/1",
-      "count": 1
-    },
-    {
-      "value": "AKK",
-      "count": 1
-    },
-    {
-      "value": "CTSP",
-      "count": 1
-    },
-    {
-      "value": "Contract reg",
-      "count": 1
-    },
-    {
-      "value": "Contract regularization Balochistan",
-      "count": 1
     }
   ],
   "top_find_cases_topics": [
