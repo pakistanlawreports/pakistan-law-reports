@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-10",
+  "generated_at": "2026-09-11",
   "top_pages": [
     {
       "page": "/",
-      "views": 326
+      "views": 330
     },
     {
       "page": "/case-highlights",
-      "views": 110
+      "views": 99
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 70
+      "views": 73
     },
     {
       "page": "/find-cases",
-      "views": 68
+      "views": 72
     },
     {
       "page": "/judgments/pcrlj-2026-548",
@@ -26,16 +26,20 @@
       "views": 36
     },
     {
-      "page": "/whats-new",
-      "views": 35
+      "page": "/study-guides",
+      "views": 36
     },
     {
-      "page": "/study-guides",
-      "views": 34
+      "page": "/whats-new",
+      "views": 36
+    },
+    {
+      "page": "/legal-texts",
+      "views": 33
     },
     {
       "page": "/search-all",
-      "views": 32
+      "views": 33
     },
     {
       "page": "/news-digest",
@@ -43,11 +47,7 @@
     },
     {
       "page": "/browse",
-      "views": 27
-    },
-    {
-      "page": "/legal-texts",
-      "views": 27
+      "views": 28
     },
     {
       "page": "/judgments/pld-1965-lah-324-the-code-of-criminal-procedure-1898-pakistan",
@@ -65,7 +65,7 @@
   "top_searches": [
     {
       "value": "(not set)",
-      "count": 426
+      "count": 415
     },
     {
       "value": "542",
@@ -131,10 +131,14 @@
     },
     {
       "value": "Civil Law",
-      "count": 3
+      "count": 4
     },
     {
       "value": "Criminal Law",
+      "count": 2
+    },
+    {
+      "value": "Property & Rent",
       "count": 2
     },
     {
