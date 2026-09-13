@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12",
+  "generated_at": "2026-09-13",
   "top_pages": [
     {
       "page": "/",
@@ -7,43 +7,39 @@
     },
     {
       "page": "/case-highlights",
-      "views": 90
+      "views": 86
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 79
+      "views": 83
     },
     {
       "page": "/find-cases",
-      "views": 69
-    },
-    {
-      "page": "/judgments/pcrlj-2026-548",
-      "views": 38
-    },
-    {
-      "page": "/judgment-summarizer",
-      "views": 37
-    },
-    {
-      "page": "/study-guides",
-      "views": 36
+      "views": 70
     },
     {
       "page": "/whats-new",
-      "views": 36
+      "views": 37
     },
     {
-      "page": "/legal-texts",
-      "views": 33
+      "page": "/judgment-summarizer",
+      "views": 35
     },
     {
       "page": "/search-all",
-      "views": 33
+      "views": 34
+    },
+    {
+      "page": "/study-guides",
+      "views": 34
+    },
+    {
+      "page": "/legal-texts",
+      "views": 30
     },
     {
       "page": "/news-digest",
-      "views": 30
+      "views": 29
     },
     {
       "page": "/browse",
@@ -54,18 +50,22 @@
       "views": 22
     },
     {
-      "page": "/judgments/plj-2018-sc-391-plj-2018-sc-391",
+      "page": "/judgments/pcrlj-2026-548",
+      "views": 21
+    },
+    {
+      "page": "/judgments/pld-1965-lah-324-the-code-of-criminal-procedure-1898-pakistan",
       "views": 20
     },
     {
-      "page": "/resources",
+      "page": "/judgments/plj-2018-sc-391-plj-2018-sc-391",
       "views": 20
     }
   ],
   "top_searches": [
     {
       "value": "(not set)",
-      "count": 359
+      "count": 346
     },
     {
       "value": "542",
@@ -108,19 +108,19 @@
       "count": 2
     },
     {
+      "value": "Imran",
+      "count": 2
+    },
+    {
+      "value": "Imran ahmed",
+      "count": 2
+    },
+    {
+      "value": "Imran ahmed khan niazi vs",
+      "count": 2
+    },
+    {
       "value": "Khadem",
-      "count": 2
-    },
-    {
-      "value": "Khadem Hussain",
-      "count": 2
-    },
-    {
-      "value": "Khadem Hussain Rajpar",
-      "count": 2
-    },
-    {
-      "value": "Khadem Hussain Rajpar v",
       "count": 2
     }
   ],
