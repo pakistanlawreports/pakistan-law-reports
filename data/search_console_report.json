@@ -1,6 +1,13 @@
 {
-  "generated_at": "2026-09-12",
+  "generated_at": "2026-09-13",
   "top_queries": [
+    {
+      "query": "pakistan law reporter",
+      "clicks": 1,
+      "impressions": 14,
+      "ctr": 7.14,
+      "position": 4.1
+    },
     {
       "query": "\"2003 ylr 70\" dower",
       "clicks": 0,
@@ -35,13 +42,6 @@
       "impressions": 2,
       "ctr": 0,
       "position": 1.5
-    },
-    {
-      "query": "\"december 2013\" \"april 2015\" \"judicial magistrate\" pakistan",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 1
     },
     {
       "query": "\"deferred dower shall always be treated as prompt if no specified period\"",
@@ -88,16 +88,9 @@
     {
       "query": "\"malkani\" \"december 2011\" \"balochistan\"",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 6,
       "ctr": 0,
-      "position": 7
-    },
-    {
-      "query": "\"malkani\" \"december 2011\" balochistan",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 9
+      "position": 6.7
     },
     {
       "query": "\"national database and registration authority ordinance\" \"18(3)\" appeal",
@@ -105,22 +98,29 @@
       "impressions": 1,
       "ctr": 0,
       "position": 10
+    },
+    {
+      "query": "\"specific relief act, 1877\" \"55. mandatory injunctions\" pakistan",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
     }
   ],
   "top_pages_by_search": [
     {
       "page": "https://pakistanlawreports.com/judgments/pcrlj-2026-548",
-      "clicks": 27,
-      "impressions": 55,
-      "ctr": 49.09,
-      "position": 2.1
+      "clicks": 17,
+      "impressions": 33,
+      "ctr": 51.52,
+      "position": 2.3
     },
     {
       "page": "https://pakistanlawreports.com/",
-      "clicks": 5,
-      "impressions": 79,
-      "ctr": 6.33,
-      "position": 26.5
+      "clicks": 6,
+      "impressions": 78,
+      "ctr": 7.69,
+      "position": 29.6
     },
     {
       "page": "https://pakistanlawreports.com/judgments/923-2025-const-p-amna-jatoi-petitioner-v-s-jahanzaib-respondent",
@@ -132,9 +132,9 @@
     {
       "page": "https://pakistanlawreports.com/judgments/ylr-2025-1857",
       "clicks": 3,
-      "impressions": 7,
-      "ctr": 42.86,
-      "position": 2.3
+      "impressions": 8,
+      "ctr": 37.5,
+      "position": 2.2
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1019-2025-cr-bail-sher-khan-applicant-v-s-the-state-respondent",
@@ -179,13 +179,6 @@
       "position": 2
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/1244-2006-const-p-mustafa-f-ansari-petitioner-v-s-pakistan-and-others-respondent",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 2
-    },
-    {
       "page": "https://pakistanlawreports.com/judgments/1311-2004-suit-shaikh-abdul-jabbar-through-his-legal-heirs-plaintiff-v-s-irfan-jami-rafiqu",
       "clicks": 1,
       "impressions": 1,
@@ -202,9 +195,9 @@
     {
       "page": "https://pakistanlawreports.com/judgments/1464-2025-cr-bail-sumair-gagai-s-o-salim-gagai-applicant-v-s-the-state-respondent",
       "clicks": 1,
-      "impressions": 2,
-      "ctr": 50.0,
-      "position": 4
+      "impressions": 1,
+      "ctr": 100,
+      "position": 1
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1484-2025-const-p-fatima-petitioner-v-s-abdul-qadir-others-respondent",
@@ -212,6 +205,13 @@
       "impressions": 1,
       "ctr": 100,
       "position": 4
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/1494-2020-suit-pak-airlift-aviation-services-plaintiff-v-s-gulf-air-b-s-c-c-another-defend",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 3
     }
   ]
 }
