@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13",
+  "generated_at": "2026-09-14",
   "top_queries": [
     {
       "query": "pakistan law reporter",
@@ -110,17 +110,24 @@
   "top_pages_by_search": [
     {
       "page": "https://pakistanlawreports.com/judgments/pcrlj-2026-548",
-      "clicks": 17,
-      "impressions": 33,
-      "ctr": 51.52,
-      "position": 2.3
+      "clicks": 9,
+      "impressions": 14,
+      "ctr": 64.29,
+      "position": 2.7
     },
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 6,
-      "impressions": 78,
-      "ctr": 7.69,
-      "position": 29.6
+      "impressions": 71,
+      "ctr": 8.45,
+      "position": 29.2
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/ylr-2025-1857",
+      "clicks": 4,
+      "impressions": 10,
+      "ctr": 40.0,
+      "position": 2.2
     },
     {
       "page": "https://pakistanlawreports.com/judgments/923-2025-const-p-amna-jatoi-petitioner-v-s-jahanzaib-respondent",
@@ -128,13 +135,6 @@
       "impressions": 4,
       "ctr": 75.0,
       "position": 2.8
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/ylr-2025-1857",
-      "clicks": 3,
-      "impressions": 8,
-      "ctr": 37.5,
-      "position": 2.2
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1019-2025-cr-bail-sher-khan-applicant-v-s-the-state-respondent",
@@ -163,13 +163,6 @@
       "impressions": 1,
       "ctr": 100,
       "position": 1
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/1163-2024-const-p-sheikh-nazaz-ali-petitioner-v-s-muhammad-ali-respondent",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 4
     },
     {
       "page": "https://pakistanlawreports.com/judgments/122-2024-r-a-civil-revision-mukhtiar-ali-chandio-and-others-applicant-v-s-mst-abida-parvee",
@@ -212,6 +205,13 @@
       "impressions": 1,
       "ctr": 100,
       "position": 3
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/180-2022-const-p-the-boulevard-limited-petitioner-v-s-kashif-fatah-qureshi-others-responde",
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 50.0,
+      "position": 2
     }
   ]
 }
