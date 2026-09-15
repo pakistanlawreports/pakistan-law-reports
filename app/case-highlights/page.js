@@ -20,6 +20,22 @@ const TOPIC_ICONS = {
   'Civil Law': '🗂️',
 };
 
+// Detects whether an explainer genuinely discusses Islamic law principles,
+// based on terms that would only appear if the court itself relied on
+// them - not a separate commentary layer, just surfacing what's already
+// there.
+const ISLAMIC_LAW_MARKERS = [
+  'islamic law', 'shariah', "shari'ah", 'khula', 'iddat', 'haq mehr', 'haq meher',
+  'dower', 'nikah', 'talaq', 'hudood', 'qanun-e-shahadat', 'federal shariat court',
+  'quran', "qur'an", 'hadith', 'fiqh', 'muslim family law',
+];
+
+function discussesIslamicLaw(explainer) {
+  if (!explainer) return false;
+  const lowered = explainer.toLowerCase();
+  return ISLAMIC_LAW_MARKERS.some((m) => lowered.includes(m));
+}
+
 export default function CaseHighlightsPage() {
   const highlights = getCaseHighlights() || [];
 
@@ -97,42 +113,58 @@ export default function CaseHighlightsPage() {
       </div>
 
       <div className="content-page" style={{ maxWidth: 760 }}>
-        {highlights.map((h) => (
-          <div
-            key={h.slug}
-            id={h.slug}
-            style={{
-              marginTop: 28, padding: 20, background: 'var(--paper-raised)',
-              border: '1px solid var(--line)', borderRadius: 3,
-            }}
-          >
-            <h2 style={{ fontSize: '1.15rem', marginBottom: 4 }}>{h.title}</h2>
-            <p style={{ fontSize: '0.85rem', color: 'var(--ink-muted)', fontFamily: 'var(--font-mono)', marginBottom: 14 }}>
-              {h.citation} · {h.court}
-            </p>
-
-            <MarkdownLite text={h.explainer} />
-
-            {h.explainer_ur ? (
-              <div style={{ marginTop: 10, paddingTop: 14, borderTop: '1px dashed var(--line)' }}>
-                <div dir="rtl" lang="ur" style={{ fontFamily: 'var(--font-body), "Noto Nastaliq Urdu", sans-serif', fontSize: '1rem' }}>
-                  <MarkdownLite text={h.explainer_ur} />
-                </div>
+        {highlights.map((h) => {
+          const hasIslamicLaw = discussesIslamicLaw(h.explainer);
+          return (
+            <div
+              key={h.slug}
+              id={h.slug}
+              style={{
+                marginTop: 28, padding: 20, background: 'var(--paper-raised)',
+                border: '1px solid var(--line)', borderRadius: 3,
+              }}
+            >
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 10, flexWrap: 'wrap' }}>
+                <h2 style={{ fontSize: '1.15rem', marginBottom: 4 }}>{h.title}</h2>
+                {hasIslamicLaw && (
+                  <span
+                    style={{
+                      fontSize: '0.7rem', fontWeight: 600, padding: '3px 10px', borderRadius: 10,
+                      background: '#f0f7f2', border: '1px solid #cde3d3', color: '#1a5c38',
+                      whiteSpace: 'nowrap',
+                    }}
+                  >
+                    ☪️ Islamic Law Principles Discussed
+                  </span>
+                )}
               </div>
-            ) : (
-              <p style={{ fontSize: '0.78rem', color: 'var(--ink-muted)', fontStyle: 'italic', marginTop: 8 }}>
-                Urdu translation not yet generated for this case.
+              <p style={{ fontSize: '0.85rem', color: 'var(--ink-muted)', fontFamily: 'var(--font-mono)', marginBottom: 14 }}>
+                {h.citation} · {h.court}
               </p>
-            )}
 
-            <a href={`/judgments/${h.slug}`} style={{ fontSize: '0.9rem' }}>Read the full judgment →</a>
-            <CaseHighlightActions
-              title={h.title}
-              citation={h.citation}
-              url={`https://pakistanlawreports.com/case-highlights#${h.slug}`}
-            />
-          </div>
-        ))}
+              <MarkdownLite text={h.explainer} />
+
+              {h.explainer_ur ? (
+                <div style={{ marginTop: 10, paddingTop: 14, borderTop: '1px dashed var(--line)' }}>
+                  <div dir="rtl" lang="ur" style={{ fontFamily: 'var(--font-body), "Noto Nastaliq Urdu", sans-serif', fontSize: '1rem' }}>
+                    <MarkdownLite text={h.explainer_ur} />
+                  </div>
+                </div>
+              ) : (
+                <p style={{ fontSize: '0.78rem', color: 'var(--ink-muted)', fontStyle: 'italic', marginTop: 8 }}>
+                  Urdu translation not yet generated for this case.
+                </p>
+              )}
+
+              <a href={`/judgments/${h.slug}`} style={{ fontSize: '0.9rem' }}>Read the full judgment →</a>
+              <CaseHighlightActions
+                title={h.title}
+                citation={h.citation}
+                url={`https://pakistanlawreports.com/case-highlights#${h.slug}`}
+              />
+            </div>
+          );
+        })}
 
         {highlights.length === 0 && (
           <p style={{ color: 'var(--ink-muted)', textAlign: 'center', marginTop: 32 }}>
