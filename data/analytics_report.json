@@ -1,49 +1,45 @@
 {
-  "generated_at": "2026-09-14",
+  "generated_at": "2026-09-15",
   "top_pages": [
     {
       "page": "/",
-      "views": 311
-    },
-    {
-      "page": "/case-highlights",
-      "views": 85
+      "views": 301
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
       "views": 85
     },
     {
+      "page": "/case-highlights",
+      "views": 82
+    },
+    {
       "page": "/find-cases",
-      "views": 70
+      "views": 66
     },
     {
       "page": "/judgment-summarizer",
-      "views": 35
+      "views": 34
     },
     {
       "page": "/legal-texts",
-      "views": 31
-    },
-    {
-      "page": "/search-all",
-      "views": 30
-    },
-    {
-      "page": "/study-guides",
       "views": 29
     },
     {
-      "page": "/news-digest",
+      "page": "/study-guides",
+      "views": 28
+    },
+    {
+      "page": "/search-all",
       "views": 27
     },
     {
-      "page": "/whats-new",
+      "page": "/news-digest",
       "views": 26
     },
     {
       "page": "/browse",
-      "views": 25
+      "views": 22
     },
     {
       "page": "/judgments/pld-1975-pesh-161-islamia-university-bahawalpur-through-its-vice-c-detailed-judg",
@@ -54,18 +50,22 @@
       "views": 21
     },
     {
-      "page": "/judgments/pld-1965-lah-324-the-code-of-criminal-procedure-1898-pakistan",
-      "views": 20
+      "page": "/trending",
+      "views": 21
     },
     {
-      "page": "/judgments/plj-2018-sc-391-plj-2018-sc-391",
+      "page": "/whats-new",
+      "views": 21
+    },
+    {
+      "page": "/judgments/pcrlj-2026-548",
       "views": 20
     }
   ],
   "top_searches": [
     {
       "value": "(not set)",
-      "count": 335
+      "count": 307
     },
     {
       "value": "542",
@@ -127,7 +127,7 @@
   "top_find_cases_topics": [
     {
       "value": "(not set)",
-      "count": 18
+      "count": 16
     },
     {
       "value": "Civil Law",
