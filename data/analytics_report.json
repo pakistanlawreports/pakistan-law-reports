@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-15",
+  "generated_at": "2026-09-16",
   "top_pages": [
     {
       "page": "/",
-      "views": 301
+      "views": 310
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 85
+      "views": 88
     },
     {
       "page": "/case-highlights",
@@ -19,27 +19,31 @@
     },
     {
       "page": "/judgment-summarizer",
-      "views": 34
+      "views": 35
     },
     {
       "page": "/legal-texts",
-      "views": 29
+      "views": 30
     },
     {
       "page": "/study-guides",
       "views": 28
     },
     {
+      "page": "/news-digest",
+      "views": 27
+    },
+    {
       "page": "/search-all",
       "views": 27
     },
     {
-      "page": "/news-digest",
-      "views": 26
+      "page": "/browse",
+      "views": 23
     },
     {
-      "page": "/browse",
-      "views": 22
+      "page": "/trending",
+      "views": 23
     },
     {
       "page": "/judgments/pld-1975-pesh-161-islamia-university-bahawalpur-through-its-vice-c-detailed-judg",
@@ -47,10 +51,6 @@
     },
     {
       "page": "/judgments/the-guardian-and-wards-act-1890",
-      "views": 21
-    },
-    {
-      "page": "/trending",
       "views": 21
     },
     {
@@ -65,7 +65,7 @@
   "top_searches": [
     {
       "value": "(not set)",
-      "count": 307
+      "count": 299
     },
     {
       "value": "542",
