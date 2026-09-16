@@ -1,10 +1,13 @@
 """
-Study Guides Generator (v2 - fixed response parsing)
+Study Guides Generator (v3 - filters out non-judgments)
 --------------------------------------
 For each legal topic, gathers several real full-text judgments already in
-our database and asks Claude to synthesize a genuine study-guide overview
-of that area of law - grounded strictly in what these real cases actually
-establish, citing them by their real citation.
+our database and asks Claude to synthesize a genuine study-guide overview.
+
+Now correctly skips entries already identified by classify_doctype.py as
+statutes, ordinances, or other non-judgment content - these were
+previously slipping into "cases referenced" lists even though they aren't
+actually court cases.
 
 REQUIRES: ANTHROPIC_API_KEY environment variable.
 """
@@ -35,8 +38,6 @@ client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
 
 def extract_text(response):
-    """Safely pull the text out of an API response, regardless of what
-    other block types (like thinking blocks) might appear first."""
     for block in response.content:
         if block.type == "text":
             return block.text.strip()
@@ -56,13 +57,23 @@ def save_json(path, data):
 
 
 def get_full_text_cases_for_topic(topic, index, limit=MAX_CASES_PER_TOPIC):
-    candidates = [e for e in index if e.get("topic") == topic and e.get("has_full_text") is not False]
+    non_judgment_slugs = {
+        e["slug"] for e in index
+        if e.get("content_type") and e["content_type"] != "JUDGMENT"
+    }
+
+    candidates = [
+        e for e in index
+        if e.get("topic") == topic
+        and e.get("has_full_text") is not False
+        and e["slug"] not in non_judgment_slugs
+    ]
     if not candidates:
         return []
 
     cases = []
     shard_cache = {}
-    for entry in candidates[:limit * 3]:
+    for entry in candidates[:limit * 4]:
         if len(cases) >= limit:
             break
         slug = entry["slug"]
@@ -89,11 +100,10 @@ def generate_study_guide(topic, cases):
 
     prompt = f"""Below are {len(cases)} real Pakistani court judgments, all classified under
 "{topic}". Write a study-guide overview (400-600 words) of this area of law, based STRICTLY
-on what these specific cases actually establish - do not add general legal knowledge beyond
-what's in this text. Reference the specific cases by citation where relevant. Organize it with
-a brief intro, then key principles as bullet points or short sections, each tied to a specific
-case. This is for law students - clear and educational, not exhaustive. Do not use markdown
-formatting (no asterisks, no headers) - plain prose and simple "- " bullets only.
+on what these specific cases actually establish. Reference the specific cases by citation
+where relevant. Organize it with a brief intro, then key principles as bullet points or short
+sections, each tied to a specific case. Do not use markdown formatting (no asterisks, no
+headers) - plain prose and simple "- " bullets only.
 
 If these cases don't provide enough substantive legal principles to write a genuine, grounded
 guide, respond with exactly: INSUFFICIENT_CONTENT
@@ -126,7 +136,7 @@ def main():
     for topic in topics_to_process:
         print(f"\n=== {topic} ===")
         cases = get_full_text_cases_for_topic(topic, index)
-        print(f"  Found {len(cases)} real full-text cases in this topic")
+        print(f"  Found {len(cases)} real full-text cases (excluding non-judgments) in this topic")
 
         if len(cases) < MIN_CASES_PER_TOPIC:
             print(f"  [skip] fewer than {MIN_CASES_PER_TOPIC} full-text cases available yet")
