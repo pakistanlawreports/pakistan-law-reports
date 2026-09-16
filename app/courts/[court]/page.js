@@ -1,19 +1,7 @@
-import fs from 'fs';
-import path from 'path';
 import { getAllCourts, courtToSlug, getCourtBySlug, getJudgmentsByCourt } from '../../../lib/data';
+import { getHighlightsForCourtCached } from '../../../lib/highlightsCache';
 
 const PAGE_SIZE = 100;
-
-function getHighlightsForCourt(court) {
-  try {
-    const filePath = path.join(process.cwd(), 'data', 'case_highlights.json');
-    if (!fs.existsSync(filePath)) return [];
-    const highlights = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-    return highlights.filter((h) => h.court === court).slice(0, 3);
-  } catch {
-    return [];
-  }
-}
 
 export async function generateStaticParams() {
   return getAllCourts().map((c) => ({ court: courtToSlug(c) }));
@@ -43,16 +31,13 @@ export default function CourtPage({ params, searchParams }) {
     );
   }
 
-  // Full-text judgments first, since they represent genuine, complete
-  // opinions rather than bare summaries - surfacing the more substantial
-  // content ahead of the thinner entries.
   const allJudgments = [...getJudgmentsByCourt(court)].sort((a, b) => {
     const aFull = a.has_full_text !== false ? 0 : 1;
     const bFull = b.has_full_text !== false ? 0 : 1;
     return aFull - bFull;
   });
 
-  const highlights = getHighlightsForCourt(court);
+  const highlights = getHighlightsForCourtCached(court);
 
   const totalPages = Math.max(1, Math.ceil(allJudgments.length / PAGE_SIZE));
   const currentPage = Math.min(
@@ -103,15 +88,7 @@ export default function CourtPage({ params, searchParams }) {
       ))}
 
       {totalPages > 1 && (
-        <nav
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            gap: 12,
-            marginTop: 32,
-            flexWrap: 'wrap',
-          }}
-        >
+        <nav style={{ display: 'flex', justifyContent: 'center', gap: 12, marginTop: 32, flexWrap: 'wrap' }}>
           {currentPage > 1 && (
             <a href={`/courts/${courtSlug}?page=${currentPage - 1}`} style={{ padding: '8px 16px', border: '1px solid var(--line)', borderRadius: 3 }}>
               ← Previous

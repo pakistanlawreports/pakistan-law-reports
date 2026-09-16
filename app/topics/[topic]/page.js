@@ -1,21 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 import { getAllTopics, topicToSlug, getTopicBySlug, getJudgmentsByTopic } from '../../../lib/data';
+import { getHighlightsForTopicCached } from '../../../lib/highlightsCache';
 
 const PAGE_SIZE = 100;
-
-function getHighlightsForTopic(topic, index) {
-  try {
-    const filePath = path.join(process.cwd(), 'data', 'case_highlights.json');
-    if (!fs.existsSync(filePath)) return [];
-    const highlights = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-    const slugToTopic = {};
-    index.forEach((j) => { slugToTopic[j.slug] = j.topic; });
-    return highlights.filter((h) => slugToTopic[h.slug] === topic).slice(0, 3);
-  } catch {
-    return [];
-  }
-}
 
 function hasStudyGuide(topic) {
   try {
@@ -58,15 +46,13 @@ export default function TopicPage({ params, searchParams }) {
 
   const rawJudgments = getJudgmentsByTopic(topic);
 
-  // Full-text judgments first - genuine complete opinions ahead of bare
-  // summaries.
   const allJudgments = [...rawJudgments].sort((a, b) => {
     const aFull = a.has_full_text !== false ? 0 : 1;
     const bFull = b.has_full_text !== false ? 0 : 1;
     return aFull - bFull;
   });
 
-  const highlights = getHighlightsForTopic(topic, rawJudgments);
+  const highlights = getHighlightsForTopicCached(topic, rawJudgments);
   const guideExists = hasStudyGuide(topic);
 
   const totalPages = Math.max(1, Math.ceil(allJudgments.length / PAGE_SIZE));
@@ -128,15 +114,7 @@ export default function TopicPage({ params, searchParams }) {
       ))}
 
       {totalPages > 1 && (
-        <nav
-          style={{
-            display: 'flex',
-            justifyContent: 'center',
-            gap: 12,
-            marginTop: 32,
-            flexWrap: 'wrap',
-          }}
-        >
+        <nav style={{ display: 'flex', justifyContent: 'center', gap: 12, marginTop: 32, flexWrap: 'wrap' }}>
           {currentPage > 1 && (
             <a href={`/topics/${slug}?page=${currentPage - 1}`} style={{ padding: '8px 16px', border: '1px solid var(--line)', borderRadius: 3 }}>
               ← Previous

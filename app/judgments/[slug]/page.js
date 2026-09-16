@@ -1,10 +1,9 @@
 import { notFound } from 'next/navigation';
 import { getAllSlugs, getJudgmentBySlug, getRelatedJudgments } from '../../../lib/data';
+import { getHighlightBySlugCached } from '../../../lib/highlightsCache';
 import JudgmentActions from '../../../components/JudgmentActions';
 import FormattedText from '../../../components/FormattedText';
 import MarkdownLite from '../../../components/MarkdownLite';
-import fs from 'fs';
-import path from 'path';
 
 const TOPIC_CLASS = {
   'Criminal Law': 'topic-criminal',
@@ -18,17 +17,6 @@ const TOPIC_CLASS = {
   'Succession & Inheritance': 'topic-succession',
   'Civil Law': 'topic-civil',
 };
-
-function getHighlightForSlug(slug) {
-  try {
-    const filePath = path.join(process.cwd(), 'data', 'case_highlights.json');
-    if (!fs.existsSync(filePath)) return null;
-    const highlights = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-    return highlights.find((h) => h.slug === slug) || null;
-  } catch {
-    return null;
-  }
-}
 
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -58,15 +46,12 @@ export default function JudgmentPage({ params }) {
   const j = getJudgmentBySlug(params.slug);
 
   if (!j) {
-    // Return a genuine 404 status, not a page that just looks like one -
-    // this was previously returning 200 OK with "not found" text, which
-    // Google flags as a "soft 404".
     notFound();
   }
 
   const related = getRelatedJudgments(j, 5);
   const pageUrl = `https://pakistanlawreports.com/judgments/${j.slug}`;
-  const highlight = getHighlightForSlug(j.slug);
+  const highlight = getHighlightBySlugCached(j.slug);
 
   const jsonLd = {
     '@context': 'https://schema.org',
