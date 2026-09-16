@@ -121,7 +121,11 @@ export default function CaseHighlightsPage() {
               }}
             >
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 10, flexWrap: 'wrap' }}>
-                <h2 style={{ fontSize: '1.15rem', marginBottom: 4 }}>{h.title}</h2>
+                <h2 style={{ fontSize: '1.15rem', marginBottom: 4 }}>
+                  <a href={`/case-highlights/${h.slug}`} style={{ color: 'inherit', textDecoration: 'none' }}>
+                    {h.title}
+                  </a>
+                </h2>
                 {hasIslamicLaw && (
                   <span
                     style={{
@@ -152,11 +156,11 @@ export default function CaseHighlightsPage() {
                 </p>
               )}
 
-              <a href={`/judgments/${h.slug}`} style={{ fontSize: '0.9rem' }}>Read the full judgment →</a>
+              <a href={`/case-highlights/${h.slug}`} style={{ fontSize: '0.9rem' }}>View this case highlight →</a>
               <CaseHighlightActions
                 title={h.title}
                 citation={h.citation}
-                url={`https://pakistanlawreports.com/case-highlights#${h.slug}`}
+                url={`https://pakistanlawreports.com/case-highlights/${h.slug}`}
               />
               <div style={{ marginTop: 10 }}>
                 <a
