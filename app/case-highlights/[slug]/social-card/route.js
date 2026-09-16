@@ -2,10 +2,6 @@ import { ImageResponse } from 'next/og';
 import fs from 'fs';
 import path from 'path';
 
-export const alt = 'Pakistan Law Reports - Case Highlight';
-export const size = { width: 1080, height: 1080 }; // square, Instagram/Facebook-ready
-export const contentType = 'image/png';
-
 function getHighlight(slug) {
   try {
     const filePath = path.join(process.cwd(), 'data', 'case_highlights.json');
@@ -22,7 +18,7 @@ function truncate(text, max) {
   return text.length > max ? text.slice(0, max).trim() + '…' : text;
 }
 
-export default async function Image({ params }) {
+export async function GET(request, { params }) {
   const highlight = getHighlight(params.slug);
 
   const title = highlight?.title || 'Pakistan Law Reports';
@@ -106,6 +102,6 @@ export default async function Image({ params }) {
         </div>
       </div>
     ),
-    { ...size }
+    { width: 1080, height: 1080 }
   );
 }
