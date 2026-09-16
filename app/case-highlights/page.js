@@ -20,10 +20,6 @@ const TOPIC_ICONS = {
   'Civil Law': '🗂️',
 };
 
-// Detects whether an explainer genuinely discusses Islamic law principles,
-// based on terms that would only appear if the court itself relied on
-// them - not a separate commentary layer, just surfacing what's already
-// there.
 const ISLAMIC_LAW_MARKERS = [
   'islamic law', 'shariah', "shari'ah", 'khula', 'iddat', 'haq mehr', 'haq meher',
   'dower', 'nikah', 'talaq', 'hudood', 'qanun-e-shahadat', 'federal shariat court',
@@ -162,6 +158,19 @@ export default function CaseHighlightsPage() {
                 citation={h.citation}
                 url={`https://pakistanlawreports.com/case-highlights#${h.slug}`}
               />
+              <div style={{ marginTop: 10 }}>
+                <a
+                  href={`/case-highlights/${h.slug}/social-card`}
+                  download
+                  style={{
+                    display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: '0.8rem',
+                    padding: '6px 12px', border: '1px solid var(--line)', borderRadius: 3,
+                    textDecoration: 'none', color: 'var(--ink)',
+                  }}
+                >
+                  🖼️ Download social media graphic
+                </a>
+              </div>
             </div>
           );
         })}
