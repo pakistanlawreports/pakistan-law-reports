@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-09-15",
+  "generated_at": "2026-09-16",
   "top_queries": [
     {
       "query": "pakistan law reporter",
       "clicks": 1,
-      "impressions": 14,
-      "ctr": 7.14,
-      "position": 4.1
+      "impressions": 11,
+      "ctr": 9.09,
+      "position": 3.3
     },
     {
       "query": "\"2003 ylr 70\" dower",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
       "position": 5
     },
     {
       "query": "\"2003 ylr 70\" dower or mahr",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 4
+      "position": 5
     },
     {
       "query": "\"2003 ylr 70\" dower or mehr",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
       "position": 6
     },
@@ -37,20 +37,6 @@
       "position": 10
     },
     {
-      "query": "\"classification of dower as prompt and deferred has no legal sanction\"",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 2
-    },
-    {
-      "query": "\"entire amount of the dower shall be presumed to be payable on demand\"",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 9
-    },
-    {
       "query": "\"haji abdul karim\" \"pld 2012 sc 247\"",
       "clicks": 0,
       "impressions": 1,
@@ -58,32 +44,11 @@
       "position": 10
     },
     {
-      "query": "\"judicial magistrate\" \"april 2012\" \"may 2012\" pakistan",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 2
-    },
-    {
-      "query": "\"mahr or dower is a sum of money or other property which the wife is entitled to receive from the husband in consideration of the marriage\"",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 7
-    },
-    {
       "query": "\"mahr or dower is a sum of money or other property which the wife is entitled to receive from the husband in consideration of the marriage\" mulla",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
       "position": 11
-    },
-    {
-      "query": "\"malkani\" \"december 2011\" \"balochistan\"",
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0,
-      "position": 6.7
     },
     {
       "query": "\"national database and registration authority ordinance\" \"18(3)\" appeal",
@@ -105,22 +70,57 @@
       "impressions": 1,
       "ctr": 0,
       "position": 11
+    },
+    {
+      "query": "\"wo2007117667\" \"written opinion\"",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "query": "+\"wo2007117667\" \"written opinion\"",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "query": "2025 clc 1800",
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": 0,
+      "position": 2.6
+    },
+    {
+      "query": "case law pakistan",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 72
+    },
+    {
+      "query": "case law search pakistan",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 81
     }
   ],
   "top_pages_by_search": [
     {
       "page": "https://pakistanlawreports.com/judgments/pcrlj-2026-548",
       "clicks": 8,
-      "impressions": 12,
-      "ctr": 66.67,
-      "position": 2.6
+      "impressions": 11,
+      "ctr": 72.73,
+      "position": 2.4
     },
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 6,
-      "impressions": 64,
-      "ctr": 9.38,
-      "position": 32.2
+      "impressions": 60,
+      "ctr": 10.0,
+      "position": 31.4
     },
     {
       "page": "https://pakistanlawreports.com/judgments/ylr-2025-1857",
@@ -149,13 +149,6 @@
       "impressions": 1,
       "ctr": 100,
       "position": 6
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/1051-2023-const-p-mst-nayab-d-o-shoukat-ali-petitioner-v-s-nawaz-ali-and-another-responden",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 1
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1311-2004-suit-shaikh-abdul-jabbar-through-his-legal-heirs-plaintiff-v-s-irfan-jami-rafiqu",
@@ -212,6 +205,13 @@
       "impressions": 3,
       "ctr": 33.33,
       "position": 6
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/3737-2019-const-p-tariq-muhammad-amin-petitioner-v-s-fed-of-pakistan-and-others-respondent",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 17
     }
   ]
 }
