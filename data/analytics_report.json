@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-17",
+  "generated_at": "2026-09-18",
   "top_pages": [
     {
       "page": "/",
-      "views": 299
+      "views": 318
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 94
+      "views": 98
     },
     {
       "page": "/case-highlights",
-      "views": 86
+      "views": 89
     },
     {
       "page": "/find-cases",
-      "views": 67
+      "views": 71
     },
     {
       "page": "/legal-texts",
@@ -26,12 +26,16 @@
       "views": 30
     },
     {
+      "page": "/news-digest",
+      "views": 29
+    },
+    {
       "page": "/study-guides",
       "views": 29
     },
     {
-      "page": "/news-digest",
-      "views": 28
+      "page": "/judgments/pld-1975-pesh-161-islamia-university-bahawalpur-through-its-vice-c-detailed-judg",
+      "views": 24
     },
     {
       "page": "/judgments/the-guardian-and-wards-act-1890",
@@ -42,30 +46,26 @@
       "views": 24
     },
     {
-      "page": "/browse",
-      "views": 23
-    },
-    {
-      "page": "/judgments/pld-1975-pesh-161-islamia-university-bahawalpur-through-its-vice-c-detailed-judg",
-      "views": 23
-    },
-    {
-      "page": "/judgment-summarizer",
-      "views": 21
-    },
-    {
       "page": "/whats-new",
-      "views": 21
+      "views": 23
+    },
+    {
+      "page": "/judgments/mld-2025-533",
+      "views": 22
     },
     {
       "page": "/judgments/pcrlj-2026-548",
-      "views": 20
+      "views": 22
+    },
+    {
+      "page": "/lawyers",
+      "views": 22
     }
   ],
   "top_searches": [
     {
       "value": "(not set)",
-      "count": 290
+      "count": 236
     },
     {
       "value": "542",
@@ -96,6 +96,14 @@
       "count": 3
     },
     {
+      "value": "School",
+      "count": 3
+    },
+    {
+      "value": "Section 324/",
+      "count": 3
+    },
+    {
       "value": "54",
       "count": 2
     },
@@ -113,14 +121,6 @@
     },
     {
       "value": "Imran ahmed",
-      "count": 2
-    },
-    {
-      "value": "Imran ahmed khan niazi vs",
-      "count": 2
-    },
-    {
-      "value": "Khadem",
       "count": 2
     }
   ],
