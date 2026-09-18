@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Shakeel Ahmed G. Ansari",
+    "city": "Shikarpur, Sindh",
+    "practice_area": "General Practice",
+    "license_number": "325 H.C. Shikarpur",
+    "contact": "shahnawazsoomro339@gmail.com · 0333 7272072",
+    "verified": true
+  },
+  {
+    "name": "Hassan Muhammad Shinwari",
+    "city": "Peshawar",
+    "practice_area": "Constitutional, Criminal, Civil, FBR, Rent, Family",
+    "license_number": "10-3395",
+    "contact": "hassanshinwari767@gmail.com · +92 333 9623694",
+    "verified": false
+  },
+  {
+    "name": "M. Tajammul Gul Farooqi",
+    "city": "Lahore",
+    "practice_area": "Family, Criminal, Civil, Service, Labour, Banking",
+    "license_number": "57254 Punjab Bar Council",
+    "contact": "tajammulgul@gmail.com · 0333 4711311, 0324 5500815",
+    "verified": false
+  }
+]
