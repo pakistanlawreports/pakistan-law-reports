@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-18",
+  "generated_at": "2026-09-19",
   "top_pages": [
     {
       "page": "/",
-      "views": 318
+      "views": 321
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 98
+      "views": 105
     },
     {
       "page": "/case-highlights",
-      "views": 89
+      "views": 82
     },
     {
       "page": "/find-cases",
-      "views": 71
-    },
-    {
-      "page": "/legal-texts",
-      "views": 31
+      "views": 79
     },
     {
       "page": "/search-all",
-      "views": 30
+      "views": 33
+    },
+    {
+      "page": "/legal-texts",
+      "views": 28
     },
     {
       "page": "/news-digest",
-      "views": 29
+      "views": 28
     },
     {
       "page": "/study-guides",
-      "views": 29
+      "views": 28
     },
     {
       "page": "/judgments/pld-1975-pesh-161-islamia-university-bahawalpur-through-its-vice-c-detailed-judg",
@@ -42,37 +42,53 @@
       "views": 24
     },
     {
-      "page": "/trending",
+      "page": "/lawyers",
       "views": 24
     },
     {
-      "page": "/whats-new",
-      "views": 23
+      "page": "/trending",
+      "views": 24
     },
     {
       "page": "/judgments/mld-2025-533",
       "views": 22
     },
     {
-      "page": "/judgments/pcrlj-2026-548",
+      "page": "/whats-new",
       "views": 22
     },
     {
-      "page": "/lawyers",
-      "views": 22
+      "page": "/browse",
+      "views": 21
     }
   ],
   "top_searches": [
     {
       "value": "(not set)",
-      "count": 236
+      "count": 189
+    },
+    {
+      "value": "استقرار حق جس میں مدعا علیہ نے ہماری زمین جو کہ ہماری والد کی ہمیں وراثت ملی تھی ہمارے والد کے مرنے ",
+      "count": 29
     },
     {
       "value": "542",
       "count": 5
     },
     {
+      "value": "2020 SCMR",
+      "count": 4
+    },
+    {
+      "value": "2026 SCMR 966  [Supreme Court of Pakistan)  Present: Shahid Bilal Hassan and Shakeel Ahmad 1.1  GHUL",
+      "count": 4
+    },
+    {
       "value": "AKD",
+      "count": 4
+    },
+    {
+      "value": "انگلش دعوی با مراد صدور ڈگری اس تکرار حق کے مدائیان جدا مداویہ عرضی دعوے کے بطور بارسان ہیں جس متعلق",
       "count": 4
     },
     {
@@ -92,6 +108,10 @@
       "count": 3
     },
     {
+      "value": "PLD",
+      "count": 3
+    },
+    {
       "value": "SC 542",
       "count": 3
     },
@@ -102,26 +122,6 @@
     {
       "value": "Section 324/",
       "count": 3
-    },
-    {
-      "value": "54",
-      "count": 2
-    },
-    {
-      "value": "A",
-      "count": 2
-    },
-    {
-      "value": "AK",
-      "count": 2
-    },
-    {
-      "value": "Imran",
-      "count": 2
-    },
-    {
-      "value": "Imran ahmed",
-      "count": 2
     }
   ],
   "top_find_cases_topics": [
