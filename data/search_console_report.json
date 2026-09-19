@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-18",
+  "generated_at": "2026-09-19",
   "top_queries": [
     {
       "query": "pakistan law reporter",
       "clicks": 1,
-      "impressions": 14,
-      "ctr": 7.14,
+      "impressions": 16,
+      "ctr": 6.25,
       "position": 3.3
     },
     {
@@ -32,7 +32,7 @@
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 18,
+      "impressions": 19,
       "ctr": 0,
       "position": 2.6
     },
@@ -102,31 +102,31 @@
     {
       "query": "lawsite pakistan",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 68.7
+      "position": 65.5
     }
   ],
   "top_pages_by_search": [
     {
-      "page": "https://pakistanlawreports.com/judgments/pcrlj-2026-548",
-      "clicks": 7,
-      "impressions": 13,
-      "ctr": 53.85,
-      "position": 2.5
+      "page": "https://pakistanlawreports.com/",
+      "clicks": 5,
+      "impressions": 59,
+      "ctr": 8.47,
+      "position": 30.2
     },
     {
-      "page": "https://pakistanlawreports.com/",
-      "clicks": 6,
-      "impressions": 56,
-      "ctr": 10.71,
-      "position": 31.6
+      "page": "https://pakistanlawreports.com/judgments/pcrlj-2026-548",
+      "clicks": 5,
+      "impressions": 11,
+      "ctr": 45.45,
+      "position": 2.4
     },
     {
       "page": "https://pakistanlawreports.com/judgments/ylr-2025-1857",
       "clicks": 4,
-      "impressions": 10,
-      "ctr": 40.0,
+      "impressions": 11,
+      "ctr": 36.36,
       "position": 2.3
     },
     {
@@ -202,9 +202,9 @@
     {
       "page": "https://pakistanlawreports.com/judgments/3253-2026-const-p-m-s-al-rahim-trading-co-pvt-ltd-petitioner-v-s-fed-of-pakistan-ors-respo",
       "clicks": 1,
-      "impressions": 2,
-      "ctr": 50.0,
-      "position": 7
+      "impressions": 1,
+      "ctr": 100,
+      "position": 6
     },
     {
       "page": "https://pakistanlawreports.com/judgments/3737-2019-const-p-tariq-muhammad-amin-petitioner-v-s-fed-of-pakistan-and-others-respondent",
