@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-19",
+  "generated_at": "2026-09-20",
   "top_pages": [
     {
       "page": "/",
-      "views": 321
+      "views": 316
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
@@ -11,27 +11,31 @@
     },
     {
       "page": "/case-highlights",
-      "views": 82
+      "views": 77
     },
     {
       "page": "/find-cases",
-      "views": 79
-    },
-    {
-      "page": "/search-all",
-      "views": 33
+      "views": 77
     },
     {
       "page": "/legal-texts",
-      "views": 28
+      "views": 36
+    },
+    {
+      "page": "/search-all",
+      "views": 34
+    },
+    {
+      "page": "/lawyers",
+      "views": 29
     },
     {
       "page": "/news-digest",
-      "views": 28
+      "views": 26
     },
     {
       "page": "/study-guides",
-      "views": 28
+      "views": 26
     },
     {
       "page": "/judgments/pld-1975-pesh-161-islamia-university-bahawalpur-through-its-vice-c-detailed-judg",
@@ -39,10 +43,6 @@
     },
     {
       "page": "/judgments/the-guardian-and-wards-act-1890",
-      "views": 24
-    },
-    {
-      "page": "/lawyers",
       "views": 24
     },
     {
@@ -54,12 +54,12 @@
       "views": 22
     },
     {
-      "page": "/whats-new",
-      "views": 22
+      "page": "/browse",
+      "views": 20
     },
     {
-      "page": "/browse",
-      "views": 21
+      "page": "/whats-new",
+      "views": 20
     }
   ],
   "top_searches": [
@@ -69,7 +69,7 @@
     },
     {
       "value": "استقرار حق جس میں مدعا علیہ نے ہماری زمین جو کہ ہماری والد کی ہمیں وراثت ملی تھی ہمارے والد کے مرنے ",
-      "count": 29
+      "count": 34
     },
     {
       "value": "542",
