@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19",
+  "generated_at": "2026-09-20",
   "top_queries": [
     {
       "query": "pakistan law reporter",
@@ -110,16 +110,16 @@
   "top_pages_by_search": [
     {
       "page": "https://pakistanlawreports.com/",
-      "clicks": 5,
-      "impressions": 59,
-      "ctr": 8.47,
-      "position": 30.2
+      "clicks": 6,
+      "impressions": 61,
+      "ctr": 9.84,
+      "position": 29.6
     },
     {
       "page": "https://pakistanlawreports.com/judgments/pcrlj-2026-548",
       "clicks": 5,
-      "impressions": 11,
-      "ctr": 45.45,
+      "impressions": 12,
+      "ctr": 41.67,
       "position": 2.4
     },
     {
@@ -135,13 +135,6 @@
       "impressions": 4,
       "ctr": 75.0,
       "position": 2.8
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/1019-2025-cr-bail-sher-khan-applicant-v-s-the-state-respondent",
-      "clicks": 2,
-      "impressions": 4,
-      "ctr": 50.0,
-      "position": 2
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1028-2011-cr-bail-muhammad-haseeb-khan-applicant-v-s-the-state-respondent",
@@ -212,6 +205,13 @@
       "impressions": 1,
       "ctr": 100,
       "position": 17
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/4105-2024-const-p-tariq-ali-petitioner-v-s-fed-of-pakistan-and-others-respondent",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 6
     }
   ]
 }
