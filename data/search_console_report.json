@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20",
+  "generated_at": "2026-09-21",
   "top_queries": [
     {
       "query": "pakistan law reporter",
@@ -23,16 +23,23 @@
       "position": 8
     },
     {
+      "query": "%\"wo2007016070\" \"written opinion\"",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
       "query": "+\"wo2007117667\" \"written opinion\"",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
       "position": 10
     },
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 20,
       "ctr": 0,
       "position": 2.6
     },
@@ -98,22 +105,15 @@
       "impressions": 2,
       "ctr": 0,
       "position": 75.5
-    },
-    {
-      "query": "lawsite pakistan",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 65.5
     }
   ],
   "top_pages_by_search": [
     {
       "page": "https://pakistanlawreports.com/",
-      "clicks": 6,
-      "impressions": 61,
-      "ctr": 9.84,
-      "position": 29.6
+      "clicks": 7,
+      "impressions": 59,
+      "ctr": 11.86,
+      "position": 27.9
     },
     {
       "page": "https://pakistanlawreports.com/judgments/pcrlj-2026-548",
