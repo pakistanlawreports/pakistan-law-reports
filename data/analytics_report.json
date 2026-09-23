@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-22",
+  "generated_at": "2026-09-23",
   "top_pages": [
     {
       "page": "/",
-      "views": 308
+      "views": 317
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 108
+      "views": 109
     },
     {
       "page": "/case-highlights",
-      "views": 78
+      "views": 80
     },
     {
       "page": "/find-cases",
-      "views": 75
+      "views": 80
     },
     {
       "page": "/legal-texts",
-      "views": 35
+      "views": 37
     },
     {
       "page": "/search-all",
@@ -27,6 +27,10 @@
     },
     {
       "page": "/lawyers",
+      "views": 29
+    },
+    {
+      "page": "/news-digest",
       "views": 27
     },
     {
@@ -34,19 +38,15 @@
       "views": 27
     },
     {
-      "page": "/news-digest",
-      "views": 26
-    },
-    {
       "page": "/study-guides",
       "views": 26
     },
     {
-      "page": "/judgments/pld-1975-pesh-161-islamia-university-bahawalpur-through-its-vice-c-detailed-judg",
-      "views": 24
+      "page": "/judgments/mld-2025-533",
+      "views": 23
     },
     {
-      "page": "/judgments/mld-2025-533",
+      "page": "/judgments/pld-1975-pesh-161-islamia-university-bahawalpur-through-its-vice-c-detailed-judg",
       "views": 23
     },
     {
@@ -54,12 +54,12 @@
       "views": 22
     },
     {
-      "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
-      "views": 19
+      "page": "/whats-new",
+      "views": 22
     },
     {
-      "page": "/whats-new",
-      "views": 19
+      "page": "/browse",
+      "views": 20
     }
   ],
   "top_searches": [
@@ -88,6 +88,10 @@
       "count": 4
     },
     {
+      "value": "PLD",
+      "count": 4
+    },
+    {
       "value": "انگلش دعوی با مراد صدور ڈگری اس تکرار حق کے مدائیان جدا مداویہ عرضی دعوے کے بطور بارسان ہیں جس متعلق",
       "count": 4
     },
@@ -105,10 +109,6 @@
     },
     {
       "value": "PC",
-      "count": 3
-    },
-    {
-      "value": "PLD",
       "count": 3
     },
     {
