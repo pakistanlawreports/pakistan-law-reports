@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-23",
+  "generated_at": "2026-09-24",
   "top_queries": [
     {
       "query": "pakistan law reporter",
       "clicks": 1,
-      "impressions": 15,
-      "ctr": 6.67,
-      "position": 3.3
+      "impressions": 17,
+      "ctr": 5.88,
+      "position": 3.2
     },
     {
       "query": "\"mahr or dower is a sum of money or other property which the wife is entitled to receive from the husband in consideration of the marriage\" mulla",
@@ -14,13 +14,6 @@
       "impressions": 1,
       "ctr": 0,
       "position": 11
-    },
-    {
-      "query": "\"wo2007117667\" \"written opinion\"",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 8
     },
     {
       "query": "%\"wo2007016070\" \"written opinion\"",
@@ -105,15 +98,22 @@
       "impressions": 2,
       "ctr": 0,
       "position": 75.5
+    },
+    {
+      "query": "lawsite pakistan",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 66
     }
   ],
   "top_pages_by_search": [
     {
       "page": "https://pakistanlawreports.com/",
-      "clicks": 8,
-      "impressions": 57,
-      "ctr": 14.04,
-      "position": 26.3
+      "clicks": 9,
+      "impressions": 58,
+      "ctr": 15.52,
+      "position": 24.1
     },
     {
       "page": "https://pakistanlawreports.com/judgments/pcrlj-2026-548",
@@ -207,11 +207,11 @@
       "position": 6
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/3737-2019-const-p-tariq-muhammad-amin-petitioner-v-s-fed-of-pakistan-and-others-respondent",
+      "page": "https://pakistanlawreports.com/judgments/328-2018-h-c-a-farrukh-afzal-munif-appellant-v-s-muhammad-afzal-munif-others-respondent",
       "clicks": 1,
       "impressions": 1,
       "ctr": 100,
-      "position": 17
+      "position": 5
     }
   ]
 }
