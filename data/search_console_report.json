@@ -1,19 +1,12 @@
 {
-  "generated_at": "2026-09-24",
+  "generated_at": "2026-09-25",
   "top_queries": [
     {
       "query": "pakistan law reporter",
-      "clicks": 1,
-      "impressions": 17,
-      "ctr": 5.88,
+      "clicks": 2,
+      "impressions": 18,
+      "ctr": 11.11,
       "position": 3.2
-    },
-    {
-      "query": "\"mahr or dower is a sum of money or other property which the wife is entitled to receive from the husband in consideration of the marriage\" mulla",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 11
     },
     {
       "query": "%\"wo2007016070\" \"written opinion\"",
@@ -88,9 +81,9 @@
     {
       "query": "law site pakistan",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 77.5
+      "position": 79.7
     },
     {
       "query": "law sites pakistan",
@@ -105,22 +98,29 @@
       "impressions": 1,
       "ctr": 0,
       "position": 66
+    },
+    {
+      "query": "legal research pakistan",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 91
     }
   ],
   "top_pages_by_search": [
     {
       "page": "https://pakistanlawreports.com/",
-      "clicks": 9,
-      "impressions": 58,
-      "ctr": 15.52,
-      "position": 24.1
+      "clicks": 11,
+      "impressions": 55,
+      "ctr": 20.0,
+      "position": 19.5
     },
     {
       "page": "https://pakistanlawreports.com/judgments/pcrlj-2026-548",
-      "clicks": 5,
-      "impressions": 12,
-      "ctr": 41.67,
-      "position": 2.4
+      "clicks": 4,
+      "impressions": 10,
+      "ctr": 40.0,
+      "position": 2.5
     },
     {
       "page": "https://pakistanlawreports.com/judgments/ylr-2025-1857",
@@ -149,13 +149,6 @@
       "impressions": 1,
       "ctr": 100,
       "position": 16
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/142-2025-criminal-miscelleneous-muhammad-alam-kandhro-applicant-v-s-ayaz-ali-another-respo",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 15
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1484-2025-const-p-fatima-petitioner-v-s-abdul-qadir-others-respondent",
@@ -198,6 +191,13 @@
       "impressions": 2,
       "ctr": 50.0,
       "position": 11
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/322-2021-s-m-a-aiman-fatima-d-o-hasan-mahmood-petitioner-v-s-fozia-hasan-and-others-respon",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 5
     },
     {
       "page": "https://pakistanlawreports.com/judgments/3253-2026-const-p-m-s-al-rahim-trading-co-pvt-ltd-petitioner-v-s-fed-of-pakistan-ors-respo",
