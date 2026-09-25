@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-24",
+  "generated_at": "2026-09-25",
   "top_pages": [
     {
       "page": "/",
-      "views": 314
+      "views": 313
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 105
-    },
-    {
-      "page": "/case-highlights",
-      "views": 79
+      "views": 103
     },
     {
       "page": "/find-cases",
       "views": 79
+    },
+    {
+      "page": "/case-highlights",
+      "views": 74
     },
     {
       "page": "/legal-texts",
@@ -23,7 +23,7 @@
     },
     {
       "page": "/search-all",
-      "views": 35
+      "views": 34
     },
     {
       "page": "/lawyers",
@@ -38,12 +38,8 @@
       "views": 27
     },
     {
-      "page": "/study-guides",
-      "views": 26
-    },
-    {
       "page": "/whats-new",
-      "views": 24
+      "views": 26
     },
     {
       "page": "/judgments/mld-2025-533",
@@ -58,14 +54,18 @@
       "views": 22
     },
     {
-      "page": "/judgments/the-guardian-and-wards-act-1890",
-      "views": 21
+      "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
+      "views": 22
+    },
+    {
+      "page": "/study-guides",
+      "views": 22
     }
   ],
   "top_searches": [
     {
       "value": "(not set)",
-      "count": 162
+      "count": 155
     },
     {
       "value": "استقرار حق جس میں مدعا علیہ نے ہماری زمین جو کہ ہماری والد کی ہمیں وراثت ملی تھی ہمارے والد کے مرنے ",
@@ -127,7 +127,7 @@
   "top_find_cases_topics": [
     {
       "value": "(not set)",
-      "count": 15
+      "count": 13
     },
     {
       "value": "Civil Law",
