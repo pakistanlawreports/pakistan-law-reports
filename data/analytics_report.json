@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-25",
+  "generated_at": "2026-09-26",
   "top_pages": [
     {
       "page": "/",
-      "views": 313
+      "views": 317
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 103
+      "views": 102
     },
     {
       "page": "/find-cases",
-      "views": 79
+      "views": 76
     },
     {
       "page": "/case-highlights",
-      "views": 74
+      "views": 72
     },
     {
       "page": "/legal-texts",
-      "views": 38
+      "views": 39
     },
     {
       "page": "/search-all",
-      "views": 34
+      "views": 32
     },
     {
       "page": "/lawyers",
@@ -35,11 +35,11 @@
     },
     {
       "page": "/news-digest",
-      "views": 27
+      "views": 25
     },
     {
       "page": "/whats-new",
-      "views": 26
+      "views": 25
     },
     {
       "page": "/judgments/mld-2025-533",
@@ -50,16 +50,16 @@
       "views": 23
     },
     {
-      "page": "/browse",
-      "views": 22
-    },
-    {
       "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
       "views": 22
     },
     {
-      "page": "/study-guides",
-      "views": 22
+      "page": "/browse",
+      "views": 21
+    },
+    {
+      "page": "/judgments/the-guardian-and-wards-act-1890",
+      "views": 20
     }
   ],
   "top_searches": [
@@ -127,7 +127,7 @@
   "top_find_cases_topics": [
     {
       "value": "(not set)",
-      "count": 13
+      "count": 12
     },
     {
       "value": "Civil Law",
