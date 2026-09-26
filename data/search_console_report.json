@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-25",
+  "generated_at": "2026-09-26",
   "top_queries": [
     {
       "query": "pakistan law reporter",
       "clicks": 2,
-      "impressions": 18,
-      "ctr": 11.11,
+      "impressions": 19,
+      "ctr": 10.53,
       "position": 3.2
     },
     {
@@ -25,9 +25,9 @@
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 21,
+      "impressions": 23,
       "ctr": 0,
-      "position": 2.7
+      "position": 2.9
     },
     {
       "query": "case law pakistan",
@@ -74,9 +74,9 @@
     {
       "query": "free case law search pakistan",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 78
+      "position": 83
     },
     {
       "query": "law site pakistan",
@@ -111,23 +111,23 @@
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 11,
-      "impressions": 55,
-      "ctr": 20.0,
-      "position": 19.5
+      "impressions": 59,
+      "ctr": 18.64,
+      "position": 19.9
     },
     {
       "page": "https://pakistanlawreports.com/judgments/pcrlj-2026-548",
       "clicks": 4,
-      "impressions": 10,
-      "ctr": 40.0,
-      "position": 2.5
+      "impressions": 12,
+      "ctr": 33.33,
+      "position": 2.8
     },
     {
       "page": "https://pakistanlawreports.com/judgments/ylr-2025-1857",
       "clicks": 4,
-      "impressions": 11,
-      "ctr": 36.36,
-      "position": 2.3
+      "impressions": 10,
+      "ctr": 40.0,
+      "position": 2.1
     },
     {
       "page": "https://pakistanlawreports.com/judgments/923-2025-const-p-amna-jatoi-petitioner-v-s-jahanzaib-respondent",
