@@ -80,6 +80,7 @@ export default function RootLayout({ children }) {
               <a href="/whats-new">What&apos;s New</a>
               <a href="/browse">Browse</a>
               <a href="/case-highlights">Case Highlights</a>
+              <a href="/articles">Articles</a>
               <a href="/study-guides">Study Guides</a>
               <a href="/legal-texts">Statutes &amp; Resources</a>
               <a href="/lawyers">Lawyers</a>
