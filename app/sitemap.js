@@ -1,9 +1,21 @@
 import { getAllCourts, courtToSlug, getAllTopics, topicToSlug, getFullTextSlugs } from '../lib/data';
+import fs from 'fs';
+import path from 'path';
+
+function getArticleSlugs() {
+  try {
+    const p = path.join(process.cwd(), 'data', 'articles.json');
+    if (!fs.existsSync(p)) return [];
+    return JSON.parse(fs.readFileSync(p, 'utf-8')).map((a) => a.slug);
+  } catch {
+    return [];
+  }
+}
 
 export default function sitemap() {
   const base = 'https://pakistanlawreports.com';
 
-  const staticPages = ['', '/about', '/contact', '/privacy'].map((path) => ({
+  const staticPages = ['', '/about', '/contact', '/privacy', '/articles'].map((path) => ({
     url: `${base}${path}`,
     changeFrequency: path === '' ? 'daily' : 'monthly',
     priority: path === '' ? 1 : 0.5,
@@ -27,5 +39,11 @@ export default function sitemap() {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...courtPages, ...topicPages, ...judgmentPages];
+  const articlePages = getArticleSlugs().map((slug) => ({
+    url: `${base}/articles/${slug}`,
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...courtPages, ...topicPages, ...judgmentPages, ...articlePages];
 }
