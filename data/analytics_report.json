@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-28",
+  "generated_at": "2026-09-29",
   "top_pages": [
     {
       "page": "/",
-      "views": 300
+      "views": 301
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 99
-    },
-    {
-      "page": "/find-cases",
-      "views": 75
+      "views": 98
     },
     {
       "page": "/case-highlights",
-      "views": 69
+      "views": 71
+    },
+    {
+      "page": "/find-cases",
+      "views": 68
     },
     {
       "page": "/legal-texts",
-      "views": 38
+      "views": 41
     },
     {
       "page": "/lawyers",
-      "views": 29
+      "views": 32
     },
     {
       "page": "/search-all",
@@ -35,7 +35,7 @@
     },
     {
       "page": "/whats-new",
-      "views": 26
+      "views": 27
     },
     {
       "page": "/news-digest",
@@ -54,18 +54,18 @@
       "views": 21
     },
     {
-      "page": "/browse",
-      "views": 19
+      "page": "/study-guides",
+      "views": 21
     },
     {
       "page": "/judgments/ylr-2025-40",
-      "views": 19
+      "views": 20
     }
   ],
   "top_searches": [
     {
       "value": "(not set)",
-      "count": 126
+      "count": 123
     },
     {
       "value": "استقرار حق جس میں مدعا علیہ نے ہماری زمین جو کہ ہماری والد کی ہمیں وراثت ملی تھی ہمارے والد کے مرنے ",
@@ -127,7 +127,7 @@
   "top_find_cases_topics": [
     {
       "value": "(not set)",
-      "count": 12
+      "count": 9
     },
     {
       "value": "Civil Law",
