@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-28",
+  "generated_at": "2026-09-29",
   "top_queries": [
     {
       "query": "pakistan law reporter",
       "clicks": 2,
-      "impressions": 17,
-      "ctr": 11.76,
-      "position": 3.4
+      "impressions": 15,
+      "ctr": 13.33,
+      "position": 3.3
     },
     {
       "query": "%\"wo2007016070\" \"written opinion\"",
@@ -25,16 +25,9 @@
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 22,
+      "impressions": 21,
       "ctr": 0,
-      "position": 2.9
-    },
-    {
-      "query": "case law pakistan",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 72
+      "position": 3
     },
     {
       "query": "dr anees ahmad v mst uzma pld 1998 lah 52 dower khula",
@@ -67,9 +60,9 @@
     {
       "query": "free case law search pakistan",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 83.7
+      "position": 85.2
     },
     {
       "query": "law site pakistan",
@@ -95,39 +88,39 @@
     {
       "query": "pak law site",
       "clicks": 0,
-      "impressions": 15,
+      "impressions": 13,
       "ctr": 0,
       "position": 76.7
     },
     {
-      "query": "pakistan law",
+      "query": "pakistan law sit",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 85
+      "position": 71
+    },
+    {
+      "query": "pakistan law site",
+      "clicks": 0,
+      "impressions": 20,
+      "ctr": 0,
+      "position": 78.2
     }
   ],
   "top_pages_by_search": [
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 11,
-      "impressions": 60,
-      "ctr": 18.33,
-      "position": 21.4
+      "impressions": 69,
+      "ctr": 15.94,
+      "position": 17.9
     },
     {
       "page": "https://pakistanlawreports.com/judgments/pcrlj-2026-548",
       "clicks": 4,
-      "impressions": 12,
-      "ctr": 33.33,
+      "impressions": 23,
+      "ctr": 17.39,
       "position": 2.8
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/ylr-2025-1857",
-      "clicks": 4,
-      "impressions": 10,
-      "ctr": 40.0,
-      "position": 2.1
     },
     {
       "page": "https://pakistanlawreports.com/judgments/923-2025-const-p-amna-jatoi-petitioner-v-s-jahanzaib-respondent",
@@ -212,6 +205,13 @@
       "impressions": 1,
       "ctr": 100,
       "position": 6
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/328-2018-h-c-a-farrukh-afzal-munif-appellant-v-s-muhammad-afzal-munif-others-respondent",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 5
     }
   ]
 }
