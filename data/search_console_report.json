@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29",
+  "generated_at": "2026-09-30",
   "top_queries": [
     {
       "query": "pakistan law reporter",
@@ -25,9 +25,9 @@
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 21,
+      "impressions": 22,
       "ctr": 0,
-      "position": 3
+      "position": 2.9
     },
     {
       "query": "dr anees ahmad v mst uzma pld 1998 lah 52 dower khula",
@@ -60,9 +60,9 @@
     {
       "query": "free case law search pakistan",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 85.2
+      "position": 87.7
     },
     {
       "query": "law site pakistan",
@@ -72,23 +72,9 @@
       "position": 83
     },
     {
-      "query": "lawsite pakistan",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 66
-    },
-    {
-      "query": "legal research pakistan",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 91
-    },
-    {
       "query": "pak law site",
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 12,
       "ctr": 0,
       "position": 76.7
     },
@@ -102,24 +88,38 @@
     {
       "query": "pakistan law site",
       "clicks": 0,
-      "impressions": 20,
+      "impressions": 18,
       "ctr": 0,
-      "position": 78.2
+      "position": 78.9
+    },
+    {
+      "query": "pakistan law site free",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 80.9
+    },
+    {
+      "query": "pakistan law sites",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 90
     }
   ],
   "top_pages_by_search": [
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 11,
-      "impressions": 69,
-      "ctr": 15.94,
-      "position": 17.9
+      "impressions": 74,
+      "ctr": 14.86,
+      "position": 15.7
     },
     {
       "page": "https://pakistanlawreports.com/judgments/pcrlj-2026-548",
       "clicks": 4,
-      "impressions": 23,
-      "ctr": 17.39,
+      "impressions": 29,
+      "ctr": 13.79,
       "position": 2.8
     },
     {
@@ -145,13 +145,6 @@
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1464-2025-cr-bail-sumair-gagai-s-o-salim-gagai-applicant-v-s-the-state-respondent",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 4
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/1484-2025-const-p-fatima-petitioner-v-s-abdul-qadir-others-respondent",
       "clicks": 1,
       "impressions": 1,
       "ctr": 100,
@@ -208,6 +201,13 @@
     },
     {
       "page": "https://pakistanlawreports.com/judgments/328-2018-h-c-a-farrukh-afzal-munif-appellant-v-s-muhammad-afzal-munif-others-respondent",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 5
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/348-2014-suit-syed-shafaat-ali-another-plaintiff-v-s-syed-farhat-ali-others-defendant",
       "clicks": 1,
       "impressions": 1,
       "ctr": 100,
