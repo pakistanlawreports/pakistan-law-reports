@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-01",
+  "generated_at": "2026-10-02",
   "top_queries": [
     {
       "query": "pakistan law reporter",
       "clicks": 2,
-      "impressions": 15,
-      "ctr": 13.33,
-      "position": 3.3
+      "impressions": 14,
+      "ctr": 14.29,
+      "position": 3.4
     },
     {
       "query": "%\"wo2007016070\" \"written opinion\"",
@@ -25,9 +25,9 @@
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 20,
+      "impressions": 17,
       "ctr": 0,
-      "position": 3.1
+      "position": 3.3
     },
     {
       "query": "dr anees ahmad v mst uzma pld 1998 lah 52 dower khula",
@@ -100,27 +100,20 @@
       "position": 80.9
     },
     {
-      "query": "pakistan law sites",
+      "query": "pakistan law website",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 90
+      "position": 94
     }
   ],
   "top_pages_by_search": [
     {
       "page": "https://pakistanlawreports.com/",
-      "clicks": 10,
-      "impressions": 71,
-      "ctr": 14.08,
-      "position": 14.7
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/pcrlj-2026-548",
-      "clicks": 4,
-      "impressions": 29,
-      "ctr": 13.79,
-      "position": 2.8
+      "clicks": 9,
+      "impressions": 69,
+      "ctr": 13.04,
+      "position": 15.1
     },
     {
       "page": "https://pakistanlawreports.com/judgments/923-2025-const-p-amna-jatoi-petitioner-v-s-jahanzaib-respondent",
@@ -135,6 +128,13 @@
       "impressions": 2,
       "ctr": 100,
       "position": 4
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/pcrlj-2026-548",
+      "clicks": 2,
+      "impressions": 26,
+      "ctr": 7.69,
+      "position": 2.9
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1028-2011-cr-bail-muhammad-haseeb-khan-applicant-v-s-the-state-respondent",
@@ -193,13 +193,6 @@
       "position": 5
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/30-2011-cr-rev-feroz-khan-baloch-applicant-v-s-first-women-bank-ors-respondent",
-      "clicks": 1,
-      "impressions": 2,
-      "ctr": 50.0,
-      "position": 11
-    },
-    {
       "page": "https://pakistanlawreports.com/judgments/322-2021-s-m-a-aiman-fatima-d-o-hasan-mahmood-petitioner-v-s-fozia-hasan-and-others-respon",
       "clicks": 1,
       "impressions": 1,
@@ -212,6 +205,13 @@
       "impressions": 1,
       "ctr": 100,
       "position": 6
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/328-2018-h-c-a-farrukh-afzal-munif-appellant-v-s-muhammad-afzal-munif-others-respondent",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 5
     }
   ]
 }
