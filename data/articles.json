@@ -1,5 +1,45 @@
 [
   {
+    "slug": "can-a-landlord-evict-a-tenant-to-use-a-shop-or-house-personally",
+    "title": "Can a Landlord Evict a Tenant to Use a Shop or House Personally?",
+    "question": "Can a landlord evict a tenant for needing the shop or house for personal use?",
+    "topic": "Property & Rent",
+    "body": "Many landlords in Pakistan eventually want to use their rented-out shop or house for themselves or a family member — whether to start a business, house a growing family, or simply because a son or daughter needs a place to work or live. Tenants, understandably, often resist such eviction attempts, questioning whether the landlord's need is genuine. Pakistani courts, particularly the Balochistan High Court, have repeatedly dealt with this exact question, and their rulings offer useful guidance on how such disputes are typically resolved.\n\n## What Pakistani courts have held\n\n**Muhammad Ibrahim and another V. Abdul Salam and 9 others, PLD 2016 Balochistan 76** — In this case, landlords sought to evict a shop tenant in Quetta, citing both rent default and the personal need of two unemployed family members. The Balochistan High Court upheld the eviction, holding that a landlord's sworn statement about needing the property for personal use is sufficient evidence by itself, and that it does not matter if the attorney makes this statement instead of the landlord, or if the family members needing the shop never testify personally. The court also confirmed that a landlord has the right to choose which of his properties he wants to reclaim, and that failing to pay legally required rent increases amounts to wilful default even if arrears are later paid.\n\n**Mehmood Khan v. Muhammad Ibrahim, YLR 2011 2169** — Here, an elderly landlord sought to evict a shop tenant after retiring from government service, intending to start his own business. The tenant argued the landlord was too old, already had employed sons, owned other properties, and had not specified what business he planned to run. The Balochistan High Court rejected all these objections, ruling that a landlord need not specify the exact nature of his intended business or prove the source of his capital, that old age alone does not disprove genuine need (especially since sons could assist), and that even an eventual intention to sell the property does not defeat a genuine claim of personal need. It also reaffirmed that landlords with multiple properties may choose which one to reclaim.\n\n**Fayyaz Ahmed and 2 others V. Muhammad Azam, YLR 2020 1764** — This case concerned a Quetta house where the tenants denied any landlord-tenant relationship existed at all, pointing to the absence of a written agreement or rent receipts. The Balochistan High Court upheld the eviction, holding that a tenancy need not be in writing and can be oral or implied through conduct, particularly between closely related parties. Since the landlord proved ownership through land records and utility bills and the tenants produced no counter-evidence, the law presumed the occupants were tenants, and their refusal to pay rent counted against them.\n\n**Shah Mir and 6 others V. Ghulam Hussain, MLD 2012 224** — In this dispute, a new owner of houses in Quetta sought eviction, citing non-payment of rent after purchase and his genuine need for the property given his crowded joint household. The Balochistan High Court upheld the eviction, finding the need genuine and ruling that tenants cannot escape eviction by raising ownership disputes, since rent proceedings are only concerned with the landlord-tenant relationship, not questions of title. It also held that filing the eviction petition itself serves as notice of the ownership change, and that a co-owner may seek eviction without needing permission from other co-owners.\n\n**Muhammad Imran V. Muhammad Afzal and 2 others, CLC 2022 1354** — This case, under the Balochistan Urban Rent Restriction Ordinance, 1959, involved an unemployed landlord seeking to evict tenants from shops he had received as a gift, so he could start his own business. After earlier rounds of litigation failed on technical grounds, the Balochistan High Court allowed the eviction, holding that a landlord's own sworn, consistent, and unchallenged testimony is strong proof of genuine personal need, and that landlords cannot be permanently barred from using their own property simply because it was rented out in the past.\n\n## Points to keep in mind\n\n- Courts have held that a landlord's own sworn statement about needing a property for personal use, if consistent and unchallenged, can itself be enough to justify eviction.\n- Courts have held that landlords are not required to prove specific business plans, sources of capital, or even that family members needing the property testify personally.\n- Courts have held that old age, having other properties, or even an eventual intention to sell does not by itself disprove a genuine claim of personal need.\n- Courts have held that landlords may choose which among several properties they wish to reclaim, and tenants cannot dictate that choice.\n- Courts have held that tenancy can exist without a written agreement, and that disputes over ownership or lack of formal notice generally do not prevent eviction once a landlord-tenant relationship and genuine need or default are established.",
+    "cases": [
+      {
+        "slug": "pld-2016-balochistan-76",
+        "title": "Muhammad Ibrahim and another V. Abdul Salam and 9 others,",
+        "citation": "PLD 2016 Balochistan 76",
+        "court": "Balochistan High Court"
+      },
+      {
+        "slug": "ylr-2011-2169",
+        "title": "Mehmood Khan v. Muhammad Ibrahim,",
+        "citation": "YLR 2011 2169",
+        "court": "Balochistan High Court"
+      },
+      {
+        "slug": "ylr-2020-1764",
+        "title": "Fayyaz Ahmed and 2 others V. Muhammad Azam,",
+        "citation": "YLR 2020 1764",
+        "court": "Balochistan High Court"
+      },
+      {
+        "slug": "mld-2012-224",
+        "title": "Shah Mir and 6 others V. Ghulam Hussain,",
+        "citation": "MLD 2012 224",
+        "court": "Balochistan High Court"
+      },
+      {
+        "slug": "clc-2022-1354",
+        "title": "Muhammad Imran V. Muhammad Afzal and 2 others,",
+        "citation": "CLC 2022 1354",
+        "court": "Balochistan High Court"
+      }
+    ],
+    "created": "2026-10-02"
+  },
+  {
     "slug": "can-a-daughter-still-claim-her-inheritance-if-brothers-mutate-property-in-their-own-names",
     "title": "Can a Daughter Still Claim Her Inheritance If Brothers Mutate Property in Their Own Names?",
     "question": "Can a daughter claim her share of inherited property if her brothers got it transferred only in their own names through a mutation?",
