@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-02",
+  "generated_at": "2026-10-03",
   "top_pages": [
     {
       "page": "/",
-      "views": 311
+      "views": 312
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 103
+      "views": 99
     },
     {
       "page": "/case-highlights",
-      "views": 68
+      "views": 66
     },
     {
       "page": "/find-cases",
@@ -34,8 +34,12 @@
       "views": 28
     },
     {
-      "page": "/judgments/mld-2025-533",
+      "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
       "views": 26
+    },
+    {
+      "page": "/judgments/mld-2025-533",
+      "views": 25
     },
     {
       "page": "/news-digest",
@@ -47,25 +51,21 @@
     },
     {
       "page": "/study-guides",
-      "views": 24
-    },
-    {
-      "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
       "views": 23
     },
     {
-      "page": "/judgments/pld-1975-pesh-161-islamia-university-bahawalpur-through-its-vice-c-detailed-judg",
-      "views": 21
+      "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
+      "views": 22
     },
     {
-      "page": "/judgments/ylr-2025-40",
-      "views": 20
+      "page": "/judgments/the-guardian-and-wards-act-1890",
+      "views": 22
     }
   ],
   "top_searches": [
     {
       "value": "(not set)",
-      "count": 59
+      "count": 54
     },
     {
       "value": "استقرار حق جس میں مدعا علیہ نے ہماری زمین جو کہ ہماری والد کی ہمیں وراثت ملی تھی ہمارے والد کے مرنے ",
@@ -100,6 +100,10 @@
       "count": 4
     },
     {
+      "value": "2",
+      "count": 3
+    },
+    {
       "value": "5",
       "count": 3
     },
@@ -117,10 +121,6 @@
     },
     {
       "value": "SC 542",
-      "count": 3
-    },
-    {
-      "value": "School",
       "count": 3
     }
   ],
