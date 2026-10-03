@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-02",
+  "generated_at": "2026-10-03",
   "top_queries": [
     {
       "query": "pakistan law reporter",
       "clicks": 2,
-      "impressions": 14,
-      "ctr": 14.29,
+      "impressions": 12,
+      "ctr": 16.67,
       "position": 3.4
     },
     {
@@ -25,9 +25,9 @@
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 17,
+      "impressions": 14,
       "ctr": 0,
-      "position": 3.3
+      "position": 3.1
     },
     {
       "query": "dr anees ahmad v mst uzma pld 1998 lah 52 dower khula",
@@ -81,16 +81,16 @@
     {
       "query": "pak law site",
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 13,
       "ctr": 0,
       "position": 77.2
     },
     {
       "query": "pakistan law site",
       "clicks": 0,
-      "impressions": 17,
+      "impressions": 16,
       "ctr": 0,
-      "position": 78.9
+      "position": 78.7
     },
     {
       "query": "pakistan law site free",
@@ -111,16 +111,9 @@
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 9,
-      "impressions": 69,
-      "ctr": 13.04,
-      "position": 15.1
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/923-2025-const-p-amna-jatoi-petitioner-v-s-jahanzaib-respondent",
-      "clicks": 3,
-      "impressions": 4,
-      "ctr": 75.0,
-      "position": 2.8
+      "impressions": 67,
+      "ctr": 13.43,
+      "position": 15.4
     },
     {
       "page": "https://pakistanlawreports.com/judgments/78-2013-suit-b-habib-metropolitan-bank-limited-plaintiff-v-s-m-s-shahi-textiles-and-others",
@@ -128,6 +121,13 @@
       "impressions": 2,
       "ctr": 100,
       "position": 4
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/923-2025-const-p-amna-jatoi-petitioner-v-s-jahanzaib-respondent",
+      "clicks": 2,
+      "impressions": 3,
+      "ctr": 66.67,
+      "position": 3
     },
     {
       "page": "https://pakistanlawreports.com/judgments/pcrlj-2026-548",
@@ -144,25 +144,11 @@
       "position": 6
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/1311-2004-suit-shaikh-abdul-jabbar-through-his-legal-heirs-plaintiff-v-s-irfan-jami-rafiqu",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 16
-    },
-    {
       "page": "https://pakistanlawreports.com/judgments/1464-2025-cr-bail-sumair-gagai-s-o-salim-gagai-applicant-v-s-the-state-respondent",
       "clicks": 1,
       "impressions": 2,
       "ctr": 50.0,
       "position": 6
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/1494-2020-suit-pak-airlift-aviation-services-plaintiff-v-s-gulf-air-b-s-c-c-another-defend",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 3
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1723-2025-cr-bail-sana-gul-s-o-abdul-ghafar-applicant-v-s-the-state-respondent",
@@ -212,6 +198,20 @@
       "impressions": 1,
       "ctr": 100,
       "position": 5
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/348-2014-suit-syed-shafaat-ali-another-plaintiff-v-s-syed-farhat-ali-others-defendant",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 5
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/3511-2011-const-p-nazir-oad-petitioner-v-s-registrar-high-court-of-sindh-ors-respondent",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 1
     }
   ]
 }
