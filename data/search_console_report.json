@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03",
+  "generated_at": "2026-10-04",
   "top_queries": [
     {
       "query": "pakistan law reporter",
@@ -111,9 +111,9 @@
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 9,
-      "impressions": 67,
-      "ctr": 13.43,
-      "position": 15.4
+      "impressions": 65,
+      "ctr": 13.85,
+      "position": 15.8
     },
     {
       "page": "https://pakistanlawreports.com/judgments/78-2013-suit-b-habib-metropolitan-bank-limited-plaintiff-v-s-m-s-shahi-textiles-and-others",
@@ -135,13 +135,6 @@
       "impressions": 26,
       "ctr": 7.69,
       "position": 2.9
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/1028-2011-cr-bail-muhammad-haseeb-khan-applicant-v-s-the-state-respondent",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 6
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1464-2025-cr-bail-sumair-gagai-s-o-salim-gagai-applicant-v-s-the-state-respondent",
@@ -212,6 +205,13 @@
       "impressions": 1,
       "ctr": 100,
       "position": 1
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/4105-2024-const-p-tariq-ali-petitioner-v-s-fed-of-pakistan-and-others-respondent",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 6
     }
   ]
 }
