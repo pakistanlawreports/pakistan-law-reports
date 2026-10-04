@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-03",
+  "generated_at": "2026-10-04",
   "top_pages": [
     {
       "page": "/",
-      "views": 312
+      "views": 314
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 99
+      "views": 94
     },
     {
       "page": "/case-highlights",
-      "views": 66
+      "views": 64
     },
     {
       "page": "/find-cases",
-      "views": 50
+      "views": 48
     },
     {
       "page": "/legal-texts",
@@ -23,7 +23,7 @@
     },
     {
       "page": "/lawyers",
-      "views": 35
+      "views": 36
     },
     {
       "page": "/whats-new",
@@ -34,23 +34,11 @@
       "views": 28
     },
     {
-      "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
-      "views": 26
-    },
-    {
       "page": "/judgments/mld-2025-533",
       "views": 25
     },
     {
-      "page": "/news-digest",
-      "views": 25
-    },
-    {
       "page": "/search-all",
-      "views": 25
-    },
-    {
-      "page": "/study-guides",
       "views": 23
     },
     {
@@ -59,6 +47,18 @@
     },
     {
       "page": "/judgments/the-guardian-and-wards-act-1890",
+      "views": 22
+    },
+    {
+      "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
+      "views": 22
+    },
+    {
+      "page": "/news-digest",
+      "views": 22
+    },
+    {
+      "page": "/study-guides",
       "views": 22
     }
   ],
