@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-04",
+  "generated_at": "2026-10-05",
   "top_pages": [
     {
       "page": "/",
-      "views": 314
+      "views": 309
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 94
+      "views": 88
     },
     {
       "page": "/case-highlights",
-      "views": 64
-    },
-    {
-      "page": "/find-cases",
-      "views": 48
+      "views": 65
     },
     {
       "page": "/legal-texts",
       "views": 48
+    },
+    {
+      "page": "/find-cases",
+      "views": 46
     },
     {
       "page": "/lawyers",
@@ -27,18 +27,18 @@
     },
     {
       "page": "/whats-new",
-      "views": 31
+      "views": 28
     },
     {
       "page": "/trending",
-      "views": 28
+      "views": 26
     },
     {
       "page": "/judgments/mld-2025-533",
       "views": 25
     },
     {
-      "page": "/search-all",
+      "page": "/study-guides",
       "views": 23
     },
     {
@@ -55,18 +55,14 @@
     },
     {
       "page": "/news-digest",
-      "views": 22
+      "views": 21
     },
     {
-      "page": "/study-guides",
-      "views": 22
+      "page": "/search-all",
+      "views": 21
     }
   ],
   "top_searches": [
-    {
-      "value": "(not set)",
-      "count": 54
-    },
     {
       "value": "استقرار حق جس میں مدعا علیہ نے ہماری زمین جو کہ ہماری والد کی ہمیں وراثت ملی تھی ہمارے والد کے مرنے ",
       "count": 34
@@ -122,6 +118,10 @@
     {
       "value": "SC 542",
       "count": 3
+    },
+    {
+      "value": "School",
+      "count": 3
     }
   ],
   "top_find_cases_topics": [
@@ -130,12 +130,12 @@
       "count": 4
     },
     {
-      "value": "Criminal Law",
+      "value": "Property & Rent",
       "count": 2
     },
     {
-      "value": "Property & Rent",
-      "count": 2
+      "value": "Criminal Law",
+      "count": 1
     },
     {
       "value": "Family Law",
