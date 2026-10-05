@@ -257,5 +257,42 @@
       }
     ],
     "generated_at": "2026-09-07"
+  },
+  "Succession & Inheritance": {
+    "topic": "Succession & Inheritance",
+    "guide": "Succession and inheritance disputes in Pakistani courts frequently arise when female heirs, particularly daughters, are deprived of their lawful shares through fraudulent gift mutations, or when co-sharers attempt to exclude others from jointly inherited property. These six cases illustrate the courts' consistent protection of inheritance rights and the strict evidentiary standards applied to challenge such claims.\n\nProtection of daughters' inheritance rights against fraudulent gifts\n\n- In Mst. Rasoolan Bibi v. Province of Punjab (PLJ 2023 Lahore Note 108), the court reversed concurrent findings of lower fora, holding that an oral gift mutation used to deprive a daughter of her 1/7th Sharia share was fraudulent where defendants failed to produce either the attesting witnesses of the oral gift or the revenue officers who entered the mutation. The court emphasized that non-production of such mandatory witnesses is fatal to the case of those claiming under the gift, and that revisional jurisdiction under Section 115 CPC can be invoked to reverse illegal and perverse concurrent findings that facilitate such deprivation.\n\n- Similarly, in Muhammad Imran v. Muhammad Afzal (PLJ 2015 Lahore 1159), a gift mutation was struck down where the donor was a cancer patient, bedridden and largely without senses for about three years before his death, and the donees (who were also legal heirs) failed to prove the gift was free from undue influence. The step-siblings excluded by the gift successfully established fraud and misrepresentation aimed at depriving them of their inheritance.\n\nEssential ingredients of a valid gift under Muhammadan Law\n\n- Both Rasoolan Bibi (PLJ 2023 Lahore Note 108) and Muhammad Imran (PLJ 2015 Lahore 1159) reaffirm the three mandatory prerequisites for a valid gift under Muhammadan Law (Paras 149-150): an explicit offer by the donor, acceptance by the donee, and voluntary delivery of possession to the donee. Failure to prove any of these elements, especially through credible witness testimony, renders the gift mutation invalid and liable to be set aside, particularly where it operates to defeat statutory inheritance shares.\n\nCo-sharers cannot exclude or deprive other heirs\n\n- Sahib Jan v. Mst. Ayesha Bibi (PLJ 2014 SC 124) establishes the foundational principle that upon a Muslim's death, legal heirs automatically become co-sharers in the estate, and one co-sharer cannot deprive another of this right. Where a daughter was excluded from inheritance in violation of the Shariat Application Act, 1935, the Supreme Court held she could invoke Section 18 of the Limitation Act (fraud-based extension of limitation) and was entitled to her actual 1/3rd share, with transactions by other co-sharers affecting only their own shares.\n\n- Saleem Khan v. Qayyum Khan (PLJ 2014 Peshawar 246) extends this principle to physical possession, holding that no co-sharer can unilaterally select or retain a specific, valuable portion of joint property without the consent of other co-owners, and that a formal partition requires joining all co-owners as necessary parties.\n\nPartition mechanics and protective proceedings\n\n- Sehrish Hanif v. Muhammad Aziz (PLJ 2023 Karachi 124) demonstrates practical partition procedure under Order XX Rule 13 CPC and the Punjab Partition of Immovable Property Act, 2012, where a",
+    "based_on_cases": [
+      {
+        "title": "Depriving the daughters in their inheritance share",
+        "citation": "PLJ 2023 Lahore (Note) 108",
+        "slug": "plj-2023-lahore-note-108-depriving-the-daughters-in-their-inheritance-share"
+      },
+      {
+        "title": "Judgment on Punjab Partition of Immovable Property Act 2012",
+        "citation": "PLJ 2023 Karachi 124 (DB)",
+        "slug": "plj-2023-karachi-124-db-judgment-on-punjab-partition-of-immovable-property-act-2"
+      },
+      {
+        "title": "Ingredients of valid gift according to Muhammadan Law",
+        "citation": "PLJ 2015",
+        "slug": "plj-2015-ingredients-of-valid-gift-according-to-muhammadan-law"
+      },
+      {
+        "title": "Legal Proceedings in case of mentally disordered person",
+        "citation": "PLJ 2014",
+        "slug": "plj-2014-legal-proceedings-in-case-of-mentally-disordered-person"
+      },
+      {
+        "title": "No person can have favorite portion in joint property without consent of others",
+        "citation": "PLJ 2014",
+        "slug": "plj-2014-no-person-can-have-favorite-portion-in-joint-property-without-consent-o"
+      },
+      {
+        "title": "One Co-Sharer cannot deprive others to inherit",
+        "citation": "PLJ 2014 SC 124",
+        "slug": "plj-2014-sc-124-one-co-sharer-cannot-deprive-others-to-inherit"
+      }
+    ],
+    "generated_at": "2026-10-05"
   }
 }
