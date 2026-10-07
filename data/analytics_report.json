@@ -1,48 +1,48 @@
 {
-  "generated_at": "2026-10-06",
+  "generated_at": "2026-10-07",
   "top_pages": [
     {
       "page": "/",
-      "views": 311
+      "views": 319
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 93
+      "views": 95
     },
     {
       "page": "/case-highlights",
-      "views": 63
+      "views": 65
     },
     {
       "page": "/legal-texts",
-      "views": 47
+      "views": 48
     },
     {
       "page": "/find-cases",
-      "views": 43
+      "views": 42
     },
     {
       "page": "/lawyers",
-      "views": 36
+      "views": 35
+    },
+    {
+      "page": "/study-guides",
+      "views": 25
     },
     {
       "page": "/whats-new",
       "views": 25
     },
     {
-      "page": "/study-guides",
-      "views": 24
-    },
-    {
       "page": "/judgments/mld-2025-533",
       "views": 23
     },
     {
-      "page": "/judgments/the-guardian-and-wards-act-1890",
+      "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
       "views": 23
     },
     {
-      "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
+      "page": "/judgments/the-guardian-and-wards-act-1890",
       "views": 22
     },
     {
@@ -50,8 +50,8 @@
       "views": 22
     },
     {
-      "page": "/judgments/ylr-2025-40",
-      "views": 20
+      "page": "/judgments/code-of-criminal-procedure-1898-bare-act",
+      "views": 21
     },
     {
       "page": "/news-digest",
@@ -88,10 +88,6 @@
       "count": 4
     },
     {
-      "value": "AKD",
-      "count": 4
-    },
-    {
       "value": "PLD",
       "count": 4
     },
@@ -108,6 +104,10 @@
       "count": 3
     },
     {
+      "value": "2026 pld 343",
+      "count": 3
+    },
+    {
       "value": "5",
       "count": 3
     },
@@ -120,7 +120,7 @@
       "count": 3
     },
     {
-      "value": "PC",
+      "value": "SC 542",
       "count": 3
     }
   ],
