@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06",
+  "generated_at": "2026-10-07",
   "top_queries": [
     {
       "query": "pakistan law reporter",
@@ -25,7 +25,7 @@
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 15,
       "ctr": 0,
       "position": 2.7
     },
@@ -42,34 +42,6 @@
       "impressions": 1,
       "ctr": 0,
       "position": 1
-    },
-    {
-      "query": "dr anees ahmad v mst uzma pld 1998 lah 52 dower khula",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 10
-    },
-    {
-      "query": "dr anees ahmad v mst uzma pld 1998 lahore 52 khula dower",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 8
-    },
-    {
-      "query": "dr anees ahmad v. mst uzma pld 1998 lahore 52 dower khula",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 6
-    },
-    {
-      "query": "dr anees ahmad v. mst uzma pld 1998 lahore 52 khula dower",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 8
     },
     {
       "query": "free case law search pakistan",
@@ -95,32 +67,60 @@
     {
       "query": "pak law site",
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 11,
       "ctr": 0,
-      "position": 76.6
+      "position": 76.4
     },
     {
       "query": "pakistan law site",
       "clicks": 0,
-      "impressions": 18,
+      "impressions": 17,
       "ctr": 0,
-      "position": 78.8
+      "position": 78.6
+    },
+    {
+      "query": "pakistan law site free",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 80
+    },
+    {
+      "query": "pakistan law website",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 96.5
+    },
+    {
+      "query": "pakistani law site",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 83
+    },
+    {
+      "query": "pakistanlawsite",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 74
     }
   ],
   "top_pages_by_search": [
     {
       "page": "https://pakistanlawreports.com/",
-      "clicks": 9,
-      "impressions": 70,
-      "ctr": 12.86,
-      "position": 12.5
+      "clicks": 10,
+      "impressions": 72,
+      "ctr": 13.89,
+      "position": 12.2
     },
     {
       "page": "https://www.pakistanlawreports.com/",
       "clicks": 3,
-      "impressions": 54,
-      "ctr": 5.56,
-      "position": 73.6
+      "impressions": 55,
+      "ctr": 5.45,
+      "position": 66.9
     },
     {
       "page": "https://pakistanlawreports.com/judgments/78-2013-suit-b-habib-metropolitan-bank-limited-plaintiff-v-s-m-s-shahi-textiles-and-others",
@@ -146,8 +146,8 @@
     {
       "page": "https://pakistanlawreports.com/judgments/pcrlj-2026-548",
       "clicks": 2,
-      "impressions": 27,
-      "ctr": 7.41,
+      "impressions": 28,
+      "ctr": 7.14,
       "position": 2.9
     },
     {
@@ -170,13 +170,6 @@
       "impressions": 1,
       "ctr": 100,
       "position": 1
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/180-2022-const-p-the-boulevard-limited-petitioner-v-s-kashif-fatah-qureshi-others-responde",
-      "clicks": 1,
-      "impressions": 2,
-      "ctr": 50.0,
-      "position": 2
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1988-2023-const-p-m-s-mount-fuji-textiles-ltd-ors-petitioner-v-s-fed-of-pakistan-and-other",
@@ -208,6 +201,13 @@
     },
     {
       "page": "https://pakistanlawreports.com/judgments/328-2018-h-c-a-farrukh-afzal-munif-appellant-v-s-muhammad-afzal-munif-others-respondent",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 5
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/348-2014-suit-syed-shafaat-ali-another-plaintiff-v-s-syed-farhat-ali-others-defendant",
       "clicks": 1,
       "impressions": 1,
       "ctr": 100,
