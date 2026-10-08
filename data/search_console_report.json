@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07",
+  "generated_at": "2026-10-08",
   "top_queries": [
     {
       "query": "pakistan law reporter",
@@ -67,16 +67,16 @@
     {
       "query": "pak law site",
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 12,
       "ctr": 0,
-      "position": 76.4
+      "position": 75.8
     },
     {
       "query": "pakistan law site",
       "clicks": 0,
       "impressions": 17,
       "ctr": 0,
-      "position": 78.6
+      "position": 78.7
     },
     {
       "query": "pakistan law site free",
@@ -117,10 +117,10 @@
     },
     {
       "page": "https://www.pakistanlawreports.com/",
-      "clicks": 3,
-      "impressions": 55,
-      "ctr": 5.45,
-      "position": 66.9
+      "clicks": 5,
+      "impressions": 59,
+      "ctr": 8.47,
+      "position": 65.0
     },
     {
       "page": "https://pakistanlawreports.com/judgments/78-2013-suit-b-habib-metropolitan-bank-limited-plaintiff-v-s-m-s-shahi-textiles-and-others",
@@ -134,13 +134,6 @@
       "clicks": 2,
       "impressions": 2,
       "ctr": 100,
-      "position": 3
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/923-2025-const-p-amna-jatoi-petitioner-v-s-jahanzaib-respondent",
-      "clicks": 2,
-      "impressions": 3,
-      "ctr": 66.67,
       "position": 3
     },
     {
@@ -212,6 +205,13 @@
       "impressions": 1,
       "ctr": 100,
       "position": 5
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/3511-2011-const-p-nazir-oad-petitioner-v-s-registrar-high-court-of-sindh-ors-respondent",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 1
     }
   ]
 }
