@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-08",
+  "generated_at": "2026-10-09",
   "top_pages": [
     {
       "page": "/",
-      "views": 319
+      "views": 328
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 95
+      "views": 99
     },
     {
       "page": "/case-highlights",
@@ -15,7 +15,7 @@
     },
     {
       "page": "/legal-texts",
-      "views": 50
+      "views": 46
     },
     {
       "page": "/find-cases",
@@ -34,42 +34,38 @@
       "views": 26
     },
     {
+      "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
+      "views": 25
+    },
+    {
       "page": "/judgments/mld-2025-533",
       "views": 23
     },
     {
       "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
-      "views": 22
+      "views": 23
     },
     {
-      "page": "/judgments/the-guardian-and-wards-act-1890",
-      "views": 22
-    },
-    {
-      "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
-      "views": 22
+      "page": "/browse",
+      "views": 21
     },
     {
       "page": "/judgments/code-of-criminal-procedure-1898-bare-act",
       "views": 21
     },
     {
-      "page": "/browse",
+      "page": "/search-all",
       "views": 20
     },
     {
-      "page": "/search-all",
-      "views": 20
+      "page": "/judgments/qanun-e-shahadat-order-1984",
+      "views": 19
     }
   ],
   "top_searches": [
     {
       "value": "استقرار حق جس میں مدعا علیہ نے ہماری زمین جو کہ ہماری والد کی ہمیں وراثت ملی تھی ہمارے والد کے مرنے ",
       "count": 34
-    },
-    {
-      "value": "542",
-      "count": 5
     },
     {
       "value": "2020 SCMR",
@@ -108,20 +104,24 @@
       "count": 3
     },
     {
-      "value": "5",
+      "value": "Section 324/",
       "count": 3
     },
     {
-      "value": "542 supreme",
-      "count": 3
+      "value": "1977 P Cr",
+      "count": 2
     },
     {
-      "value": "Contract",
-      "count": 3
+      "value": "2020",
+      "count": 2
     },
     {
-      "value": "SC 542",
-      "count": 3
+      "value": "2020 SCMR 3",
+      "count": 2
+    },
+    {
+      "value": "2020 SCMR 34",
+      "count": 2
     }
   ],
   "top_find_cases_topics": [
