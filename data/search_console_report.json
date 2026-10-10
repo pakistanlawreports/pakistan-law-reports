@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09",
+  "generated_at": "2026-10-10",
   "top_queries": [
     {
       "query": "pakistan law reporter",
@@ -137,13 +137,6 @@
       "position": 3
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/pcrlj-2026-548",
-      "clicks": 2,
-      "impressions": 28,
-      "ctr": 7.14,
-      "position": 2.9
-    },
-    {
       "page": "https://pakistanlawreports.com/judgments/1180-2024-criminal-miscelleneous-muhammad-javed-aslam-ors-applicant-v-s-the-state-ors-resp",
       "clicks": 1,
       "impressions": 1,
@@ -186,13 +179,6 @@
       "position": 5
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/3253-2026-const-p-m-s-al-rahim-trading-co-pvt-ltd-petitioner-v-s-fed-of-pakistan-ors-respo",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 6
-    },
-    {
       "page": "https://pakistanlawreports.com/judgments/328-2018-h-c-a-farrukh-afzal-munif-appellant-v-s-muhammad-afzal-munif-others-respondent",
       "clicks": 1,
       "impressions": 1,
@@ -212,6 +198,20 @@
       "impressions": 1,
       "ctr": 100,
       "position": 1
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/358-2025-cr-bail-azhar-ali-s-o-abdul-rasheed-applicant-v-s-the-state-respondent",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 1
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/4105-2024-const-p-tariq-ali-petitioner-v-s-fed-of-pakistan-and-others-respondent",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 6
     }
   ]
 }
