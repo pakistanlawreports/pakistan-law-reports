@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-09",
+  "generated_at": "2026-10-10",
   "top_pages": [
     {
       "page": "/",
-      "views": 328
+      "views": 326
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 99
+      "views": 96
     },
     {
       "page": "/case-highlights",
@@ -19,46 +19,46 @@
     },
     {
       "page": "/find-cases",
-      "views": 39
+      "views": 38
     },
     {
       "page": "/lawyers",
-      "views": 35
+      "views": 37
     },
     {
       "page": "/study-guides",
-      "views": 28
-    },
-    {
-      "page": "/whats-new",
-      "views": 26
+      "views": 29
     },
     {
       "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
+      "views": 27
+    },
+    {
+      "page": "/whats-new",
       "views": 25
+    },
+    {
+      "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
+      "views": 24
     },
     {
       "page": "/judgments/mld-2025-533",
       "views": 23
     },
     {
-      "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
-      "views": 23
-    },
-    {
-      "page": "/browse",
-      "views": 21
-    },
-    {
       "page": "/judgments/code-of-criminal-procedure-1898-bare-act",
       "views": 21
     },
     {
-      "page": "/search-all",
+      "page": "/judgments/qanun-e-shahadat-order-1984",
       "views": 20
     },
     {
-      "page": "/judgments/qanun-e-shahadat-order-1984",
+      "page": "/browse",
+      "views": 19
+    },
+    {
+      "page": "/judgments/ylr-2025-40",
       "views": 19
     }
   ],
@@ -104,6 +104,10 @@
       "count": 3
     },
     {
+      "value": "406",
+      "count": 3
+    },
+    {
       "value": "Section 324/",
       "count": 3
     },
@@ -117,10 +121,6 @@
     },
     {
       "value": "2020 SCMR 3",
-      "count": 2
-    },
-    {
-      "value": "2020 SCMR 34",
       "count": 2
     }
   ],
