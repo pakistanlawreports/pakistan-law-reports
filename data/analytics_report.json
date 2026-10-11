@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-10",
+  "generated_at": "2026-10-11",
   "top_pages": [
     {
       "page": "/",
-      "views": 326
+      "views": 308
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
@@ -11,42 +11,42 @@
     },
     {
       "page": "/case-highlights",
-      "views": 66
+      "views": 53
     },
     {
       "page": "/legal-texts",
-      "views": 46
-    },
-    {
-      "page": "/find-cases",
       "views": 38
     },
     {
       "page": "/lawyers",
-      "views": 37
+      "views": 36
+    },
+    {
+      "page": "/find-cases",
+      "views": 34
     },
     {
       "page": "/study-guides",
-      "views": 29
+      "views": 28
     },
     {
       "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
       "views": 27
     },
     {
-      "page": "/whats-new",
-      "views": 25
-    },
-    {
       "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
       "views": 24
     },
     {
-      "page": "/judgments/mld-2025-533",
-      "views": 23
+      "page": "/whats-new",
+      "views": 24
     },
     {
-      "page": "/judgments/code-of-criminal-procedure-1898-bare-act",
+      "page": "/judgments/plcs-2026-121",
+      "views": 22
+    },
+    {
+      "page": "/judgments/mld-2025-533",
       "views": 21
     },
     {
@@ -54,12 +54,12 @@
       "views": 20
     },
     {
-      "page": "/browse",
+      "page": "/judgments/code-of-criminal-procedure-1898-bare-act",
       "views": 19
     },
     {
-      "page": "/judgments/ylr-2025-40",
-      "views": 19
+      "page": "/judgments/pld-2025-balochistan-92",
+      "views": 18
     }
   ],
   "top_searches": [
@@ -100,6 +100,10 @@
       "count": 3
     },
     {
+      "value": "2007 SCMR",
+      "count": 3
+    },
+    {
       "value": "2026 pld 343",
       "count": 3
     },
@@ -118,19 +122,15 @@
     {
       "value": "2020",
       "count": 2
-    },
-    {
-      "value": "2020 SCMR 3",
-      "count": 2
     }
   ],
   "top_find_cases_topics": [
     {
-      "value": "Property & Rent",
-      "count": 2
+      "value": "Civil Law",
+      "count": 1
     },
     {
-      "value": "Civil Law",
+      "value": "Property & Rent",
       "count": 1
     }
   ]
