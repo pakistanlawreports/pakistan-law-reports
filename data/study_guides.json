@@ -294,5 +294,42 @@
       }
     ],
     "generated_at": "2026-10-05"
+  },
+  "Civil Law": {
+    "topic": "Civil Law",
+    "guide": "Civil Law in Pakistan spans a wide range of subject matter, from statutory welfare schemes to property disputes, evidentiary procedure, limitation rules, and contractual arbitration. The six cases below illustrate how courts interpret specific statutes and procedural codes to resolve disputes in a manner consistent with legislative purpose and established doctrine.\n\n- Statutory interpretation must serve the purpose of the enactment. In Ahsin Arshad etc. v. Advocate General, Punjab (PLJ 2018 Lahore 568), the Lahore High Court held that under the Mental Health Ordinance, 2001, the Advocate General's consent under Section 29 is not a mere clerical function but requires confirming that the mentally disordered person and the applicant relatives reside within the territorial jurisdiction of the Court of Protection. The court reasoned that since the Ordinance was enacted to protect mentally disordered persons and their property, ongoing supervision of the person and management of property can only occur if both the disordered person and the manager/guardian reside within the court's jurisdiction. This case establishes that jurisdictional residence requirements in protective statutes are substantive, not procedural technicalities.\n\n- Benami transactions require proof of specific ingredients. In Mst. Ashram Bibi v. Musa Khan (PLJ 2015 Islamabad 103 DB), the court reaffirmed that a party alleging a benami transaction must establish four elements: source of income used for the purchase, custody of the original title documents, possession of the suit property, and the motive behind the benami arrangement. The court also noted that a claim becomes suspect when a transaction was treated as valid during a period of amicable relations (e.g., between spouses) but is later challenged once relations sour, suggesting mala fide rather than genuine benami intent. The plaintiff's failure to prove absence of independent income and the other ingredients led to dismissal of the benami claim.\n\n- Re-examination of witnesses is governed strictly by the Qanun-e-Shahadat Order. In Muhammad Rauf v. Saeed Ahmad (PLJ 2015 Peshawar 353), the Peshawar High Court clarified that a witness already examined as PW can only be re-examined under Article 133 of the Qanun-e-Shahadat Order, 1984, and there is no legal provision allowing such a witness to be recalled and recorded afresh as a court witness. Correction of an alleged clerical error (such as the time of deposition) must occur through proper re-examination, with the opposing party retaining the right to cross-examine.\n\n- Limitation for malicious prosecution suits runs from acquittal. In Hyder Ladhu Jaffer v. Habib Bank Ltd. (PLJ 2014 Karachi 202), the Sindh High Court held that under Article 23 of the Limitation Act, 1908, a suit for damages for malicious prosecution must be filed within one year, with limitation commencing from the date of acquittal or termination of prosecution. The court also clarified that Section 4 of the Limitation Act does not extend the limitation period itself but merely allows filing on the next working day if the period expires when courts are closed.\n\n- Necessary parties must be joined in disputes over communal land. In Muhammad Sabir v. Azad Government of Jammu & Kashmir (PLJ 2014 AJ&K 267), the court held that where land has been converted into shamlat deh (village common land), all landowners of the deh are necessary parties to any suit affecting that land, and civil courts lack jurisdiction over correction of revenue entries concerning crown land.\n\n- Arbitration disputes involving fact",
+    "based_on_cases": [
+      {
+        "title": "Jurisdiction of Court of Protection matters for supervising care of mentally disordered person",
+        "citation": "PLJ 2018",
+        "slug": "plj-2018-jurisdiction-of-court-of-protection-matters-for-supervising-care-of-men"
+      },
+      {
+        "title": "There are four ingredients of Benami Transaction",
+        "citation": "PLJ 2015",
+        "slug": "plj-2015-there-are-four-ingredients-of-benami-transaction"
+      },
+      {
+        "title": "Re-Examination of Witness under Article 133",
+        "citation": "PLJ 2015",
+        "slug": "plj-2015-re-examination-of-witness-under-article-133"
+      },
+      {
+        "title": "Suit for Damages on Malicious Prosecution can be filed within one year",
+        "citation": "PLJ 2014",
+        "slug": "plj-2014-suit-for-damages-on-malicious-prosecution-can-be-filed-within-one-year"
+      },
+      {
+        "title": "All owners in Shamlat Deh land are necessary party to the suit",
+        "citation": "PLJ 2014 AJ&K 267",
+        "slug": "plj-2014-aj-k-267-all-owners-in-shamlat-deh-land-are-necessary-party-to-the-suit"
+      },
+      {
+        "title": "Appointment of Arbitrator Judgment",
+        "citation": "PLJ 2014",
+        "slug": "plj-2014-appointment-of-arbitrator-judgment"
+      }
+    ],
+    "generated_at": "2026-10-12"
   }
 }
