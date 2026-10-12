@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-11",
+  "generated_at": "2026-10-12",
   "top_queries": [
     {
       "query": "pakistan law reporter",
-      "clicks": 2,
-      "impressions": 14,
-      "ctr": 14.29,
+      "clicks": 1,
+      "impressions": 15,
+      "ctr": 6.67,
       "position": 3.1
     },
     {
@@ -18,7 +18,7 @@
     {
       "query": "+\"wo2007117667\" \"written opinion\"",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
       "position": 10
     },
@@ -32,9 +32,9 @@
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 15,
       "ctr": 0,
-      "position": 2.6
+      "position": 2.5
     },
     {
       "query": "as advocate",
@@ -81,23 +81,23 @@
     {
       "query": "pak law site",
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 12,
       "ctr": 0,
-      "position": 75
+      "position": 73.8
     },
     {
       "query": "pakistan law site",
       "clicks": 0,
-      "impressions": 18,
+      "impressions": 17,
       "ctr": 0,
-      "position": 77.7
+      "position": 77.5
     },
     {
       "query": "pakistan law site free",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 5,
       "ctr": 0,
-      "position": 79.5
+      "position": 78
     },
     {
       "query": "pakistan law website",
@@ -110,17 +110,17 @@
   "top_pages_by_search": [
     {
       "page": "https://pakistanlawreports.com/",
-      "clicks": 10,
-      "impressions": 66,
-      "ctr": 15.15,
-      "position": 12.8
+      "clicks": 8,
+      "impressions": 63,
+      "ctr": 12.7,
+      "position": 9.5
     },
     {
       "page": "https://www.pakistanlawreports.com/",
       "clicks": 6,
-      "impressions": 62,
-      "ctr": 9.68,
-      "position": 64.3
+      "impressions": 61,
+      "ctr": 9.84,
+      "position": 63.6
     },
     {
       "page": "https://pakistanlawreports.com/judgments/78-2013-suit-b-habib-metropolitan-bank-limited-plaintiff-v-s-m-s-shahi-textiles-and-others",
@@ -137,6 +137,13 @@
       "position": 3
     },
     {
+      "page": "https://pakistanlawreports.com/judgments/eligible-family-members-of-government-servant-can-get-house-alloted-on-their-nam",
+      "clicks": 2,
+      "impressions": 2,
+      "ctr": 100,
+      "position": 2
+    },
+    {
       "page": "https://pakistanlawreports.com/judgments/1180-2024-criminal-miscelleneous-muhammad-javed-aslam-ors-applicant-v-s-the-state-ors-resp",
       "clicks": 1,
       "impressions": 1,
@@ -149,6 +156,13 @@
       "impressions": 2,
       "ctr": 50.0,
       "position": 6
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/149-2010-spl-cus-ref-a-the-collector-of-customs-appellant-v-s-water-power-development-auth",
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 50.0,
+      "position": 3.5
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1723-2025-cr-bail-sana-gul-s-o-abdul-ghafar-applicant-v-s-the-state-respondent",
@@ -198,20 +212,6 @@
       "impressions": 1,
       "ctr": 100,
       "position": 5
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/3511-2011-const-p-nazir-oad-petitioner-v-s-registrar-high-court-of-sindh-ors-respondent",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 1
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/358-2025-cr-bail-azhar-ali-s-o-abdul-rasheed-applicant-v-s-the-state-respondent",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 1
     }
   ]
 }
