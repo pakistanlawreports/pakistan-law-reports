@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-13",
+  "generated_at": "2026-10-14",
   "top_pages": [
     {
       "page": "/",
-      "views": 304
+      "views": 309
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 90
+      "views": 88
     },
     {
       "page": "/case-highlights",
@@ -15,23 +15,23 @@
     },
     {
       "page": "/legal-texts",
-      "views": 37
+      "views": 40
     },
     {
       "page": "/lawyers",
       "views": 34
     },
     {
-      "page": "/find-cases",
-      "views": 28
+      "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
+      "views": 30
     },
     {
       "page": "/study-guides",
-      "views": 28
+      "views": 29
     },
     {
-      "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
-      "views": 27
+      "page": "/find-cases",
+      "views": 28
     },
     {
       "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
@@ -42,12 +42,12 @@
       "views": 24
     },
     {
-      "page": "/whats-new",
-      "views": 23
+      "page": "/judgments/qanun-e-shahadat-order-1984",
+      "views": 24
     },
     {
-      "page": "/judgments/qanun-e-shahadat-order-1984",
-      "views": 22
+      "page": "/whats-new",
+      "views": 24
     },
     {
       "page": "/topics/criminal-law",
@@ -92,6 +92,10 @@
       "count": 4
     },
     {
+      "value": "Land reforms 1972 MLR 115",
+      "count": 4
+    },
+    {
       "value": "PLD",
       "count": 4
     },
@@ -117,10 +121,6 @@
     },
     {
       "value": "406",
-      "count": 3
-    },
-    {
-      "value": "Section 324/",
       "count": 3
     }
   ],
