@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-13",
+  "generated_at": "2026-10-14",
   "top_queries": [
     {
       "query": "pakistan law reporter",
       "clicks": 1,
-      "impressions": 15,
-      "ctr": 6.67,
-      "position": 3.1
+      "impressions": 16,
+      "ctr": 6.25,
+      "position": 4
     },
     {
       "query": "%\"wo2007016070\" \"written opinion\"",
@@ -32,7 +32,7 @@
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 14,
       "ctr": 0,
       "position": 2.6
     },
@@ -60,9 +60,9 @@
     {
       "query": "law site pakistan",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 83
+      "position": 84
     },
     {
       "query": "law sites in pakistan",
@@ -111,16 +111,16 @@
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 8,
-      "impressions": 63,
-      "ctr": 12.7,
-      "position": 9.5
+      "impressions": 62,
+      "ctr": 12.9,
+      "position": 9.3
     },
     {
       "page": "https://www.pakistanlawreports.com/",
-      "clicks": 7,
-      "impressions": 60,
-      "ctr": 11.67,
-      "position": 62.6
+      "clicks": 8,
+      "impressions": 63,
+      "ctr": 12.7,
+      "position": 60.3
     },
     {
       "page": "https://pakistanlawreports.com/judgments/78-2013-suit-b-habib-metropolitan-bank-limited-plaintiff-v-s-m-s-shahi-textiles-and-others",
@@ -193,6 +193,13 @@
       "position": 1
     },
     {
+      "page": "https://pakistanlawreports.com/judgments/2377-2012-const-p-bank-alfalah-limited-petitioner-v-s-federation-of-pakistan-and-others-re",
+      "clicks": 1,
+      "impressions": 4,
+      "ctr": 25.0,
+      "position": 5.2
+    },
+    {
       "page": "https://pakistanlawreports.com/judgments/262-2017-h-c-a-gulshan-weaving-mills-limited-appellant-v-s-al-baraka-bank-pakistan-limited",
       "clicks": 1,
       "impressions": 1,
@@ -201,13 +208,6 @@
     },
     {
       "page": "https://pakistanlawreports.com/judgments/322-2021-s-m-a-aiman-fatima-d-o-hasan-mahmood-petitioner-v-s-fozia-hasan-and-others-respon",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 5
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/328-2018-h-c-a-farrukh-afzal-munif-appellant-v-s-muhammad-afzal-munif-others-respondent",
       "clicks": 1,
       "impressions": 1,
       "ctr": 100,
