@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-15",
+  "generated_at": "2026-10-16",
   "top_queries": [
     {
       "query": "pakistan law reporter",
       "clicks": 1,
-      "impressions": 16,
-      "ctr": 6.25,
+      "impressions": 14,
+      "ctr": 7.14,
       "position": 4
     },
     {
@@ -32,7 +32,7 @@
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 15,
+      "impressions": 16,
       "ctr": 0,
       "position": 2.6
     },
@@ -83,14 +83,14 @@
       "clicks": 0,
       "impressions": 13,
       "ctr": 0,
-      "position": 72.9
+      "position": 72.2
     },
     {
       "query": "pakistan law site",
       "clicks": 0,
       "impressions": 16,
       "ctr": 0,
-      "position": 77.3
+      "position": 77
     },
     {
       "query": "pakistan law site free",
@@ -111,16 +111,16 @@
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 8,
-      "impressions": 60,
-      "ctr": 13.33,
-      "position": 9.5
+      "impressions": 58,
+      "ctr": 13.79,
+      "position": 9.7
     },
     {
       "page": "https://www.pakistanlawreports.com/",
       "clicks": 8,
-      "impressions": 65,
-      "ctr": 12.31,
-      "position": 60.6
+      "impressions": 64,
+      "ctr": 12.5,
+      "position": 60.2
     },
     {
       "page": "https://pakistanlawreports.com/judgments/78-2013-suit-b-habib-metropolitan-bank-limited-plaintiff-v-s-m-s-shahi-textiles-and-others",
@@ -142,6 +142,13 @@
       "impressions": 2,
       "ctr": 100,
       "position": 2
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/1-2025-ii-a-mukhtair-ali-shaikh-appellant-v-s-p-o-sindh-and-others-respondent",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 3
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1180-2024-criminal-miscelleneous-muhammad-javed-aslam-ors-applicant-v-s-the-state-ors-resp",
@@ -186,6 +193,13 @@
       "position": 2
     },
     {
+      "page": "https://pakistanlawreports.com/judgments/224-2025-cr-rev-muhammad-paryal-s-o-hakim-ali-siyal-applicant-v-s-muhammad-arif-others-res",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 2
+    },
+    {
       "page": "https://pakistanlawreports.com/judgments/2276-2025-cr-bail-usman-s-o-samad-applicant-v-s-the-state-respondent",
       "clicks": 1,
       "impressions": 1,
@@ -198,20 +212,6 @@
       "impressions": 4,
       "ctr": 25.0,
       "position": 5.2
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/262-2017-h-c-a-gulshan-weaving-mills-limited-appellant-v-s-al-baraka-bank-pakistan-limited",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 6
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/322-2021-s-m-a-aiman-fatima-d-o-hasan-mahmood-petitioner-v-s-fozia-hasan-and-others-respon",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 5
     }
   ]
 }
