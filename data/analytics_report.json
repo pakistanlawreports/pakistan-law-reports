@@ -1,44 +1,48 @@
 {
-  "generated_at": "2026-10-16",
+  "generated_at": "2026-10-17",
   "top_pages": [
     {
       "page": "/",
-      "views": 313
+      "views": 308
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 94
+      "views": 95
     },
     {
       "page": "/case-highlights",
-      "views": 53
+      "views": 45
     },
     {
       "page": "/legal-texts",
-      "views": 42
+      "views": 40
+    },
+    {
+      "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
+      "views": 35
     },
     {
       "page": "/lawyers",
       "views": 35
     },
     {
-      "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
-      "views": 32
+      "page": "/find-cases",
+      "views": 26
     },
     {
-      "page": "/find-cases",
-      "views": 27
+      "page": "/judgments/qanun-e-shahadat-order-1984",
+      "views": 26
+    },
+    {
+      "page": "/judgments/ylr-2025-40",
+      "views": 26
     },
     {
       "page": "/study-guides",
       "views": 26
     },
     {
-      "page": "/judgments/qanun-e-shahadat-order-1984",
-      "views": 25
-    },
-    {
-      "page": "/whats-new",
+      "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
       "views": 25
     },
     {
@@ -46,11 +50,7 @@
       "views": 24
     },
     {
-      "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
-      "views": 24
-    },
-    {
-      "page": "/judgments/ylr-2025-40",
+      "page": "/whats-new",
       "views": 24
     },
     {
@@ -58,7 +58,7 @@
       "views": 23
     },
     {
-      "page": "/browse",
+      "page": "/judgments/the-partnership-act-1932",
       "views": 19
     }
   ],
