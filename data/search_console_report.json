@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-16",
+  "generated_at": "2026-10-17",
   "top_queries": [
     {
       "query": "pakistan law reporter",
       "clicks": 1,
-      "impressions": 14,
-      "ctr": 7.14,
-      "position": 4
+      "impressions": 13,
+      "ctr": 7.69,
+      "position": 4.2
     },
     {
       "query": "%\"wo2007016070\" \"written opinion\"",
@@ -81,16 +81,16 @@
     {
       "query": "pak law site",
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 12,
       "ctr": 0,
-      "position": 72.2
+      "position": 72.9
     },
     {
       "query": "pakistan law site",
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 15,
       "ctr": 0,
-      "position": 77
+      "position": 77.8
     },
     {
       "query": "pakistan law site free",
@@ -102,25 +102,25 @@
     {
       "query": "pakistan law website",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 96.7
+      "position": 98
     }
   ],
   "top_pages_by_search": [
     {
-      "page": "https://pakistanlawreports.com/",
-      "clicks": 8,
-      "impressions": 58,
-      "ctr": 13.79,
-      "position": 9.7
+      "page": "https://www.pakistanlawreports.com/",
+      "clicks": 9,
+      "impressions": 66,
+      "ctr": 13.64,
+      "position": 54.3
     },
     {
-      "page": "https://www.pakistanlawreports.com/",
+      "page": "https://pakistanlawreports.com/",
       "clicks": 8,
-      "impressions": 64,
-      "ctr": 12.5,
-      "position": 60.2
+      "impressions": 57,
+      "ctr": 14.04,
+      "position": 9.8
     },
     {
       "page": "https://pakistanlawreports.com/judgments/78-2013-suit-b-habib-metropolitan-bank-limited-plaintiff-v-s-m-s-shahi-textiles-and-others",
@@ -141,6 +141,13 @@
       "clicks": 2,
       "impressions": 2,
       "ctr": 100,
+      "position": 2
+    },
+    {
+      "page": "https://pakistanlawreports.com/about",
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 50.0,
       "position": 2
     },
     {
@@ -193,25 +200,18 @@
       "position": 2
     },
     {
+      "page": "https://pakistanlawreports.com/judgments/219-2011-i-t-r-a-commissioner-inland-revenue-applicant-v-s-kirther-pakistan-b-v-respondent",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 7
+    },
+    {
       "page": "https://pakistanlawreports.com/judgments/224-2025-cr-rev-muhammad-paryal-s-o-hakim-ali-siyal-applicant-v-s-muhammad-arif-others-res",
       "clicks": 1,
       "impressions": 1,
       "ctr": 100,
       "position": 2
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/2276-2025-cr-bail-usman-s-o-samad-applicant-v-s-the-state-respondent",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 1
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/2377-2012-const-p-bank-alfalah-limited-petitioner-v-s-federation-of-pakistan-and-others-re",
-      "clicks": 1,
-      "impressions": 4,
-      "ctr": 25.0,
-      "position": 5.2
     }
   ]
 }
