@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-17",
+  "generated_at": "2026-10-18",
   "top_queries": [
     {
       "query": "pakistan law reporter",
       "clicks": 1,
-      "impressions": 13,
-      "ctr": 7.69,
-      "position": 4.2
+      "impressions": 11,
+      "ctr": 9.09,
+      "position": 4.3
     },
     {
       "query": "%\"wo2007016070\" \"written opinion\"",
@@ -34,7 +34,7 @@
       "clicks": 0,
       "impressions": 16,
       "ctr": 0,
-      "position": 2.6
+      "position": 2.7
     },
     {
       "query": "as advocate",
@@ -88,9 +88,9 @@
     {
       "query": "pakistan law site",
       "clicks": 0,
-      "impressions": 15,
+      "impressions": 14,
       "ctr": 0,
-      "position": 77.8
+      "position": 78.5
     },
     {
       "query": "pakistan law site free",
@@ -113,14 +113,14 @@
       "clicks": 9,
       "impressions": 66,
       "ctr": 13.64,
-      "position": 54.3
+      "position": 54.4
     },
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 8,
-      "impressions": 57,
-      "ctr": 14.04,
-      "position": 9.8
+      "impressions": 53,
+      "ctr": 15.09,
+      "position": 10.3
     },
     {
       "page": "https://pakistanlawreports.com/judgments/78-2013-suit-b-habib-metropolitan-bank-limited-plaintiff-v-s-m-s-shahi-textiles-and-others",
@@ -179,6 +179,13 @@
       "position": 3.5
     },
     {
+      "page": "https://pakistanlawreports.com/judgments/150-2025-i-a-habib-ahmed-appellant-v-s-syed-mansoor-ahmed-and-others-respondent",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 1
+    },
+    {
       "page": "https://pakistanlawreports.com/judgments/1723-2025-cr-bail-sana-gul-s-o-abdul-ghafar-applicant-v-s-the-state-respondent",
       "clicks": 1,
       "impressions": 1,
@@ -205,13 +212,6 @@
       "impressions": 1,
       "ctr": 100,
       "position": 7
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/224-2025-cr-rev-muhammad-paryal-s-o-hakim-ali-siyal-applicant-v-s-muhammad-arif-others-res",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 2
     }
   ]
 }
