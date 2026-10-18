@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-17",
+  "generated_at": "2026-10-18",
   "top_pages": [
     {
       "page": "/",
-      "views": 308
+      "views": 290
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 95
+      "views": 89
     },
     {
       "page": "/case-highlights",
-      "views": 45
+      "views": 41
     },
     {
       "page": "/legal-texts",
@@ -23,18 +23,10 @@
     },
     {
       "page": "/lawyers",
-      "views": 35
-    },
-    {
-      "page": "/find-cases",
-      "views": 26
+      "views": 34
     },
     {
       "page": "/judgments/qanun-e-shahadat-order-1984",
-      "views": 26
-    },
-    {
-      "page": "/judgments/ylr-2025-40",
       "views": 26
     },
     {
@@ -42,7 +34,7 @@
       "views": 26
     },
     {
-      "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
+      "page": "/judgments/ylr-2025-40",
       "views": 25
     },
     {
@@ -50,7 +42,7 @@
       "views": 24
     },
     {
-      "page": "/whats-new",
+      "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
       "views": 24
     },
     {
@@ -58,7 +50,15 @@
       "views": 23
     },
     {
-      "page": "/judgments/the-partnership-act-1932",
+      "page": "/find-cases",
+      "views": 22
+    },
+    {
+      "page": "/whats-new",
+      "views": 22
+    },
+    {
+      "page": "/judgments/mld-2012-1856",
       "views": 19
     }
   ],
