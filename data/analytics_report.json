@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19",
+  "generated_at": "2026-10-20",
   "top_pages": [
     {
       "page": "/",
@@ -7,11 +7,11 @@
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 86
+      "views": 85
     },
     {
       "page": "/case-highlights",
-      "views": 42
+      "views": 41
     },
     {
       "page": "/legal-texts",
@@ -22,8 +22,20 @@
       "views": 36
     },
     {
+      "page": "/topics/criminal-law",
+      "views": 28
+    },
+    {
       "page": "/study-guides",
-      "views": 26
+      "views": 27
+    },
+    {
+      "page": "/judgments/qanun-e-shahadat-order-1984",
+      "views": 25
+    },
+    {
+      "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
+      "views": 25
     },
     {
       "page": "/judgments/ylr-2025-40",
@@ -34,49 +46,25 @@
       "views": 24
     },
     {
-      "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
-      "views": 24
-    },
-    {
       "page": "/lawyers",
-      "views": 24
+      "views": 22
     },
     {
-      "page": "/topics/criminal-law",
-      "views": 24
-    },
-    {
-      "page": "/judgments/qanun-e-shahadat-order-1984",
-      "views": 23
-    },
-    {
-      "page": "/find-cases",
-      "views": 21
-    },
-    {
-      "page": "/whats-new",
+      "page": "/judgments/the-partnership-act-1932",
       "views": 20
     },
     {
       "page": "/judgments/mld-2012-1856",
       "views": 19
+    },
+    {
+      "page": "/judgments/plj-2023-bail-granted-in-17-22-emigration-ordinance-case",
+      "views": 19
     }
   ],
   "top_searches": [
     {
-      "value": "استقرار حق جس میں مدعا علیہ نے ہماری زمین جو کہ ہماری والد کی ہمیں وراثت ملی تھی ہمارے والد کے مرنے ",
-      "count": 34
-    },
-    {
-      "value": "PLD",
-      "count": 5
-    },
-    {
       "value": "2",
-      "count": 4
-    },
-    {
-      "value": "2026 SCMR 966  [Supreme Court of Pakistan)  Present: Shahid Bilal Hassan and Shakeel Ahmad 1.1  GHUL",
       "count": 4
     },
     {
@@ -96,11 +84,11 @@
       "count": 4
     },
     {
-      "value": "unilateral",
+      "value": "PLD",
       "count": 4
     },
     {
-      "value": "انگلش دعوی با مراد صدور ڈگری اس تکرار حق کے مدائیان جدا مداویہ عرضی دعوے کے بطور بارسان ہیں جس متعلق",
+      "value": "unilateral",
       "count": 4
     },
     {
@@ -121,6 +109,18 @@
     },
     {
       "value": "406",
+      "count": 3
+    },
+    {
+      "value": "Examination",
+      "count": 3
+    },
+    {
+      "value": "Land reforms 1972",
+      "count": 3
+    },
+    {
+      "value": "NAFIS",
       "count": 3
     }
   ],
