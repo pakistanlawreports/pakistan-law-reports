@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19",
+  "generated_at": "2026-10-20",
   "top_queries": [
     {
       "query": "pakistan law reporter",
@@ -7,20 +7,6 @@
       "impressions": 11,
       "ctr": 9.09,
       "position": 4.3
-    },
-    {
-      "query": "%\"wo2007016070\" \"written opinion\"",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 8
-    },
-    {
-      "query": "+\"wo2007117667\" \"written opinion\"",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 10
     },
     {
       "query": "2016 and 2017",
@@ -32,9 +18,9 @@
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 15,
       "ctr": 0,
-      "position": 2.7
+      "position": 2.6
     },
     {
       "query": "as advocate",
@@ -88,9 +74,9 @@
     {
       "query": "pakistan law site",
       "clicks": 0,
-      "impressions": 15,
+      "impressions": 14,
       "ctr": 0,
-      "position": 77.9
+      "position": 77.8
     },
     {
       "query": "pakistan law site free",
@@ -105,22 +91,36 @@
       "impressions": 2,
       "ctr": 0,
       "position": 98
+    },
+    {
+      "query": "paklaw",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 98
+    },
+    {
+      "query": "paklaw site",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 73
     }
   ],
   "top_pages_by_search": [
     {
       "page": "https://www.pakistanlawreports.com/",
       "clicks": 9,
-      "impressions": 69,
-      "ctr": 13.04,
-      "position": 53.8
+      "impressions": 70,
+      "ctr": 12.86,
+      "position": 54.1
     },
     {
       "page": "https://pakistanlawreports.com/",
-      "clicks": 7,
-      "impressions": 49,
-      "ctr": 14.29,
-      "position": 9.3
+      "clicks": 6,
+      "impressions": 48,
+      "ctr": 12.5,
+      "position": 9.4
     },
     {
       "page": "https://pakistanlawreports.com/judgments/78-2013-suit-b-habib-metropolitan-bank-limited-plaintiff-v-s-m-s-shahi-textiles-and-others",
