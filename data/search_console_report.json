@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21",
+  "generated_at": "2026-10-22",
   "top_queries": [
     {
       "query": "pakistan law reporter",
@@ -93,33 +93,33 @@
       "position": 98
     },
     {
+      "query": "pakistanlawsite",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 69
+    },
+    {
       "query": "paklaw",
       "clicks": 0,
       "impressions": 2,
       "ctr": 0,
       "position": 98
-    },
-    {
-      "query": "paklaw site",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0,
-      "position": 73
     }
   ],
   "top_pages_by_search": [
     {
       "page": "https://www.pakistanlawreports.com/",
-      "clicks": 10,
-      "impressions": 71,
-      "ctr": 14.08,
-      "position": 53.4
+      "clicks": 11,
+      "impressions": 73,
+      "ctr": 15.07,
+      "position": 52.9
     },
     {
       "page": "https://pakistanlawreports.com/",
-      "clicks": 6,
+      "clicks": 5,
       "impressions": 48,
-      "ctr": 12.5,
+      "ctr": 10.42,
       "position": 9.4
     },
     {
@@ -200,18 +200,18 @@
       "position": 1
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/1988-2023-const-p-m-s-mount-fuji-textiles-ltd-ors-petitioner-v-s-fed-of-pakistan-and-other",
-      "clicks": 1,
-      "impressions": 2,
-      "ctr": 50.0,
-      "position": 5
-    },
-    {
       "page": "https://pakistanlawreports.com/judgments/2026-shc-khi-1366",
       "clicks": 1,
       "impressions": 1,
       "ctr": 100,
       "position": 2
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/219-2011-i-t-r-a-commissioner-inland-revenue-applicant-v-s-kirther-pakistan-b-v-respondent",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 7
     }
   ]
 }
