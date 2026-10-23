@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-22",
+  "generated_at": "2026-10-23",
   "top_queries": [
     {
       "query": "pakistan law reporter",
       "clicks": 1,
-      "impressions": 11,
-      "ctr": 9.09,
-      "position": 4.3
+      "impressions": 9,
+      "ctr": 11.11,
+      "position": 4.7
     },
     {
       "query": "2016 and 2017",
@@ -111,23 +111,16 @@
     {
       "page": "https://www.pakistanlawreports.com/",
       "clicks": 11,
-      "impressions": 73,
-      "ctr": 15.07,
-      "position": 52.9
+      "impressions": 75,
+      "ctr": 14.67,
+      "position": 54.9
     },
     {
       "page": "https://pakistanlawreports.com/",
-      "clicks": 5,
-      "impressions": 48,
-      "ctr": 10.42,
-      "position": 9.4
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/78-2013-suit-b-habib-metropolitan-bank-limited-plaintiff-v-s-m-s-shahi-textiles-and-others",
-      "clicks": 2,
-      "impressions": 2,
-      "ctr": 100,
-      "position": 4
+      "clicks": 4,
+      "impressions": 45,
+      "ctr": 8.89,
+      "position": 9.9
     },
     {
       "page": "https://pakistanlawreports.com/judgments/859-2025-cr-bail-khadim-hussain-applicant-v-s-the-state-respondent",
@@ -191,6 +184,13 @@
       "impressions": 1,
       "ctr": 100,
       "position": 1
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/171-2025-criminal-miscelleneous-ali-asghar-shah-and-others-applicant-v-s-sho-ps-radhan-sta",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 2
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1723-2025-cr-bail-sana-gul-s-o-abdul-ghafar-applicant-v-s-the-state-respondent",
