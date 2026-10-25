@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24",
+  "generated_at": "2026-10-25",
   "top_queries": [
     {
       "query": "2016 and 2017",
@@ -11,9 +11,9 @@
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 11,
       "ctr": 0,
-      "position": 2.5
+      "position": 2.2
     },
     {
       "query": "as advocate",
@@ -32,9 +32,9 @@
     {
       "query": "free case law search pakistan",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 87.2
+      "position": 87
     },
     {
       "query": "law sites in pakistan",
@@ -53,30 +53,30 @@
     {
       "query": "pak law site",
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 15,
       "ctr": 0,
-      "position": 72.2
+      "position": 73
     },
     {
       "query": "pakistan law reporter",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 7,
       "ctr": 0,
-      "position": 4.9
+      "position": 5
     },
     {
       "query": "pakistan law site",
       "clicks": 0,
       "impressions": 14,
       "ctr": 0,
-      "position": 77.8
+      "position": 77.1
     },
     {
       "query": "pakistan law site free",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 78.4
+      "position": 78.7
     },
     {
       "query": "pakistan law website",
@@ -102,25 +102,32 @@
     {
       "query": "paklaw site",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 73
+      "position": 73.3
     }
   ],
   "top_pages_by_search": [
     {
       "page": "https://www.pakistanlawreports.com/",
       "clicks": 11,
-      "impressions": 76,
-      "ctr": 14.47,
-      "position": 52.0
+      "impressions": 81,
+      "ctr": 13.58,
+      "position": 53.4
     },
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 2,
-      "impressions": 43,
-      "ctr": 4.65,
-      "position": 10.3
+      "impressions": 39,
+      "ctr": 5.13,
+      "position": 8.6
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/77-2024-criminal-appeal-zain-atif-solangi-appellant-v-s-the-state-respondent",
+      "clicks": 2,
+      "impressions": 2,
+      "ctr": 100,
+      "position": 3.5
     },
     {
       "page": "https://pakistanlawreports.com/judgments/859-2025-cr-bail-khadim-hussain-applicant-v-s-the-state-respondent",
@@ -205,13 +212,6 @@
       "impressions": 1,
       "ctr": 100,
       "position": 2
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/219-2011-i-t-r-a-commissioner-inland-revenue-applicant-v-s-kirther-pakistan-b-v-respondent",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 7
     }
   ]
 }
