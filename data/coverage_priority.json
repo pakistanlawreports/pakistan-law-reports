@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19",
+  "generated_at": "2026-10-26",
   "priority_order": [
     "Criminal Law",
     "Constitutional Law",
@@ -15,23 +15,23 @@
   "details": [
     {
       "topic": "Criminal Law",
-      "total_judgments": 5910,
+      "total_judgments": 5943,
       "full_text_judgments": 1472,
-      "highlights_generated": 1383,
+      "highlights_generated": 1384,
       "has_study_guide": true,
-      "priority_score": 44.5
+      "priority_score": 44.0
     },
     {
       "topic": "Constitutional Law",
-      "total_judgments": 1053,
+      "total_judgments": 1058,
       "full_text_judgments": 696,
-      "highlights_generated": 656,
+      "highlights_generated": 657,
       "has_study_guide": true,
-      "priority_score": 20.0
+      "priority_score": 19.5
     },
     {
       "topic": "Succession & Inheritance",
-      "total_judgments": 228,
+      "total_judgments": 229,
       "full_text_judgments": 142,
       "highlights_generated": 110,
       "has_study_guide": true,
@@ -47,7 +47,7 @@
     },
     {
       "topic": "Civil Law",
-      "total_judgments": 1000,
+      "total_judgments": 1006,
       "full_text_judgments": 273,
       "highlights_generated": 250,
       "has_study_guide": true,
@@ -55,7 +55,7 @@
     },
     {
       "topic": "Labour & Service",
-      "total_judgments": 196,
+      "total_judgments": 203,
       "full_text_judgments": 63,
       "highlights_generated": 41,
       "has_study_guide": true,
@@ -63,7 +63,7 @@
     },
     {
       "topic": "Banking & Corporate",
-      "total_judgments": 428,
+      "total_judgments": 429,
       "full_text_judgments": 37,
       "highlights_generated": 28,
       "has_study_guide": true,
@@ -71,7 +71,7 @@
     },
     {
       "topic": "Tax Law",
-      "total_judgments": 708,
+      "total_judgments": 711,
       "full_text_judgments": 54,
       "highlights_generated": 46,
       "has_study_guide": true,
@@ -79,7 +79,7 @@
     },
     {
       "topic": "Property & Rent",
-      "total_judgments": 362,
+      "total_judgments": 364,
       "full_text_judgments": 206,
       "highlights_generated": 199,
       "has_study_guide": true,
@@ -87,7 +87,7 @@
     },
     {
       "topic": "Company Law",
-      "total_judgments": 501,
+      "total_judgments": 502,
       "full_text_judgments": 9,
       "highlights_generated": 6,
       "has_study_guide": false,
