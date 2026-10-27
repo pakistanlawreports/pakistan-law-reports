@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26",
+  "generated_at": "2026-10-27",
   "top_queries": [
     {
       "query": "2016 and 2017",
@@ -32,9 +32,9 @@
     {
       "query": "free case law search pakistan",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 87
+      "position": 88
     },
     {
       "query": "law sites in pakistan",
@@ -53,9 +53,9 @@
     {
       "query": "pak law site",
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 15,
       "ctr": 0,
-      "position": 72.4
+      "position": 72.5
     },
     {
       "query": "pakistan law reporter",
@@ -69,7 +69,7 @@
       "clicks": 0,
       "impressions": 14,
       "ctr": 0,
-      "position": 76.8
+      "position": 76.6
     },
     {
       "query": "pakistan law site free",
@@ -81,9 +81,9 @@
     {
       "query": "pakistan law website",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 98
+      "position": 97.7
     },
     {
       "query": "pakistanlawsite",
@@ -111,16 +111,16 @@
     {
       "page": "https://www.pakistanlawreports.com/",
       "clicks": 11,
-      "impressions": 83,
-      "ctr": 13.25,
-      "position": 52.0
+      "impressions": 89,
+      "ctr": 12.36,
+      "position": 51.6
     },
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 2,
-      "impressions": 38,
-      "ctr": 5.26,
-      "position": 6.7
+      "impressions": 36,
+      "ctr": 5.56,
+      "position": 4.5
     },
     {
       "page": "https://pakistanlawreports.com/judgments/77-2024-criminal-appeal-zain-atif-solangi-appellant-v-s-the-state-respondent",
@@ -172,13 +172,6 @@
       "position": 2
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/1464-2025-cr-bail-sumair-gagai-s-o-salim-gagai-applicant-v-s-the-state-respondent",
-      "clicks": 1,
-      "impressions": 2,
-      "ctr": 50.0,
-      "position": 6
-    },
-    {
       "page": "https://pakistanlawreports.com/judgments/149-2010-spl-cus-ref-a-the-collector-of-customs-appellant-v-s-water-power-development-auth",
       "clicks": 1,
       "impressions": 2,
@@ -212,6 +205,13 @@
       "impressions": 1,
       "ctr": 100,
       "position": 2
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/219-2011-i-t-r-a-commissioner-inland-revenue-applicant-v-s-kirther-pakistan-b-v-respondent",
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 50.0,
+      "position": 5
     }
   ]
 }
