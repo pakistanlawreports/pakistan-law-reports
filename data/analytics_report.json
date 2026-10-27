@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-26",
+  "generated_at": "2026-10-27",
   "top_pages": [
     {
       "page": "/",
-      "views": 329
+      "views": 335
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 78
+      "views": 74
     },
     {
       "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
-      "views": 44
+      "views": 46
     },
     {
       "page": "/case-highlights",
@@ -23,14 +23,10 @@
     },
     {
       "page": "/topics/criminal-law",
-      "views": 29
-    },
-    {
-      "page": "/judgments/the-partnership-act-1932",
       "views": 27
     },
     {
-      "page": "/study-guides",
+      "page": "/judgments/the-partnership-act-1932",
       "views": 25
     },
     {
@@ -42,12 +38,12 @@
       "views": 24
     },
     {
-      "page": "/judgments/qanun-e-shahadat-order-1984",
-      "views": 23
+      "page": "/study-guides",
+      "views": 24
     },
     {
-      "page": "/judgments/clc-2013-1446",
-      "views": 20
+      "page": "/judgments/qanun-e-shahadat-order-1984",
+      "views": 23
     },
     {
       "page": "/judgments/the-provincial-employees-social-security-ordinance-1965",
@@ -60,6 +56,10 @@
     {
       "page": "/browse",
       "views": 18
+    },
+    {
+      "page": "/judgments/clc-2013-1446",
+      "views": 17
     }
   ],
   "top_searches": [
@@ -69,6 +69,10 @@
     },
     {
       "value": "25",
+      "count": 4
+    },
+    {
+      "value": "3",
       "count": 4
     },
     {
@@ -101,10 +105,6 @@
     },
     {
       "value": "2026 pld 343",
-      "count": 3
-    },
-    {
-      "value": "3",
       "count": 3
     },
     {
