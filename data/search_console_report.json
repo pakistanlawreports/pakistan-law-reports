@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27",
+  "generated_at": "2026-10-28",
   "top_queries": [
     {
       "query": "2016 and 2017",
@@ -11,9 +11,9 @@
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 10,
       "ctr": 0,
-      "position": 2.2
+      "position": 2.3
     },
     {
       "query": "as advocate",
@@ -32,9 +32,9 @@
     {
       "query": "free case law search pakistan",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 88
+      "position": 86
     },
     {
       "query": "law sites in pakistan",
@@ -53,7 +53,7 @@
     {
       "query": "pak law site",
       "clicks": 0,
-      "impressions": 15,
+      "impressions": 16,
       "ctr": 0,
       "position": 72.5
     },
@@ -67,9 +67,9 @@
     {
       "query": "pakistan law site",
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 13,
       "ctr": 0,
-      "position": 76.6
+      "position": 76.4
     },
     {
       "query": "pakistan law site free",
@@ -113,14 +113,14 @@
       "clicks": 11,
       "impressions": 89,
       "ctr": 12.36,
-      "position": 51.6
+      "position": 51.5
     },
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 2,
-      "impressions": 36,
-      "ctr": 5.56,
-      "position": 4.5
+      "impressions": 22,
+      "ctr": 9.09,
+      "position": 2.3
     },
     {
       "page": "https://pakistanlawreports.com/judgments/77-2024-criminal-appeal-zain-atif-solangi-appellant-v-s-the-state-respondent",
@@ -186,6 +186,13 @@
       "position": 1
     },
     {
+      "page": "https://pakistanlawreports.com/judgments/1618-2024-const-p-m-s-ssgc-petitioner-v-s-mr-bakht-zada-respondent",
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 33.33,
+      "position": 3.7
+    },
+    {
       "page": "https://pakistanlawreports.com/judgments/171-2025-criminal-miscelleneous-ali-asghar-shah-and-others-applicant-v-s-sho-ps-radhan-sta",
       "clicks": 1,
       "impressions": 1,
@@ -205,13 +212,6 @@
       "impressions": 1,
       "ctr": 100,
       "position": 2
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/219-2011-i-t-r-a-commissioner-inland-revenue-applicant-v-s-kirther-pakistan-b-v-respondent",
-      "clicks": 1,
-      "impressions": 2,
-      "ctr": 50.0,
-      "position": 5
     }
   ]
 }
