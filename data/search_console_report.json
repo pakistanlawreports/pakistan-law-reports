@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28",
+  "generated_at": "2026-10-29",
   "top_queries": [
     {
       "query": "2016 and 2017",
@@ -11,9 +11,9 @@
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 9,
       "ctr": 0,
-      "position": 2.3
+      "position": 2.4
     },
     {
       "query": "as advocate",
@@ -58,6 +58,13 @@
       "position": 72.5
     },
     {
+      "query": "pakistan law journal",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 78
+    },
+    {
       "query": "pakistan law reporter",
       "clicks": 0,
       "impressions": 7,
@@ -98,29 +105,29 @@
       "impressions": 2,
       "ctr": 0,
       "position": 98
-    },
-    {
-      "query": "paklaw site",
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0,
-      "position": 73.3
     }
   ],
   "top_pages_by_search": [
     {
       "page": "https://www.pakistanlawreports.com/",
       "clicks": 11,
-      "impressions": 89,
-      "ctr": 12.36,
+      "impressions": 93,
+      "ctr": 11.83,
       "position": 51.5
     },
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 2,
-      "impressions": 22,
-      "ctr": 9.09,
-      "position": 2.3
+      "impressions": 16,
+      "ctr": 12.5,
+      "position": 2.8
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/1045-2023-const-p-faiz-muhammad-lakhan-petitioner-v-s-p-o-sindh-others-respondent",
+      "clicks": 2,
+      "impressions": 2,
+      "ctr": 100,
+      "position": 1
     },
     {
       "page": "https://pakistanlawreports.com/judgments/77-2024-criminal-appeal-zain-atif-solangi-appellant-v-s-the-state-respondent",
@@ -205,13 +212,6 @@
       "impressions": 1,
       "ctr": 100,
       "position": 1
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/2026-shc-khi-1366",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 2
     }
   ]
 }
