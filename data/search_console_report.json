@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29",
+  "generated_at": "2026-10-30",
   "top_queries": [
     {
       "query": "2016 and 2017",
@@ -37,13 +37,6 @@
       "position": 86
     },
     {
-      "query": "law sites in pakistan",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 99
-    },
-    {
       "query": "more cases",
       "clicks": 0,
       "impressions": 1,
@@ -53,9 +46,9 @@
     {
       "query": "pak law site",
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 14,
       "ctr": 0,
-      "position": 72.5
+      "position": 71.4
     },
     {
       "query": "pakistan law journal",
@@ -105,15 +98,22 @@
       "impressions": 2,
       "ctr": 0,
       "position": 98
+    },
+    {
+      "query": "paklaw site",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 73.3
     }
   ],
   "top_pages_by_search": [
     {
       "page": "https://www.pakistanlawreports.com/",
-      "clicks": 11,
-      "impressions": 93,
-      "ctr": 11.83,
-      "position": 51.5
+      "clicks": 12,
+      "impressions": 91,
+      "ctr": 13.19,
+      "position": 49.8
     },
     {
       "page": "https://pakistanlawreports.com/",
@@ -149,6 +149,13 @@
       "impressions": 3,
       "ctr": 66.67,
       "position": 1.7
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/pcrlj-2020-594",
+      "clicks": 2,
+      "impressions": 2,
+      "ctr": 100,
+      "position": 2
     },
     {
       "page": "https://pakistanlawreports.com/judgments/plj-2021-post-arrest-bail-in-case-of-attempt-to-rape",
@@ -205,13 +212,6 @@
       "impressions": 1,
       "ctr": 100,
       "position": 2
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/1723-2025-cr-bail-sana-gul-s-o-abdul-ghafar-applicant-v-s-the-state-respondent",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 1
     }
   ]
 }
