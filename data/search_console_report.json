@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31",
+  "generated_at": "2026-11-01",
   "top_queries": [
     {
       "query": "2016 and 2017",
@@ -60,16 +60,16 @@
     {
       "query": "pakistan law reporter",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 4,
       "ctr": 0,
-      "position": 5
+      "position": 6.5
     },
     {
       "query": "pakistan law site",
       "clicks": 0,
       "impressions": 13,
       "ctr": 0,
-      "position": 76.4
+      "position": 75.8
     },
     {
       "query": "pakistan law site free",
@@ -113,14 +113,14 @@
       "clicks": 12,
       "impressions": 91,
       "ctr": 13.19,
-      "position": 49.8
+      "position": 49.7
     },
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 2,
-      "impressions": 16,
-      "ctr": 12.5,
-      "position": 2.8
+      "impressions": 13,
+      "ctr": 15.38,
+      "position": 2.7
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1045-2023-const-p-faiz-muhammad-lakhan-petitioner-v-s-p-o-sindh-others-respondent",
@@ -135,13 +135,6 @@
       "impressions": 2,
       "ctr": 100,
       "position": 3.5
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/859-2025-cr-bail-khadim-hussain-applicant-v-s-the-state-respondent",
-      "clicks": 2,
-      "impressions": 2,
-      "ctr": 100,
-      "position": 3
     },
     {
       "page": "https://pakistanlawreports.com/judgments/eligible-family-members-of-government-servant-can-get-house-alloted-on-their-nam",
@@ -179,13 +172,6 @@
       "position": 3
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/1180-2024-criminal-miscelleneous-muhammad-javed-aslam-ors-applicant-v-s-the-state-ors-resp",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 2
-    },
-    {
       "page": "https://pakistanlawreports.com/judgments/149-2010-spl-cus-ref-a-the-collector-of-customs-appellant-v-s-water-power-development-auth",
       "clicks": 1,
       "impressions": 2,
@@ -212,6 +198,20 @@
       "impressions": 1,
       "ctr": 100,
       "position": 2
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/2026-shc-khi-1366",
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 50.0,
+      "position": 6
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/219-2011-i-t-r-a-commissioner-inland-revenue-applicant-v-s-kirther-pakistan-b-v-respondent",
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 50.0,
+      "position": 5
     }
   ]
 }
