@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26",
+  "generated_at": "2026-11-02",
   "priority_order": [
     "Criminal Law",
     "Constitutional Law",
@@ -15,7 +15,7 @@
   "details": [
     {
       "topic": "Criminal Law",
-      "total_judgments": 5943,
+      "total_judgments": 5965,
       "full_text_judgments": 1472,
       "highlights_generated": 1384,
       "has_study_guide": true,
@@ -23,15 +23,15 @@
     },
     {
       "topic": "Constitutional Law",
-      "total_judgments": 1058,
+      "total_judgments": 1078,
       "full_text_judgments": 696,
-      "highlights_generated": 657,
+      "highlights_generated": 658,
       "has_study_guide": true,
-      "priority_score": 19.5
+      "priority_score": 19.0
     },
     {
       "topic": "Succession & Inheritance",
-      "total_judgments": 229,
+      "total_judgments": 231,
       "full_text_judgments": 142,
       "highlights_generated": 110,
       "has_study_guide": true,
@@ -39,7 +39,7 @@
     },
     {
       "topic": "Family Law",
-      "total_judgments": 146,
+      "total_judgments": 151,
       "full_text_judgments": 95,
       "highlights_generated": 69,
       "has_study_guide": true,
@@ -47,7 +47,7 @@
     },
     {
       "topic": "Civil Law",
-      "total_judgments": 1006,
+      "total_judgments": 1015,
       "full_text_judgments": 273,
       "highlights_generated": 250,
       "has_study_guide": true,
@@ -55,7 +55,7 @@
     },
     {
       "topic": "Labour & Service",
-      "total_judgments": 203,
+      "total_judgments": 209,
       "full_text_judgments": 63,
       "highlights_generated": 41,
       "has_study_guide": true,
@@ -71,7 +71,7 @@
     },
     {
       "topic": "Tax Law",
-      "total_judgments": 711,
+      "total_judgments": 713,
       "full_text_judgments": 54,
       "highlights_generated": 46,
       "has_study_guide": true,
@@ -79,7 +79,7 @@
     },
     {
       "topic": "Property & Rent",
-      "total_judgments": 364,
+      "total_judgments": 366,
       "full_text_judgments": 206,
       "highlights_generated": 199,
       "has_study_guide": true,
