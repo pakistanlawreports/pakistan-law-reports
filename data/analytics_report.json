@@ -1,33 +1,29 @@
 {
-  "generated_at": "2026-11-01",
+  "generated_at": "2026-11-02",
   "top_pages": [
     {
       "page": "/",
-      "views": 380
+      "views": 376
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 58
-    },
-    {
-      "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
-      "views": 39
+      "views": 56
     },
     {
       "page": "/case-highlights",
-      "views": 37
+      "views": 38
+    },
+    {
+      "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
+      "views": 38
     },
     {
       "page": "/topics/criminal-law",
-      "views": 36
+      "views": 38
     },
     {
       "page": "/judgments/the-partnership-act-1932",
-      "views": 25
-    },
-    {
-      "page": "/study-guides",
-      "views": 25
+      "views": 26
     },
     {
       "page": "/legal-texts",
@@ -42,15 +38,19 @@
       "views": 23
     },
     {
-      "page": "/browse",
-      "views": 21
+      "page": "/study-guides",
+      "views": 23
     },
     {
-      "page": "/judgments/qanun-e-shahadat-order-1984",
-      "views": 21
+      "page": "/browse",
+      "views": 20
     },
     {
       "page": "/judgments/clc-2013-1446",
+      "views": 20
+    },
+    {
+      "page": "/lawyers",
       "views": 20
     },
     {
@@ -58,8 +58,8 @@
       "views": 19
     },
     {
-      "page": "/lawyers",
-      "views": 19
+      "page": "/judgments/plj-2015-plj-2015-peshawar-392-db",
+      "views": 18
     }
   ],
   "top_searches": [
@@ -92,10 +92,6 @@
       "count": 3
     },
     {
-      "value": "2",
-      "count": 3
-    },
-    {
       "value": "2007 SCMR",
       "count": 3
     },
@@ -121,6 +117,10 @@
     },
     {
       "value": "Muhammad Suleman",
+      "count": 3
+    },
+    {
+      "value": "NAFIS",
       "count": 3
     }
   ],
