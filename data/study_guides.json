@@ -75,7 +75,7 @@
   },
   "Family Law": {
     "topic": "Family Law",
-    "guide": "Family law in Pakistan (and Azad Jammu & Kashmir) draws on a mix of statutory protections, procedural codes, and Muslim personal law principles, particularly in the areas of domestic violence, child custody, maintenance, and the functioning of Family Courts. The six cases below illustrate how courts have applied and interpreted these frameworks.\n\nDomestic violence protection\n\n- In Muhammad Munir v. Anum Thanvi, PLJ 2022 Cr.C. (Note) 154, the Sindh High Court explained the purpose and structure of the Domestic Violence (Prevention and Protection) Act, 2013. The Act is aimed at protecting the \"weakest class of society,\" namely women and children, who in a presumptively male-dominant society often fear reporting abuse due to threats of abandonment or harm.\n- The Court walked through key provisions: Section 2(1)(a) defines \"aggrieved person\" broadly to include a woman, child, or vulnerable person in a domestic relationship with the respondent; Section 2(1)(d) defines \"Court\" as the Judicial Magistrate of First Class; Section 7 allows an aggrieved person, their authorized representative, or an informer to file a petition; and Section 13 deals with temporary custody of an aggrieved person.\n- The Court held that a respondent cannot use procedural challenges (such as contesting a mere notice-and-production order) to frustrate proceedings at an early stage, since doing so would defeat the very purpose for which the Act was enacted.\n\nCustody of minors\n\n- Muhammad Afzal v. Parveen Bibi, PLJ 2018 Sh.C. (AJ&K) 8, establishes that the right of custody of a minor is not absolute but is always subject to the welfare of the minor. Although Muslim law generally recognizes the father as natural guardian once a male child exceeds seven years or a female child attains puberty, this is subject to the welfare principle. The Court also noted that under Section 17(3) of the Guardian and Wards Act, 1890, and Muhammadan law, the preference of a minor old enough to form an intelligent opinion may be considered. A mother's custody (hizanat) can be lost only if she marries someone outside the prohibited degree of relation to the child, leads an immoral life, or neglects the child.\n- Tahira Zaib v. Ghaffar Ahmed, PLJ 2016 SC (AJ&K) 239, reinforces that welfare of the minor is the paramount consideration, to be judged with regard to the child's age, sex, religion, and the character and capacity of the proposed guardian. The Court held that welfare is presumed to lie with the person entitled to custody under Muslim law, but this presumption is rebuttable. Where both parents had remarried, and the minor expressed before the Court a clear preference not to live with the father (who lived abroad and had a second family), the Court held welfare lay with the mother, and that a British-citizen father should not ordinarily be preferred over the mother simply on account of his foreign residence or status.\n\nMaintenance and dowry recovery\n\n- Ulfat Bibi v. Raja Mazhar Hussain, PLJ 2017 Sh.C. (AJ&K) 74, addresses the effective date of",
+    "guide": "Family law in Pakistan (and Azad Jammu & Kashmir) draws on a mix of statutory protections, Muhammadan law principles, and procedural codes to resolve disputes over custody, maintenance, dowry, and domestic abuse. The cases below illustrate how courts balance personal law entitlements against the overriding test of welfare, and how specialised statutes like the Domestic Violence (Prevention and Protection) Act 2013 interact with ordinary criminal and civil procedure.\n\n- Protective purpose of domestic violence legislation: In Muhammad Munir v. Anum Thanvi, PLJ 2022 Cr.C. (Note) 154, the Sindh High Court explained that the Domestic Violence (Prevention and Protection) Act, 2013 was enacted specifically to protect the \"weakest class of society\" - women and children - who, in a presumptively male-dominated society, often fear reporting abuse due to threats of abandonment or harm. The Court detailed the mechanics of the Act: Section 2(1)(a) defines \"aggrieved person,\" Section 2(1)(d) designates the Judicial Magistrate First Class as the \"Court,\" Section 7 allows an aggrieved person (or an authorised person/informer) to file a petition, and Section 13 governs temporary custody orders. The Court held that a respondent cannot use revisional challenges to interim notice orders to frustrate the Act's protective purpose, since he retains full opportunity to defend himself before the Magistrate.\n\n- Custody is never an absolute right: In Muhammad Afzal v. Parveen Bibi, PLJ 2018 Sh.C. (AJ&K) 8, the AJ&K court reaffirmed that while Muslim personal law gives a father a presumptive right to custody once a son exceeds seven years or a daughter reaches puberty, this is always subordinate to the welfare of the minor. The court also applied Section 17(3) of the Guardian and Wards Act, 1890 and the Muhammadan law principle (Section 351) that a sufficiently mature minor's own preference may be considered. A mother can lose custody only if she marries someone within a prohibited degree of the child, leads an immoral life, or neglects the child - mere unproven allegations do not suffice.\n\n- Welfare over nationality and parental preference: The companion AJ&K decisions in Tahira Zaib v. Ghaffar Ahmed show how the welfare principle can produce divergent results. The Shariat Court first-instance judgment, PLJ 2016 Sh.C. (AJ&K) 12, favoured the British father, reasoning that the minor's British nationality and prospects of schooling in the UK outweighed concerns about unpaid maintenance, presuming the UK welfare state would support the child. On appeal, PLJ 2016 SC (AJ&K) 239 reversed this, holding that where both parents had remarried, the child's expressed wish not to live with the father, and the father's past failure to pay maintenance all indicated that welfare lay with the mother - reinforcing that fo",
     "based_on_cases": [
       {
         "title": "Domestic Violence (Prevention and Protection) Act 2013 explained in a Judgment",
@@ -93,11 +93,6 @@
         "slug": "plj-2018-right-of-custody-of-minor-is-not-an-absolute-right"
       },
       {
-        "title": "THE PUNJAB FAMILY COURTS (AMENDMENT) ACT 2015 (XI OF 2015)",
-        "citation": "",
-        "slug": "the-punjab-family-courts-amendment-act-2015-xi-of-2015"
-      },
-      {
         "title": "PLJ 2017 Sh.C. (AJ&K) 74",
         "citation": "PLJ 2017",
         "slug": "plj-2017-plj-2017-sh-c-aj-k-74"
@@ -106,9 +101,14 @@
         "title": "Preference cannot be given British Citizen Father ordinarily",
         "citation": "PLJ 2016 SC (AJ&K) 239",
         "slug": "plj-2016-sc-aj-k-239-preference-cannot-be-given-british-citizen-father-ordinaril"
+      },
+      {
+        "title": "Entitlement of Father to Custody of Male Child",
+        "citation": "PLJ 2016",
+        "slug": "plj-2016-entitlement-of-father-to-custody-of-male-child"
       }
     ],
-    "generated_at": "2026-08-31"
+    "generated_at": "2026-11-02"
   },
   "Property & Rent": {
     "topic": "Property & Rent",
