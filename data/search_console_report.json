@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01",
+  "generated_at": "2026-11-02",
   "top_queries": [
     {
       "query": "2016 and 2017",
@@ -11,9 +11,9 @@
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 6,
       "ctr": 0,
-      "position": 2.2
+      "position": 2.7
     },
     {
       "query": "as advocate",
@@ -21,13 +21,6 @@
       "impressions": 1,
       "ctr": 0,
       "position": 2
-    },
-    {
-      "query": "birth till death",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 1
     },
     {
       "query": "free case law search pakistan",
@@ -69,14 +62,14 @@
       "clicks": 0,
       "impressions": 13,
       "ctr": 0,
-      "position": 75.8
+      "position": 75.5
     },
     {
       "query": "pakistan law site free",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 4,
       "ctr": 0,
-      "position": 78.6
+      "position": 78
     },
     {
       "query": "pakistan law website",
@@ -102,25 +95,32 @@
     {
       "query": "paklaw site",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 73.3
+      "position": 72.5
+    },
+    {
+      "query": "paklawsite",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 68.7
     }
   ],
   "top_pages_by_search": [
     {
       "page": "https://www.pakistanlawreports.com/",
-      "clicks": 12,
-      "impressions": 91,
-      "ctr": 13.19,
-      "position": 49.7
+      "clicks": 13,
+      "impressions": 93,
+      "ctr": 13.98,
+      "position": 49.2
     },
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 2,
-      "impressions": 13,
-      "ctr": 15.38,
-      "position": 2.7
+      "impressions": 11,
+      "ctr": 18.18,
+      "position": 2.3
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1045-2023-const-p-faiz-muhammad-lakhan-petitioner-v-s-p-o-sindh-others-respondent",
@@ -135,13 +135,6 @@
       "impressions": 2,
       "ctr": 100,
       "position": 3.5
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/eligible-family-members-of-government-servant-can-get-house-alloted-on-their-nam",
-      "clicks": 2,
-      "impressions": 3,
-      "ctr": 66.67,
-      "position": 1.7
     },
     {
       "page": "https://pakistanlawreports.com/judgments/pcrlj-2020-594",
@@ -212,6 +205,13 @@
       "impressions": 2,
       "ctr": 50.0,
       "position": 5
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/224-2025-cr-rev-muhammad-paryal-s-o-hakim-ali-siyal-applicant-v-s-muhammad-arif-others-res",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 2
     }
   ]
 }
