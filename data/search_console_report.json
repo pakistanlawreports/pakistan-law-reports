@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02",
+  "generated_at": "2026-11-03",
   "top_queries": [
     {
       "query": "2016 and 2017",
@@ -11,16 +11,9 @@
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 5,
       "ctr": 0,
-      "position": 2.7
-    },
-    {
-      "query": "as advocate",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 2
+      "position": 3
     },
     {
       "query": "free case law search pakistan",
@@ -39,9 +32,9 @@
     {
       "query": "pak law site",
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 15,
       "ctr": 0,
-      "position": 71.4
+      "position": 71.7
     },
     {
       "query": "pakistan law journal",
@@ -53,23 +46,23 @@
     {
       "query": "pakistan law reporter",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 6.5
+      "position": 8
     },
     {
       "query": "pakistan law site",
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 12,
       "ctr": 0,
-      "position": 75.5
+      "position": 75.2
     },
     {
       "query": "pakistan law site free",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 78
+      "position": 77
     },
     {
       "query": "pakistan law website",
@@ -88,9 +81,9 @@
     {
       "query": "paklaw",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 98
+      "position": 98.7
     },
     {
       "query": "paklaw site",
@@ -105,21 +98,28 @@
       "impressions": 6,
       "ctr": 0,
       "position": 68.7
+    },
+    {
+      "query": "pdf form",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
     }
   ],
   "top_pages_by_search": [
     {
       "page": "https://www.pakistanlawreports.com/",
-      "clicks": 13,
-      "impressions": 93,
-      "ctr": 13.98,
-      "position": 49.2
+      "clicks": 14,
+      "impressions": 96,
+      "ctr": 14.58,
+      "position": 48.0
     },
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 2,
-      "impressions": 11,
-      "ctr": 18.18,
+      "impressions": 10,
+      "ctr": 20.0,
       "position": 2.3
     },
     {
