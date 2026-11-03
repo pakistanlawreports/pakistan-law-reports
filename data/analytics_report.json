@@ -1,25 +1,29 @@
 {
-  "generated_at": "2026-11-02",
+  "generated_at": "2026-11-03",
   "top_pages": [
     {
       "page": "/",
-      "views": 376
+      "views": 389
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 56
-    },
-    {
-      "page": "/case-highlights",
-      "views": 38
-    },
-    {
-      "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
-      "views": 38
+      "views": 57
     },
     {
       "page": "/topics/criminal-law",
-      "views": 38
+      "views": 40
+    },
+    {
+      "page": "/case-highlights",
+      "views": 37
+    },
+    {
+      "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
+      "views": 30
+    },
+    {
+      "page": "/study-guides",
+      "views": 28
     },
     {
       "page": "/judgments/the-partnership-act-1932",
@@ -35,10 +39,6 @@
     },
     {
       "page": "/judgments/ylr-2025-40",
-      "views": 23
-    },
-    {
-      "page": "/study-guides",
       "views": 23
     },
     {
@@ -58,7 +58,7 @@
       "views": 19
     },
     {
-      "page": "/judgments/plj-2015-plj-2015-peshawar-392-db",
+      "page": "/judgments/qanun-e-shahadat-order-1984",
       "views": 18
     }
   ],
@@ -88,11 +88,19 @@
       "count": 4
     },
     {
+      "value": "17",
+      "count": 3
+    },
+    {
       "value": "1986",
       "count": 3
     },
     {
       "value": "2007 SCMR",
+      "count": 3
+    },
+    {
+      "value": "2026",
       "count": 3
     },
     {
@@ -113,14 +121,6 @@
     },
     {
       "value": "Mian",
-      "count": 3
-    },
-    {
-      "value": "Muhammad Suleman",
-      "count": 3
-    },
-    {
-      "value": "NAFIS",
       "count": 3
     }
   ],
