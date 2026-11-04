@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03",
+  "generated_at": "2026-11-04",
   "top_queries": [
     {
       "query": "2016 and 2017",
@@ -16,13 +16,6 @@
       "position": 3
     },
     {
-      "query": "free case law search pakistan",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 86
-    },
-    {
       "query": "more cases",
       "clicks": 0,
       "impressions": 1,
@@ -32,9 +25,9 @@
     {
       "query": "pak law site",
       "clicks": 0,
-      "impressions": 15,
+      "impressions": 14,
       "ctr": 0,
-      "position": 71.7
+      "position": 71.9
     },
     {
       "query": "pakistan law journal",
@@ -53,9 +46,9 @@
     {
       "query": "pakistan law site",
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 11,
       "ctr": 0,
-      "position": 75.2
+      "position": 74.9
     },
     {
       "query": "pakistan law site free",
@@ -67,9 +60,9 @@
     {
       "query": "pakistan law website",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 97.7
+      "position": 97
     },
     {
       "query": "pakistanlawsite",
@@ -105,22 +98,29 @@
       "impressions": 1,
       "ctr": 0,
       "position": 5
+    },
+    {
+      "query": "same person?",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
     }
   ],
   "top_pages_by_search": [
     {
       "page": "https://www.pakistanlawreports.com/",
-      "clicks": 14,
-      "impressions": 96,
-      "ctr": 14.58,
-      "position": 48.0
+      "clicks": 13,
+      "impressions": 91,
+      "ctr": 14.29,
+      "position": 47.0
     },
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 2,
-      "impressions": 10,
-      "ctr": 20.0,
-      "position": 2.3
+      "impressions": 8,
+      "ctr": 25.0,
+      "position": 2.5
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1045-2023-const-p-faiz-muhammad-lakhan-petitioner-v-s-p-o-sindh-others-respondent",
@@ -139,9 +139,9 @@
     {
       "page": "https://pakistanlawreports.com/judgments/pcrlj-2020-594",
       "clicks": 2,
-      "impressions": 2,
-      "ctr": 100,
-      "position": 2
+      "impressions": 3,
+      "ctr": 66.67,
+      "position": 2.3
     },
     {
       "page": "https://pakistanlawreports.com/judgments/plj-2021-post-arrest-bail-in-case-of-attempt-to-rape",
