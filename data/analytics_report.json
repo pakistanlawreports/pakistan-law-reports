@@ -1,33 +1,29 @@
 {
-  "generated_at": "2026-11-04",
+  "generated_at": "2026-11-05",
   "top_pages": [
     {
       "page": "/",
-      "views": 385
+      "views": 383
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 58
+      "views": 59
     },
     {
       "page": "/topics/criminal-law",
-      "views": 42
+      "views": 41
     },
     {
       "page": "/case-highlights",
-      "views": 37
+      "views": 34
     },
     {
       "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
-      "views": 30
+      "views": 33
     },
     {
       "page": "/study-guides",
-      "views": 28
-    },
-    {
-      "page": "/topics/civil-law",
-      "views": 25
+      "views": 27
     },
     {
       "page": "/judgments/the-partnership-act-1932",
@@ -38,12 +34,20 @@
       "views": 24
     },
     {
-      "page": "/judgments/ylr-2025-40",
+      "page": "/judgments/plj-2012-lahore-326-possession-can-not-be-restored-through-illegal-dispossession",
       "views": 23
     },
     {
+      "page": "/judgments/ylr-2025-40",
+      "views": 22
+    },
+    {
+      "page": "/topics/civil-law",
+      "views": 22
+    },
+    {
       "page": "/browse",
-      "views": 20
+      "views": 21
     },
     {
       "page": "/judgments/clc-2013-1446",
@@ -51,10 +55,6 @@
     },
     {
       "page": "/judgments/plcs-2026-121",
-      "views": 20
-    },
-    {
-      "page": "/judgments/plj-2012-lahore-326-possession-can-not-be-restored-through-illegal-dispossession",
       "views": 20
     },
     {
@@ -76,15 +76,7 @@
       "count": 4
     },
     {
-      "value": "494",
-      "count": 4
-    },
-    {
       "value": "Land reforms 1972 MLR 115",
-      "count": 4
-    },
-    {
-      "value": "unilateral",
       "count": 4
     },
     {
@@ -121,6 +113,14 @@
     },
     {
       "value": "Mian",
+      "count": 3
+    },
+    {
+      "value": "Muhammad Suleman",
+      "count": 3
+    },
+    {
+      "value": "NAFIS",
       "count": 3
     }
   ],
