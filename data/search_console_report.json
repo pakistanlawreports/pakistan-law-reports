@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05",
+  "generated_at": "2026-11-06",
   "top_queries": [
     {
       "query": "2016 and 2017",
@@ -25,9 +25,9 @@
     {
       "query": "pak law site",
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 13,
       "ctr": 0,
-      "position": 71.9
+      "position": 72.1
     },
     {
       "query": "pakistan law journal",
@@ -46,9 +46,9 @@
     {
       "query": "pakistan law site",
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 10,
       "ctr": 0,
-      "position": 74.9
+      "position": 74.6
     },
     {
       "query": "pakistan law site free",
@@ -110,10 +110,10 @@
   "top_pages_by_search": [
     {
       "page": "https://www.pakistanlawreports.com/",
-      "clicks": 13,
-      "impressions": 89,
-      "ctr": 14.61,
-      "position": 49.1
+      "clicks": 11,
+      "impressions": 85,
+      "ctr": 12.94,
+      "position": 49.6
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1045-2023-const-p-faiz-muhammad-lakhan-petitioner-v-s-p-o-sindh-others-respondent",
