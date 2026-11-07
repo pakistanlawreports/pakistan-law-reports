@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06",
+  "generated_at": "2026-11-07",
   "top_queries": [
     {
       "query": "2016 and 2017",
@@ -46,9 +46,9 @@
     {
       "query": "pakistan law site",
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 9,
       "ctr": 0,
-      "position": 74.6
+      "position": 75.1
     },
     {
       "query": "pakistan law site free",
@@ -113,7 +113,7 @@
       "clicks": 11,
       "impressions": 85,
       "ctr": 12.94,
-      "position": 49.6
+      "position": 47.7
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1045-2023-const-p-faiz-muhammad-lakhan-petitioner-v-s-p-o-sindh-others-respondent",
@@ -135,6 +135,13 @@
       "impressions": 3,
       "ctr": 66.67,
       "position": 2.3
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/plj-2021-lahore-605-after-death-of-mother-maternal-grandmother-has-preferential",
+      "clicks": 2,
+      "impressions": 4,
+      "ctr": 50.0,
+      "position": 1
     },
     {
       "page": "https://pakistanlawreports.com/judgments/plj-2021-post-arrest-bail-in-case-of-attempt-to-rape",
@@ -205,13 +212,6 @@
       "impressions": 2,
       "ctr": 50.0,
       "position": 5
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/224-2025-cr-rev-muhammad-paryal-s-o-hakim-ali-siyal-applicant-v-s-muhammad-arif-others-res",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 2
     }
   ]
 }
