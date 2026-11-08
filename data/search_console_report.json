@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07",
+  "generated_at": "2026-11-08",
   "top_queries": [
     {
       "query": "2016 and 2017",
@@ -11,9 +11,9 @@
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 4,
       "ctr": 0,
-      "position": 3
+      "position": 3.5
     },
     {
       "query": "more cases",
@@ -53,9 +53,9 @@
     {
       "query": "pakistan law site free",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 77
+      "position": 77.5
     },
     {
       "query": "pakistan law website",
@@ -111,9 +111,9 @@
     {
       "page": "https://www.pakistanlawreports.com/",
       "clicks": 11,
-      "impressions": 85,
-      "ctr": 12.94,
-      "position": 47.7
+      "impressions": 84,
+      "ctr": 13.1,
+      "position": 47.4
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1045-2023-const-p-faiz-muhammad-lakhan-petitioner-v-s-p-o-sindh-others-respondent",
@@ -172,6 +172,13 @@
       "position": 3
     },
     {
+      "page": "https://pakistanlawreports.com/judgments/1004-2025-cr-bail-javaid-s-o-mehmood-applicant-v-s-the-state-respondent",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 1
+    },
+    {
       "page": "https://pakistanlawreports.com/judgments/149-2010-spl-cus-ref-a-the-collector-of-customs-appellant-v-s-water-power-development-auth",
       "clicks": 1,
       "impressions": 2,
@@ -198,13 +205,6 @@
       "impressions": 1,
       "ctr": 100,
       "position": 2
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/2026-shc-khi-1366",
-      "clicks": 1,
-      "impressions": 2,
-      "ctr": 50.0,
-      "position": 6
     },
     {
       "page": "https://pakistanlawreports.com/judgments/219-2011-i-t-r-a-commissioner-inland-revenue-applicant-v-s-kirther-pakistan-b-v-respondent",
