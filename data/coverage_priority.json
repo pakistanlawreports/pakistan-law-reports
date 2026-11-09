@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02",
+  "generated_at": "2026-11-09",
   "priority_order": [
     "Criminal Law",
     "Constitutional Law",
@@ -15,7 +15,7 @@
   "details": [
     {
       "topic": "Criminal Law",
-      "total_judgments": 5965,
+      "total_judgments": 5985,
       "full_text_judgments": 1472,
       "highlights_generated": 1384,
       "has_study_guide": true,
@@ -23,7 +23,7 @@
     },
     {
       "topic": "Constitutional Law",
-      "total_judgments": 1078,
+      "total_judgments": 1086,
       "full_text_judgments": 696,
       "highlights_generated": 658,
       "has_study_guide": true,
@@ -39,7 +39,7 @@
     },
     {
       "topic": "Family Law",
-      "total_judgments": 151,
+      "total_judgments": 152,
       "full_text_judgments": 95,
       "highlights_generated": 69,
       "has_study_guide": true,
@@ -47,7 +47,7 @@
     },
     {
       "topic": "Civil Law",
-      "total_judgments": 1015,
+      "total_judgments": 1025,
       "full_text_judgments": 273,
       "highlights_generated": 250,
       "has_study_guide": true,
@@ -55,7 +55,7 @@
     },
     {
       "topic": "Labour & Service",
-      "total_judgments": 209,
+      "total_judgments": 210,
       "full_text_judgments": 63,
       "highlights_generated": 41,
       "has_study_guide": true,
@@ -63,7 +63,7 @@
     },
     {
       "topic": "Banking & Corporate",
-      "total_judgments": 429,
+      "total_judgments": 433,
       "full_text_judgments": 37,
       "highlights_generated": 28,
       "has_study_guide": true,
@@ -71,7 +71,7 @@
     },
     {
       "topic": "Tax Law",
-      "total_judgments": 713,
+      "total_judgments": 715,
       "full_text_judgments": 54,
       "highlights_generated": 46,
       "has_study_guide": true,
@@ -79,7 +79,7 @@
     },
     {
       "topic": "Property & Rent",
-      "total_judgments": 366,
+      "total_judgments": 368,
       "full_text_judgments": 206,
       "highlights_generated": 199,
       "has_study_guide": true,
