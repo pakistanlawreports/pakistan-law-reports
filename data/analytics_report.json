@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-08",
+  "generated_at": "2026-11-09",
   "top_pages": [
     {
       "page": "/",
-      "views": 377
+      "views": 364
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 47
+      "views": 43
     },
     {
       "page": "/topics/criminal-law",
-      "views": 37
+      "views": 36
     },
     {
       "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
@@ -19,7 +19,7 @@
     },
     {
       "page": "/case-highlights",
-      "views": 30
+      "views": 29
     },
     {
       "page": "/topics/civil-law",
@@ -32,10 +32,6 @@
     {
       "page": "/study-guides",
       "views": 23
-    },
-    {
-      "page": "/judgments/ylr-2025-40",
-      "views": 22
     },
     {
       "page": "/legal-texts",
@@ -52,6 +48,10 @@
     {
       "page": "/lawyers",
       "views": 20
+    },
+    {
+      "page": "/judgments/ylr-2025-40",
+      "views": 19
     },
     {
       "page": "/browse",
@@ -96,10 +96,6 @@
       "count": 3
     },
     {
-      "value": "406",
-      "count": 3
-    },
-    {
       "value": "Bhadur",
       "count": 3
     },
@@ -121,6 +117,10 @@
     },
     {
       "value": "NAFIS",
+      "count": 3
+    },
+    {
+      "value": "NLR 1991",
       "count": 3
     }
   ],
