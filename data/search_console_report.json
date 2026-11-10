@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09",
+  "generated_at": "2026-11-10",
   "top_queries": [
     {
       "query": "2025 clc 1800",
@@ -13,7 +13,7 @@
       "clicks": 0,
       "impressions": 12,
       "ctr": 0,
-      "position": 72.6
+      "position": 73.2
     },
     {
       "query": "pakistan law journal",
@@ -25,9 +25,9 @@
     {
       "query": "pakistan law reporter",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0,
-      "position": 8
+      "position": 18
     },
     {
       "query": "pakistan law site",
@@ -74,9 +74,9 @@
     {
       "query": "paklawsite",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 6,
       "ctr": 0,
-      "position": 68.7
+      "position": 69.3
     },
     {
       "query": "pdf form",
@@ -110,10 +110,17 @@
   "top_pages_by_search": [
     {
       "page": "https://www.pakistanlawreports.com/",
-      "clicks": 11,
-      "impressions": 89,
-      "ctr": 12.36,
-      "position": 44.9
+      "clicks": 12,
+      "impressions": 90,
+      "ctr": 13.33,
+      "position": 43.8
+    },
+    {
+      "page": "https://pakistanlawreports.com/about",
+      "clicks": 2,
+      "impressions": 4,
+      "ctr": 50.0,
+      "position": 1.5
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1045-2023-const-p-faiz-muhammad-lakhan-petitioner-v-s-p-o-sindh-others-respondent",
@@ -153,16 +160,9 @@
     {
       "page": "https://pakistanlawreports.com/",
       "clicks": 1,
-      "impressions": 6,
-      "ctr": 16.67,
-      "position": 3
-    },
-    {
-      "page": "https://pakistanlawreports.com/about",
-      "clicks": 1,
-      "impressions": 2,
-      "ctr": 50.0,
-      "position": 2
+      "impressions": 3,
+      "ctr": 33.33,
+      "position": 2.7
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1-2025-ii-a-mukhtair-ali-shaikh-appellant-v-s-p-o-sindh-and-others-respondent",
@@ -177,13 +177,6 @@
       "impressions": 1,
       "ctr": 100,
       "position": 1
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/149-2010-spl-cus-ref-a-the-collector-of-customs-appellant-v-s-water-power-development-auth",
-      "clicks": 1,
-      "impressions": 2,
-      "ctr": 50.0,
-      "position": 3.5
     },
     {
       "page": "https://pakistanlawreports.com/judgments/150-2025-i-a-habib-ahmed-appellant-v-s-syed-mansoor-ahmed-and-others-respondent",
@@ -212,6 +205,13 @@
       "impressions": 2,
       "ctr": 50.0,
       "position": 5
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/224-2025-cr-rev-muhammad-paryal-s-o-hakim-ali-siyal-applicant-v-s-muhammad-arif-others-res",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 2
     }
   ]
 }
