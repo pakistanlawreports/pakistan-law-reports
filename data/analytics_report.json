@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-09",
+  "generated_at": "2026-11-10",
   "top_pages": [
     {
       "page": "/",
-      "views": 364
+      "views": 357
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 43
+      "views": 41
     },
     {
       "page": "/topics/criminal-law",
@@ -15,11 +15,11 @@
     },
     {
       "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
-      "views": 32
+      "views": 31
     },
     {
       "page": "/case-highlights",
-      "views": 29
+      "views": 28
     },
     {
       "page": "/topics/civil-law",
@@ -31,14 +31,6 @@
     },
     {
       "page": "/study-guides",
-      "views": 23
-    },
-    {
-      "page": "/legal-texts",
-      "views": 22
-    },
-    {
-      "page": "/judgments/the-partnership-act-1932",
       "views": 21
     },
     {
@@ -46,7 +38,7 @@
       "views": 20
     },
     {
-      "page": "/lawyers",
+      "page": "/judgments/the-partnership-act-1932",
       "views": 20
     },
     {
@@ -54,12 +46,20 @@
       "views": 19
     },
     {
+      "page": "/legal-texts",
+      "views": 19
+    },
+    {
       "page": "/browse",
       "views": 18
     },
     {
-      "page": "/judgments/plj-2018-sc-391-plj-2018-sc-391",
-      "views": 16
+      "page": "/lawyers",
+      "views": 18
+    },
+    {
+      "page": "/judgments/plj-1990-lahore-497-db-judgment-under-order-17-rule-3-of-cpc",
+      "views": 15
     }
   ],
   "top_searches": [
@@ -81,10 +81,6 @@
     },
     {
       "value": "1986",
-      "count": 3
-    },
-    {
-      "value": "2007 SCMR",
       "count": 3
     },
     {
@@ -121,6 +117,10 @@
     },
     {
       "value": "NLR 1991",
+      "count": 3
+    },
+    {
+      "value": "P",
       "count": 3
     }
   ],
