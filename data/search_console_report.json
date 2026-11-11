@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-10",
+  "generated_at": "2026-11-11",
   "top_queries": [
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0,
-      "position": 3.5
+      "position": 3.3
     },
     {
       "query": "pak law site",
@@ -46,9 +46,9 @@
     {
       "query": "pakistan law website",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 96
+      "position": 95.5
     },
     {
       "query": "pakistanlawsite",
@@ -102,18 +102,18 @@
     {
       "query": "yes",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 4
+      "position": 6
     }
   ],
   "top_pages_by_search": [
     {
       "page": "https://www.pakistanlawreports.com/",
-      "clicks": 12,
-      "impressions": 90,
-      "ctr": 13.33,
-      "position": 43.8
+      "clicks": 11,
+      "impressions": 88,
+      "ctr": 12.5,
+      "position": 43.6
     },
     {
       "page": "https://pakistanlawreports.com/about",
@@ -156,13 +156,6 @@
       "impressions": 2,
       "ctr": 100,
       "position": 2
-    },
-    {
-      "page": "https://pakistanlawreports.com/",
-      "clicks": 1,
-      "impressions": 3,
-      "ctr": 33.33,
-      "position": 2.7
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1-2025-ii-a-mukhtair-ali-shaikh-appellant-v-s-p-o-sindh-and-others-respondent",
@@ -212,6 +205,13 @@
       "impressions": 1,
       "ctr": 100,
       "position": 2
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/2377-2012-const-p-bank-alfalah-limited-petitioner-v-s-federation-of-pakistan-and-others-re",
+      "clicks": 1,
+      "impressions": 4,
+      "ctr": 25.0,
+      "position": 5.2
     }
   ]
 }
