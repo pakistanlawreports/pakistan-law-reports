@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11",
+  "generated_at": "2026-11-12",
   "top_queries": [
     {
       "query": "2025 clc 1800",
@@ -21,13 +21,6 @@
       "impressions": 1,
       "ctr": 0,
       "position": 78
-    },
-    {
-      "query": "pakistan law reporter",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 18
     },
     {
       "query": "pakistan law site",
@@ -53,16 +46,16 @@
     {
       "query": "pakistanlawsite",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
       "position": 69
     },
     {
       "query": "paklaw",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 98.7
+      "position": 98.5
     },
     {
       "query": "paklaw site",
@@ -93,13 +86,6 @@
       "position": 1
     },
     {
-      "query": "which volume",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 4
-    },
-    {
       "query": "yes",
       "clicks": 0,
       "impressions": 1,
@@ -110,10 +96,10 @@
   "top_pages_by_search": [
     {
       "page": "https://www.pakistanlawreports.com/",
-      "clicks": 11,
-      "impressions": 88,
-      "ctr": 12.5,
-      "position": 43.6
+      "clicks": 10,
+      "impressions": 85,
+      "ctr": 11.76,
+      "position": 44.5
     },
     {
       "page": "https://pakistanlawreports.com/about",
@@ -207,11 +193,11 @@
       "position": 2
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/2377-2012-const-p-bank-alfalah-limited-petitioner-v-s-federation-of-pakistan-and-others-re",
+      "page": "https://pakistanlawreports.com/judgments/2710-2017-suit-iran-central-iron-ore-company-plaintiff-v-s-pkistan-steel-mills-corporation",
       "clicks": 1,
-      "impressions": 4,
-      "ctr": 25.0,
-      "position": 5.2
+      "impressions": 1,
+      "ctr": 100,
+      "position": 4
     }
   ]
 }
