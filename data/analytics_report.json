@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-11",
+  "generated_at": "2026-11-12",
   "top_pages": [
     {
       "page": "/",
-      "views": 353
+      "views": 347
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 41
+      "views": 40
     },
     {
       "page": "/topics/criminal-law",
-      "views": 36
+      "views": 35
     },
     {
       "page": "/case-highlights",
@@ -19,7 +19,7 @@
     },
     {
       "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
-      "views": 28
+      "views": 27
     },
     {
       "page": "/topics/civil-law",
@@ -38,10 +38,6 @@
       "views": 20
     },
     {
-      "page": "/judgments/ylr-2025-40",
-      "views": 19
-    },
-    {
       "page": "/browse",
       "views": 18
     },
@@ -50,8 +46,12 @@
       "views": 18
     },
     {
+      "page": "/judgments/ylr-2025-40",
+      "views": 18
+    },
+    {
       "page": "/lawyers",
-      "views": 17
+      "views": 16
     },
     {
       "page": "/topics/labour-service",
@@ -68,10 +68,6 @@
       "count": 7
     },
     {
-      "value": "380",
-      "count": 4
-    },
-    {
       "value": "Land reforms 1972 MLR 115",
       "count": 4
     },
@@ -85,10 +81,6 @@
     },
     {
       "value": "2026",
-      "count": 3
-    },
-    {
-      "value": "3",
       "count": 3
     },
     {
@@ -120,7 +112,15 @@
       "count": 3
     },
     {
-      "value": "P",
+      "value": "PLD",
+      "count": 3
+    },
+    {
+      "value": "Review",
+      "count": 3
+    },
+    {
+      "value": "Review 2022 CLC 965 Balochistan High Court",
       "count": 3
     }
   ],
