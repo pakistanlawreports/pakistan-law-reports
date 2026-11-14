@@ -1,75 +1,71 @@
 {
-  "generated_at": "2026-11-12",
+  "generated_at": "2026-11-14",
   "top_pages": [
     {
       "page": "/",
-      "views": 347
+      "views": 312
     },
     {
       "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 40
+      "views": 37
     },
     {
       "page": "/topics/criminal-law",
-      "views": 35
+      "views": 31
     },
     {
       "page": "/case-highlights",
-      "views": 28
-    },
-    {
-      "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
-      "views": 27
-    },
-    {
-      "page": "/topics/civil-law",
-      "views": 25
+      "views": 26
     },
     {
       "page": "/judgments/plj-2012-lahore-326-possession-can-not-be-restored-through-illegal-dispossession",
       "views": 24
     },
     {
-      "page": "/study-guides",
+      "page": "/topics/civil-law",
       "views": 22
     },
     {
-      "page": "/legal-texts",
+      "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
+      "views": 21
+    },
+    {
+      "page": "/study-guides",
       "views": 20
     },
     {
-      "page": "/browse",
-      "views": 18
-    },
-    {
-      "page": "/judgments/the-partnership-act-1932",
-      "views": 18
-    },
-    {
-      "page": "/judgments/ylr-2025-40",
-      "views": 18
-    },
-    {
-      "page": "/lawyers",
+      "page": "/legal-texts",
       "views": 16
     },
     {
-      "page": "/topics/labour-service",
+      "page": "/browse",
       "views": 15
     },
     {
-      "page": "/whats-new",
+      "page": "/lawyers",
       "views": 15
+    },
+    {
+      "page": "/judgments/clc-2013-1446",
+      "views": 14
+    },
+    {
+      "page": "/judgments/plj-1990-lahore-497-db-judgment-under-order-17-rule-3-of-cpc",
+      "views": 14
+    },
+    {
+      "page": "/judgments/the-partnership-act-1932",
+      "views": 14
+    },
+    {
+      "page": "/judgments/code-of-criminal-procedure-1898-bare-act",
+      "views": 13
     }
   ],
   "top_searches": [
     {
       "value": "328 , MS SYADA NAJAM SIFAT VS STATE ( A TEACHER BOOKED FOR ALLEGEDLY ASSULTING AN EIGHT YEARS OLD ST",
       "count": 7
-    },
-    {
-      "value": "Land reforms 1972 MLR 115",
-      "count": 4
     },
     {
       "value": "17",
@@ -89,10 +85,6 @@
     },
     {
       "value": "Examination",
-      "count": 3
-    },
-    {
-      "value": "Land reforms 1972",
       "count": 3
     },
     {
@@ -122,6 +114,14 @@
     {
       "value": "Review 2022 CLC 965 Balochistan High Court",
       "count": 3
+    },
+    {
+      "value": "pld 2026",
+      "count": 3
+    },
+    {
+      "value": "122",
+      "count": 2
     }
   ],
   "top_find_cases_topics": []
