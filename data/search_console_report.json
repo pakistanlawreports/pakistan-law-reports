@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-13",
+  "generated_at": "2026-11-14",
   "top_queries": [
     {
       "query": "2025 clc 1800",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 3.5
+      "position": 4
     },
     {
       "query": "pak law site",
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 9,
       "ctr": 0,
-      "position": 73.9
+      "position": 74.4
     },
     {
       "query": "pakistan law journal",
@@ -25,9 +25,9 @@
     {
       "query": "pakistan law site",
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 8,
       "ctr": 0,
-      "position": 75.6
+      "position": 75.4
     },
     {
       "query": "pakistan law site free",
@@ -97,9 +97,9 @@
     {
       "page": "https://www.pakistanlawreports.com/",
       "clicks": 10,
-      "impressions": 83,
-      "ctr": 12.05,
-      "position": 43.9
+      "impressions": 82,
+      "ctr": 12.2,
+      "position": 42.7
     },
     {
       "page": "https://pakistanlawreports.com/about",
@@ -144,13 +144,6 @@
       "position": 2
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/1-2025-ii-a-mukhtair-ali-shaikh-appellant-v-s-p-o-sindh-and-others-respondent",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 3
-    },
-    {
       "page": "https://pakistanlawreports.com/judgments/1004-2025-cr-bail-javaid-s-o-mehmood-applicant-v-s-the-state-respondent",
       "clicks": 1,
       "impressions": 1,
@@ -186,18 +179,25 @@
       "position": 5
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/224-2025-cr-rev-muhammad-paryal-s-o-hakim-ali-siyal-applicant-v-s-muhammad-arif-others-res",
+      "page": "https://pakistanlawreports.com/judgments/2710-2017-suit-iran-central-iron-ore-company-plaintiff-v-s-pkistan-steel-mills-corporation",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 4
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/298-2024-const-p-sajeel-ahmed-petitioner-v-s-learned-adj-i-kotri-others-respondent",
       "clicks": 1,
       "impressions": 1,
       "ctr": 100,
       "position": 2
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/2710-2017-suit-iran-central-iron-ore-company-plaintiff-v-s-pkistan-steel-mills-corporation",
+      "page": "https://pakistanlawreports.com/judgments/3427-2017-const-p-jan-muhammad-petitioner-v-s-province-of-sindh-and-others-respondent",
       "clicks": 1,
       "impressions": 1,
       "ctr": 100,
-      "position": 4
+      "position": 1
     }
   ]
 }
