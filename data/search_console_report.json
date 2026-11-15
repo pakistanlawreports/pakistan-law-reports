@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14",
+  "generated_at": "2026-11-15",
   "top_queries": [
     {
       "query": "2025 clc 1800",
@@ -60,9 +60,9 @@
     {
       "query": "paklaw site",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 72.5
+      "position": 77.7
     },
     {
       "query": "paklawsite",
@@ -96,17 +96,10 @@
   "top_pages_by_search": [
     {
       "page": "https://www.pakistanlawreports.com/",
-      "clicks": 10,
-      "impressions": 82,
-      "ctr": 12.2,
-      "position": 42.7
-    },
-    {
-      "page": "https://pakistanlawreports.com/about",
-      "clicks": 2,
-      "impressions": 4,
-      "ctr": 50.0,
-      "position": 1.5
+      "clicks": 9,
+      "impressions": 77,
+      "ctr": 11.69,
+      "position": 46.2
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1045-2023-const-p-faiz-muhammad-lakhan-petitioner-v-s-p-o-sindh-others-respondent",
@@ -144,6 +137,13 @@
       "position": 2
     },
     {
+      "page": "https://pakistanlawreports.com/about",
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 50.0,
+      "position": 1
+    },
+    {
       "page": "https://pakistanlawreports.com/judgments/1004-2025-cr-bail-javaid-s-o-mehmood-applicant-v-s-the-state-respondent",
       "clicks": 1,
       "impressions": 1,
@@ -172,13 +172,6 @@
       "position": 2
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/219-2011-i-t-r-a-commissioner-inland-revenue-applicant-v-s-kirther-pakistan-b-v-respondent",
-      "clicks": 1,
-      "impressions": 2,
-      "ctr": 50.0,
-      "position": 5
-    },
-    {
       "page": "https://pakistanlawreports.com/judgments/2710-2017-suit-iran-central-iron-ore-company-plaintiff-v-s-pkistan-steel-mills-corporation",
       "clicks": 1,
       "impressions": 1,
@@ -186,14 +179,21 @@
       "position": 4
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/298-2024-const-p-sajeel-ahmed-petitioner-v-s-learned-adj-i-kotri-others-respondent",
+      "page": "https://pakistanlawreports.com/judgments/3427-2017-const-p-jan-muhammad-petitioner-v-s-province-of-sindh-and-others-respondent",
       "clicks": 1,
       "impressions": 1,
       "ctr": 100,
-      "position": 2
+      "position": 1
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/3427-2017-const-p-jan-muhammad-petitioner-v-s-province-of-sindh-and-others-respondent",
+      "page": "https://pakistanlawreports.com/judgments/3465-2022-const-p-tahir-hussain-petitioner-v-s-dg-sbca-and-others-respondent",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 1
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/349-2016-cr-bail-faisal-essa-rogatia-s-o-essa-a-rogatia-another-applicant-v-s-the-state-re",
       "clicks": 1,
       "impressions": 1,
       "ctr": 100,
