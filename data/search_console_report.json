@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-15",
+  "generated_at": "2026-11-16",
   "top_queries": [
     {
-      "query": "2025 clc 1800",
+      "query": "law site pakistan",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 4
+      "position": 71
     },
     {
       "query": "pak law site",
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 10,
       "ctr": 0,
-      "position": 74.4
+      "position": 73.9
     },
     {
       "query": "pakistan law journal",
@@ -25,9 +25,9 @@
     {
       "query": "pakistan law site",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 10,
       "ctr": 0,
-      "position": 75.4
+      "position": 74
     },
     {
       "query": "pakistan law site free",
@@ -46,9 +46,9 @@
     {
       "query": "pakistanlawsite",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 69
+      "position": 68
     },
     {
       "query": "paklaw",
@@ -60,16 +60,16 @@
     {
       "query": "paklaw site",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0,
-      "position": 77.7
+      "position": 81
     },
     {
       "query": "paklawsite",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0,
-      "position": 69.3
+      "position": 69.4
     },
     {
       "query": "pdf form",
@@ -77,13 +77,6 @@
       "impressions": 1,
       "ctr": 0,
       "position": 5
-    },
-    {
-      "query": "same person?",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 1
     },
     {
       "query": "yes",
@@ -97,9 +90,9 @@
     {
       "page": "https://www.pakistanlawreports.com/",
       "clicks": 9,
-      "impressions": 77,
-      "ctr": 11.69,
-      "position": 46.2
+      "impressions": 83,
+      "ctr": 10.84,
+      "position": 47.8
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1045-2023-const-p-faiz-muhammad-lakhan-petitioner-v-s-p-o-sindh-others-respondent",
@@ -151,13 +144,6 @@
       "position": 1
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/150-2025-i-a-habib-ahmed-appellant-v-s-syed-mansoor-ahmed-and-others-respondent",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 1
-    },
-    {
       "page": "https://pakistanlawreports.com/judgments/1618-2024-const-p-m-s-ssgc-petitioner-v-s-mr-bakht-zada-respondent",
       "clicks": 1,
       "impressions": 3,
@@ -198,6 +184,13 @@
       "impressions": 1,
       "ctr": 100,
       "position": 1
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/426-2019-spl-cus-ref-a-united-refrigeration-industires-ltd-applicant-v-s-director-d-i-i-fb",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 5
     }
   ]
 }
