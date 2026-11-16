@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09",
+  "generated_at": "2026-11-16",
   "priority_order": [
     "Criminal Law",
     "Constitutional Law",
@@ -15,7 +15,7 @@
   "details": [
     {
       "topic": "Criminal Law",
-      "total_judgments": 5985,
+      "total_judgments": 6005,
       "full_text_judgments": 1472,
       "highlights_generated": 1384,
       "has_study_guide": true,
@@ -23,7 +23,7 @@
     },
     {
       "topic": "Constitutional Law",
-      "total_judgments": 1086,
+      "total_judgments": 1087,
       "full_text_judgments": 696,
       "highlights_generated": 658,
       "has_study_guide": true,
@@ -71,7 +71,7 @@
     },
     {
       "topic": "Tax Law",
-      "total_judgments": 715,
+      "total_judgments": 717,
       "full_text_judgments": 54,
       "highlights_generated": 46,
       "has_study_guide": true,
@@ -87,7 +87,7 @@
     },
     {
       "topic": "Company Law",
-      "total_judgments": 502,
+      "total_judgments": 503,
       "full_text_judgments": 9,
       "highlights_generated": 6,
       "has_study_guide": false,
