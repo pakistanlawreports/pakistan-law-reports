@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-15",
+  "generated_at": "2026-11-16",
   "top_pages": [
     {
       "page": "/",
-      "views": 304
+      "views": 297
     },
     {
       "page": "/topics/criminal-law",
       "views": 30
     },
     {
-      "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 27
-    },
-    {
       "page": "/case-highlights",
       "views": 25
+    },
+    {
+      "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
+      "views": 24
     },
     {
       "page": "/judgments/plj-2012-lahore-326-possession-can-not-be-restored-through-illegal-dispossession",
@@ -23,34 +23,22 @@
     },
     {
       "page": "/topics/civil-law",
-      "views": 22
-    },
-    {
-      "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
       "views": 20
     },
     {
       "page": "/study-guides",
-      "views": 20
+      "views": 19
+    },
+    {
+      "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
+      "views": 17
     },
     {
       "page": "/browse",
-      "views": 15
+      "views": 14
     },
     {
       "page": "/lawyers",
-      "views": 15
-    },
-    {
-      "page": "/judgments/clc-2013-1446",
-      "views": 14
-    },
-    {
-      "page": "/judgments/plj-1990-lahore-497-db-judgment-under-order-17-rule-3-of-cpc",
-      "views": 14
-    },
-    {
-      "page": "/judgments/the-partnership-act-1932",
       "views": 14
     },
     {
@@ -58,7 +46,19 @@
       "views": 14
     },
     {
+      "page": "/judgments/clc-2013-1446",
+      "views": 13
+    },
+    {
       "page": "/judgments/code-of-criminal-procedure-1898-bare-act",
+      "views": 13
+    },
+    {
+      "page": "/judgments/plj-2014-consent-of-wali-is-not-mandatory-for-nikah",
+      "views": 13
+    },
+    {
+      "page": "/judgments/the-partnership-act-1932",
       "views": 13
     }
   ],
