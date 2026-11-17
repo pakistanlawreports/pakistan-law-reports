@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16",
+  "generated_at": "2026-11-17",
   "top_queries": [
     {
       "query": "law site pakistan",
@@ -11,9 +11,9 @@
     {
       "query": "pak law site",
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 9,
       "ctr": 0,
-      "position": 73.9
+      "position": 74.4
     },
     {
       "query": "pakistan law journal",
@@ -25,16 +25,16 @@
     {
       "query": "pakistan law site",
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 8,
       "ctr": 0,
-      "position": 74
+      "position": 74.1
     },
     {
       "query": "pakistan law site free",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 77.5
+      "position": 80
     },
     {
       "query": "pakistan law website",
@@ -67,9 +67,9 @@
     {
       "query": "paklawsite",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 6,
       "ctr": 0,
-      "position": 69.4
+      "position": 69.7
     },
     {
       "query": "pdf form",
@@ -90,9 +90,9 @@
     {
       "page": "https://www.pakistanlawreports.com/",
       "clicks": 9,
-      "impressions": 83,
-      "ctr": 10.84,
-      "position": 47.8
+      "impressions": 77,
+      "ctr": 11.69,
+      "position": 46.9
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1045-2023-const-p-faiz-muhammad-lakhan-petitioner-v-s-p-o-sindh-others-respondent",
@@ -121,13 +121,6 @@
       "impressions": 4,
       "ctr": 50.0,
       "position": 1
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/plj-2021-post-arrest-bail-in-case-of-attempt-to-rape",
-      "clicks": 2,
-      "impressions": 2,
-      "ctr": 100,
-      "position": 2
     },
     {
       "page": "https://pakistanlawreports.com/about",
@@ -191,6 +184,13 @@
       "impressions": 1,
       "ctr": 100,
       "position": 5
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/434-2025-const-p-hamza-khan-tunio-petitioner-v-s-po-sindh-others-respondent",
+      "clicks": 1,
+      "impressions": 7,
+      "ctr": 14.29,
+      "position": 7
     }
   ]
 }
