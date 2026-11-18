@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17",
+  "generated_at": "2026-11-18",
   "top_queries": [
     {
       "query": "law site pakistan",
@@ -53,9 +53,9 @@
     {
       "query": "paklaw",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 98.5
+      "position": 100
     },
     {
       "query": "paklaw site",
@@ -90,9 +90,9 @@
     {
       "page": "https://www.pakistanlawreports.com/",
       "clicks": 9,
-      "impressions": 77,
-      "ctr": 11.69,
-      "position": 46.9
+      "impressions": 74,
+      "ctr": 12.16,
+      "position": 45.8
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1045-2023-const-p-faiz-muhammad-lakhan-petitioner-v-s-p-o-sindh-others-respondent",
@@ -132,8 +132,8 @@
     {
       "page": "https://pakistanlawreports.com/judgments/1004-2025-cr-bail-javaid-s-o-mehmood-applicant-v-s-the-state-respondent",
       "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
+      "impressions": 2,
+      "ctr": 50.0,
       "position": 1
     },
     {
