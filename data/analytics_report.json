@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-17",
+  "generated_at": "2026-11-18",
   "top_pages": [
     {
       "page": "/",
-      "views": 295
+      "views": 285
     },
     {
       "page": "/topics/criminal-law",
-      "views": 30
+      "views": 29
     },
     {
       "page": "/case-highlights",
-      "views": 25
+      "views": 23
     },
     {
       "page": "/judgments/plj-2012-lahore-326-possession-can-not-be-restored-through-illegal-dispossession",
@@ -31,19 +31,15 @@
     },
     {
       "page": "/judgments/plj-2023-lahore-528-every-co-sharer-is-owner-in-each-and-every-inch-of-joint-pro",
-      "views": 17
-    },
-    {
-      "page": "/browse",
-      "views": 14
+      "views": 16
     },
     {
       "page": "/lawyers",
       "views": 14
     },
     {
-      "page": "/legal-texts",
-      "views": 14
+      "page": "/browse",
+      "views": 13
     },
     {
       "page": "/judgments/clc-2013-1446",
@@ -54,11 +50,15 @@
       "views": 13
     },
     {
-      "page": "/judgments/pld-2018-balochistan-44",
-      "views": 12
+      "page": "/legal-texts",
+      "views": 13
     },
     {
       "page": "/judgments/the-partnership-act-1932",
+      "views": 12
+    },
+    {
+      "page": "/whats-new",
       "views": 12
     }
   ],
@@ -69,10 +69,6 @@
     },
     {
       "value": "17",
-      "count": 3
-    },
-    {
-      "value": "1986",
       "count": 3
     },
     {
@@ -96,15 +92,7 @@
       "count": 3
     },
     {
-      "value": "NAFIS",
-      "count": 3
-    },
-    {
       "value": "NLR 1991",
-      "count": 3
-    },
-    {
-      "value": "PLD",
       "count": 3
     },
     {
@@ -121,6 +109,18 @@
     },
     {
       "value": "122",
+      "count": 2
+    },
+    {
+      "value": "1304/25",
+      "count": 2
+    },
+    {
+      "value": "161",
+      "count": 2
+    },
+    {
+      "value": "17/22",
       "count": 2
     }
   ],
