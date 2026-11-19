@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18",
+  "generated_at": "2026-11-19",
   "top_queries": [
     {
       "query": "law site pakistan",
@@ -79,6 +79,13 @@
       "position": 5
     },
     {
+      "query": "summarize",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
       "query": "yes",
       "clicks": 0,
       "impressions": 1,
@@ -89,10 +96,10 @@
   "top_pages_by_search": [
     {
       "page": "https://www.pakistanlawreports.com/",
-      "clicks": 9,
-      "impressions": 74,
-      "ctr": 12.16,
-      "position": 45.8
+      "clicks": 8,
+      "impressions": 73,
+      "ctr": 10.96,
+      "position": 46.3
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1045-2023-const-p-faiz-muhammad-lakhan-petitioner-v-s-p-o-sindh-others-respondent",
@@ -107,13 +114,6 @@
       "impressions": 2,
       "ctr": 100,
       "position": 3.5
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/pcrlj-2020-594",
-      "clicks": 2,
-      "impressions": 3,
-      "ctr": 66.67,
-      "position": 2.3
     },
     {
       "page": "https://pakistanlawreports.com/judgments/plj-2021-lahore-605-after-death-of-mother-maternal-grandmother-has-preferential",
@@ -191,6 +191,13 @@
       "impressions": 7,
       "ctr": 14.29,
       "position": 7
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/4458-2025-const-p-m-s-darul-aman-cooperative-housing-society-petitioner-v-s-province-of-si",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 1
     }
   ]
 }
