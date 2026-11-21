@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20",
+  "generated_at": "2026-11-21",
   "top_queries": [
     {
       "query": "law site pakistan",
@@ -72,13 +72,6 @@
       "position": 69.7
     },
     {
-      "query": "pdf form",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 5
-    },
-    {
       "query": "summarize",
       "clicks": 0,
       "impressions": 1,
@@ -97,9 +90,9 @@
     {
       "page": "https://www.pakistanlawreports.com/",
       "clicks": 7,
-      "impressions": 71,
-      "ctr": 9.86,
-      "position": 46.6
+      "impressions": 69,
+      "ctr": 10.14,
+      "position": 44.3
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1045-2023-const-p-faiz-muhammad-lakhan-petitioner-v-s-p-o-sindh-others-respondent",
@@ -144,11 +137,11 @@
       "position": 3.7
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/171-2025-criminal-miscelleneous-ali-asghar-shah-and-others-applicant-v-s-sho-ps-radhan-sta",
+      "page": "https://pakistanlawreports.com/judgments/219-2023-criminal-miscelleneous-mazhar-hussain-kalwar-applicant-v-s-muhammad-qasim-soomro",
       "clicks": 1,
       "impressions": 1,
       "ctr": 100,
-      "position": 2
+      "position": 1
     },
     {
       "page": "https://pakistanlawreports.com/judgments/2710-2017-suit-iran-central-iron-ore-company-plaintiff-v-s-pkistan-steel-mills-corporation",
