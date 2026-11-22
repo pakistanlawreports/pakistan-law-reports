@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21",
+  "generated_at": "2026-11-22",
   "top_queries": [
     {
       "query": "law site pakistan",
@@ -90,9 +90,9 @@
     {
       "page": "https://www.pakistanlawreports.com/",
       "clicks": 7,
-      "impressions": 69,
-      "ctr": 10.14,
-      "position": 44.3
+      "impressions": 66,
+      "ctr": 10.61,
+      "position": 46.1
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1045-2023-const-p-faiz-muhammad-lakhan-petitioner-v-s-p-o-sindh-others-respondent",
@@ -144,6 +144,13 @@
       "position": 1
     },
     {
+      "page": "https://pakistanlawreports.com/judgments/2276-2025-cr-bail-usman-s-o-samad-applicant-v-s-the-state-respondent",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 1
+    },
+    {
       "page": "https://pakistanlawreports.com/judgments/2710-2017-suit-iran-central-iron-ore-company-plaintiff-v-s-pkistan-steel-mills-corporation",
       "clicks": 1,
       "impressions": 1,
@@ -184,13 +191,6 @@
       "impressions": 7,
       "ctr": 14.29,
       "position": 7
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/4458-2025-const-p-m-s-darul-aman-cooperative-housing-society-petitioner-v-s-province-of-si",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 1
     }
   ]
 }
