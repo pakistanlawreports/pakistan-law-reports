@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22",
+  "generated_at": "2026-11-23",
   "top_queries": [
     {
       "query": "law site pakistan",
@@ -11,9 +11,9 @@
     {
       "query": "pak law site",
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 6,
       "ctr": 0,
-      "position": 74.4
+      "position": 73.5
     },
     {
       "query": "pakistan law journal",
@@ -25,16 +25,9 @@
     {
       "query": "pakistan law site",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 7,
       "ctr": 0,
       "position": 74.1
-    },
-    {
-      "query": "pakistan law site free",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 80
     },
     {
       "query": "pakistan law website",
@@ -60,9 +53,9 @@
     {
       "query": "paklaw site",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0,
-      "position": 81
+      "position": 88
     },
     {
       "query": "paklawsite",
@@ -90,9 +83,9 @@
     {
       "page": "https://www.pakistanlawreports.com/",
       "clicks": 7,
-      "impressions": 66,
-      "ctr": 10.61,
-      "position": 46.1
+      "impressions": 60,
+      "ctr": 11.67,
+      "position": 43.1
     },
     {
       "page": "https://pakistanlawreports.com/judgments/1045-2023-const-p-faiz-muhammad-lakhan-petitioner-v-s-p-o-sindh-others-respondent",
@@ -100,13 +93,6 @@
       "impressions": 2,
       "ctr": 100,
       "position": 1
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/77-2024-criminal-appeal-zain-atif-solangi-appellant-v-s-the-state-respondent",
-      "clicks": 2,
-      "impressions": 2,
-      "ctr": 100,
-      "position": 3.5
     },
     {
       "page": "https://pakistanlawreports.com/judgments/plj-2021-lahore-605-after-death-of-mother-maternal-grandmother-has-preferential",
@@ -191,6 +177,13 @@
       "impressions": 7,
       "ctr": 14.29,
       "position": 7
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/4458-2025-const-p-m-s-darul-aman-cooperative-housing-society-petitioner-v-s-province-of-si",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 1
     }
   ]
 }
