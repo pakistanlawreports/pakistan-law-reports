@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-25",
+  "generated_at": "2026-11-26",
   "top_pages": [
     {
       "page": "/",
-      "views": 180
+      "views": 172
     },
     {
       "page": "/judgments/plj-2012-lahore-326-possession-can-not-be-restored-through-illegal-dispossession",
@@ -11,11 +11,7 @@
     },
     {
       "page": "/topics/criminal-law",
-      "views": 23
-    },
-    {
-      "page": "/case-highlights",
-      "views": 18
+      "views": 22
     },
     {
       "page": "/topics/civil-law",
@@ -26,12 +22,16 @@
       "views": 16
     },
     {
+      "page": "/case-highlights",
+      "views": 14
+    },
+    {
       "page": "/lawyers",
       "views": 14
     },
     {
       "page": "/judgments/code-of-criminal-procedure-1898-bare-act",
-      "views": 10
+      "views": 9
     },
     {
       "page": "/judgments/plj-2014-consent-of-wali-is-not-mandatory-for-nikah",
