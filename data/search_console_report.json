@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26",
+  "generated_at": "2026-11-27",
   "top_queries": [
     {
       "query": "law site pakistan",
@@ -14,13 +14,6 @@
       "impressions": 3,
       "ctr": 0,
       "position": 73.3
-    },
-    {
-      "query": "pakistan law journal",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 78
     },
     {
       "query": "pakistan law site",
@@ -72,13 +65,6 @@
       "position": 2
     },
     {
-      "query": "yes",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0,
-      "position": 6
-    },
-    {
       "query": "yes please",
       "clicks": 0,
       "impressions": 1,
@@ -90,16 +76,9 @@
     {
       "page": "https://www.pakistanlawreports.com/",
       "clicks": 7,
-      "impressions": 46,
-      "ctr": 15.22,
-      "position": 40.4
-    },
-    {
-      "page": "https://pakistanlawreports.com/judgments/1045-2023-const-p-faiz-muhammad-lakhan-petitioner-v-s-p-o-sindh-others-respondent",
-      "clicks": 2,
-      "impressions": 2,
-      "ctr": 100,
-      "position": 1
+      "impressions": 42,
+      "ctr": 16.67,
+      "position": 39.4
     },
     {
       "page": "https://pakistanlawreports.com/judgments/plj-2021-lahore-605-after-death-of-mother-maternal-grandmother-has-preferential",
@@ -165,13 +144,6 @@
       "position": 1
     },
     {
-      "page": "https://pakistanlawreports.com/judgments/349-2016-cr-bail-faisal-essa-rogatia-s-o-essa-a-rogatia-another-applicant-v-s-the-state-re",
-      "clicks": 1,
-      "impressions": 1,
-      "ctr": 100,
-      "position": 1
-    },
-    {
       "page": "https://pakistanlawreports.com/judgments/4-2017-suit-habib-metropolitan-bank-plaintiff-v-s-m-s-dagra-textile-pvt-ltd-others-defenda",
       "clicks": 1,
       "impressions": 2,
@@ -191,6 +163,20 @@
       "impressions": 7,
       "ctr": 14.29,
       "position": 7
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/4458-2025-const-p-m-s-darul-aman-cooperative-housing-society-petitioner-v-s-province-of-si",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 1
+    },
+    {
+      "page": "https://pakistanlawreports.com/judgments/46-2014-r-a-civil-revision-zafar-iqbal-applicant-v-s-mst-qaiser-jehan-others-respondent",
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 50.0,
+      "position": 1
     }
   ]
 }
