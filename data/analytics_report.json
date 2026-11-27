@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-11-26",
+  "generated_at": "2026-11-27",
   "top_pages": [
     {
       "page": "/",
-      "views": 172
+      "views": 142
     },
     {
       "page": "/judgments/plj-2012-lahore-326-possession-can-not-be-restored-through-illegal-dispossession",
       "views": 23
     },
     {
-      "page": "/topics/criminal-law",
-      "views": 22
-    },
-    {
       "page": "/topics/civil-law",
       "views": 18
     },
     {
-      "page": "/study-guides",
-      "views": 16
+      "page": "/topics/criminal-law",
+      "views": 18
     },
     {
-      "page": "/case-highlights",
+      "page": "/study-guides",
       "views": 14
     },
     {
       "page": "/lawyers",
-      "views": 14
+      "views": 13
+    },
+    {
+      "page": "/case-highlights",
+      "views": 11
     },
     {
       "page": "/judgments/code-of-criminal-procedure-1898-bare-act",
@@ -46,10 +46,6 @@
       "views": 8
     },
     {
-      "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
-      "views": 8
-    },
-    {
       "page": "/legal-texts",
       "views": 8
     },
@@ -60,23 +56,19 @@
     {
       "page": "/case-highlights/plj-2015-shadow-of-doubt-on-the-story-of-prosecution",
       "views": 7
+    },
+    {
+      "page": "/judgments/the-industrial-and-commercial-employment-standing-orders-ordinance-1968",
+      "views": 7
     }
   ],
   "top_searches": [
-    {
-      "value": "328 , MS SYADA NAJAM SIFAT VS STATE ( A TEACHER BOOKED FOR ALLEGEDLY ASSULTING AN EIGHT YEARS OLD ST",
-      "count": 7
-    },
     {
       "value": "17",
       "count": 3
     },
     {
       "value": "Bhadur",
-      "count": 3
-    },
-    {
-      "value": "Muhammad Suleman",
       "count": 3
     },
     {
@@ -89,10 +81,6 @@
     },
     {
       "value": "Review 2022 CLC 965 Balochistan High Court",
-      "count": 3
-    },
-    {
-      "value": "pld 2026",
       "count": 3
     },
     {
@@ -112,15 +100,27 @@
       "count": 2
     },
     {
-      "value": "2010",
-      "count": 2
-    },
-    {
-      "value": "2026 PSC 631Suprem court of Pakistan order",
-      "count": 2
-    },
-    {
       "value": "2709/2025-2520",
+      "count": 2
+    },
+    {
+      "value": "302",
+      "count": 2
+    },
+    {
+      "value": "302 300 ppc",
+      "count": 2
+    },
+    {
+      "value": "73",
+      "count": 2
+    },
+    {
+      "value": "73/01/2026",
+      "count": 2
+    },
+    {
+      "value": "A",
       "count": 2
     }
   ],
